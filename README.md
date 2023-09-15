@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 01/2023
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O Mapa do <i>Underground</i> é um site de busca de eventos destinado a consumidores e produtores de eventos musicais associados à cultura <i>underground</i>. A plataforma exibe publicações de eventos, com a possibilidade de filtros por localidade, data, preço e gênero musical, além disso, o consumidor pode favoritar os eventos de seu interesse. As publicações de eventos são feitas por produtores, sendo submetidas à análise e, após a aprovação, passam a ser exibidas no site. O objetivo é facilitar o acesso e a divulgação de eventos do nicho <i>underground</i>.
 
 ## Integrantes
 

@@ -22,6 +22,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 O quadro kanban do grupo no Trello está disponível no link https://trello.com/b/Y3zVSGRJ/mapa-do-underground e é apresentado, no estado atual, na figura abaixo:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/fc07c69f-a60c-47ba-99d8-6e12597abac8)
 
 Figura 2 - Tela do kanban no Trello utilizada pelo grupo
 
@@ -37,10 +38,10 @@ Figura 2 - Tela do kanban no Trello utilizada pelo grupo
   <li>Testes (Tests)</li>
 </ul>
 
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/61959cf5-3143-49cd-86f5-cb301fc5a702)
+
+
+Figura 3 - Tela do esquema de cores e categorias
   
 ### Ferramentas
 
@@ -60,7 +61,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/tree/main                            |
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/ugZK2pe7TBhHrhwODJNRDD/Fluxograma-Mapa-do-Underground?type=whiteboard&node-id=0-1&t=CpknDfOm5LiAZBSE-0                            |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/Y3zVSGRJ/mapa-do-underground                            |
-| Hospedagem                          | Replit                             | Em desenvolvimento.                            |
+| Hospedagem                          | GitHub                             | Em desenvolvimento.                            |
 
 
 ### Estratégia de Organização de Codificação 

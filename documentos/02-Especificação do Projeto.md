@@ -2,20 +2,33 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 01 </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Produtor de eventos</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Meio de divulgação para seus eventos produzidos que atraia público interessado em seu nicho. </td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil 02 </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Consumidor de eventos</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Local que permita visualização única de todos os eventos do nicho de seu interesse.  </td>
 </tr>
 </tbody>
 </table>
@@ -23,17 +36,17 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Produtor de eventos                | Fazer login na plataforma tendo acesso à página de cadastro de eventos;                       | Poder realizar registro dos meus eventos produzidos.                            |
+|  Produtor de eventos                | Criar registros de eventos;                       | Ter o evento publicado pela plataforma.                              |
+| Produtor de eventos                | Editar registros de eventos;                       | Corrigir, retirar ou incrementar informações ao evento.                            |
+|  Consumidor de eventos undergrounds;                | Fazer login na plataforma;                       | Estar atualizado sobre as publicações de eventos.                              |
+|  Consumidor de eventos undergrounds;                | Localizar os eventos, filtrando por localização, preço, data e gênero;                      | Ter acesso direto aos eventos favoráveis para mim.                              |
+|  Consumidor de eventos undergrounds;                | Favoritar os eventos do meu interesse;                      | Acessá-los com mais facilidade.                              |
+|  Consumidor de eventos undergrounds;                | Confirmar presença nos eventos que irei;                      | Sinalizar o meu comparecimento.                              |
+|  Consumidor de eventos undergrounds;                | Receber notificação via e-mail sempre que um evento for divulgado;                      | Estar sempre atualizado dos próximos eventos.                            |
+|  Consumidor de eventos undergrounds;                | Fazer comentários nas publicações;                     | Interagir com o público interessado no mesmo evento que eu.                            |
 
 ## Requisitos do Projeto
 

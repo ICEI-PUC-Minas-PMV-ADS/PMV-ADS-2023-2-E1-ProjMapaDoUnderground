@@ -59,7 +59,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/tree/main                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/tree/main                            |
-| Projeto de Interface                | Figma                              | https://www.figma.com/file/ugZK2pe7TBhHrhwODJNRDD/Fluxograma-Mapa-do-Underground?type=whiteboard&node-id=0-1&t=CpknDfOm5LiAZBSE-0                            |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/ugZK2pe7TBhHrhwODJNRDD/Fluxograma-Mapa-do-Underground?type=whiteboard&node-id=0-1&t=CpknDfOm5LiAZBSE-0
+https://www.figma.com/file/5PjJwf8IY8fn7qNcEjaMu8/Mapa-do-Underground?type=design&node-id=0-1&mode=design&t=2q8XMXpL5ZGuRGi5-0|
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/Y3zVSGRJ/mapa-do-underground                            |
 | Hospedagem                          | GitHub                             | Em desenvolvimento.                            |
 

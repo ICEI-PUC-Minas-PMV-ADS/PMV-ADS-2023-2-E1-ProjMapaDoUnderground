@@ -77,8 +77,11 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |Site publicado em um ambiente acessível publicamente na Internet| Alta  | 
+| RNF-02 |Site compatível com os navegadores mais usados na atualidade| Alta  |
+| RNF-03 |Site responsivo para Android e IOS| Alta  |
+| RNF-04 |Sistema operacional Windows, MAC, Linux| Alta  |
+ 
 
 **Prioridade: Alta / Média / Baixa. 
 

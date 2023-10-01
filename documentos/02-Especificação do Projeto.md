@@ -59,7 +59,7 @@
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 | A plataforma deve ter uma página inicial intuitiva com menu navegável  
-|  ...  |   ...                              | ... |
+|  ...  |   ...                              | Alta |
 | RF-02 |   ...                              | ... | 
 |  ...  |   ...                              | ... |
 | RF-03 |   ...                              | ... | 

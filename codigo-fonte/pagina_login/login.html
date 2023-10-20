@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Underground</title>
+    <link rel="stylesheet" href="exStyle.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="#">Mapa do Underground</a></h1>
+        <form action="resultado_pesquisa.html" method="get">
+            <input type="text" id="pesquisa" name="q" placeholder="Digite sua pesquisa aqui">
+            <input type="submit" value="Pesquisar">
+        </form>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Login</a></li>
+
+        </ul>
+    </nav>
+    
+    <div class="LoginUsuário">
+        <h2>Login Usuário</h2>
+        <p>Conheça os melhores eventos</p>
+        <form action="processar_login.php" method="post">
+            <label for="username">Email</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="checkbox" id="manterConectado" name="manterConectado">
+            <label for="manterConectado">Mantenha-me conectado</label>
+            <a href="#">Criar Conta</a><br><br>
+            <input type="submit" value="LOGIN"><br><br>
+        </form>
+        <p>Conecte-se pelas redes:</p>
+        <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-gmail"></ion-icon> <a href="#"></a>
+
+    </div>
+
+    <div class="LoginProdutor">
+        <h3>Login Produtor</h3>
+        <p>Crie eventos inesquecíveis</p>
+        <form action="processar_login.php" method="post">
+            <label for="username">Email</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input type="checkbox" id="manterConectado" name="manterConectado">
+            <label for="manterConectado">Mantenha-me conectado</label>
+            <a href="#">Criar Conta</a><br><br>
+            <input type="submit" value="LOGIN">
+        </form>
+        <p>Conecte-se pelas redes:</p>
+        <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-gmail"></ion-icon> <a href="#"></a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Endereço</a></li>
+            <li><a href="#">Siga a gente nas redes sociais</a></li>
+            <li><a href="#">Dúvidas frequentes</a></li>
+        </ul>
+        
+        <ion-icon name="logo-instagram"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-twitter"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-tiktok"></ion-icon> <a href="#"></a>
+    </footer>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
+
+</body>
+
+</html>

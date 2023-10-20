@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Underground</title>
+    <link rel="stylesheet" href="exStyle.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="#">Mapa do Underground</a></h1>
+        <form action="resultado_pesquisa.html" method="get">
+            <input type="text" id="pesquisa" name="q" placeholder="Digite sua pesquisa aqui">
+            <input type="submit" value="Pesquisar">
+        </form>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Login</a></li>
+
+        </ul>
+    </nav>
+
+    <div>
+        <form>
+            <div>Como podemos te ajudar?</div>
+            <input type="text" id="pesquisa" name="pesquisa">
+            <input type="submit" value="Pesquisar">
+        </form>
+        <div id = "DUVIDAS FREQUENTES">
+            <h3> Dúvidas Frequentes</h3>
+        </div>
+        <label for="duvidas"></label>
+        <select id="duvidas" name="duvidas">
+            <option value="Cancelamento de Evento">Cancelamento de Eventos</option>
+            <option value="Cancelamento de Compras">Cancelamento de Compras</option>
+        </select>
+        <label for="duvidas"></label>
+        <select id="duvidas" name="duvidas">
+            <option value="Compra de Ingressos">Compra de Ingressos</option>
+            <option value="Venda de Ingressos">Venda de Ingressos</option>
+        </select>
+        <label for="duvidas"></label>
+        <select id="duvidas" name="duvidas">
+            <option value="Cancelamento de Conta">Cancelamento de Conta</option>
+            <option value="Cadastro de Conta">Cadastro de Conta</option>
+        </select>
+
+        <form >
+        <h3>Não encontrou o que precisava?</h3>
+        <h2>Fale conosco!</h2>
+
+            <div>Endereço de e-mail:*</div>
+            <input type="email" name="enderecoEmail" required>
+            <div>Nome:*</div>
+            <input type="text" name="nome" required>
+            <div>Sobrenome:*</div>
+            <input type="text" name="sobrenome" required>  
+            <div>Assunto:</div>
+            <input type="text" name="assunto">
+            <div>Descrição:*</div>
+            <input type="text" name="descricao" required>
+            <label for="arquivo">Anexos:</label>
+            <input type="file" id="arquivo" name="arquivo" accept=".pdf, .doc, .docx, .jpg">
+        </form>
+        <br>
+        <button> Enviar </button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Endereço</a></li>
+            <li><a href="#">Siga a gente nas redes sociais</a></li>
+            <li><a href="#">Dúvidas frequentes</a></li>
+        </ul>
+        
+        <ion-icon name="logo-instagram"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-twitter"></ion-icon> <a href="#"></a>
+        <ion-icon name="logo-tiktok"></ion-icon> <a href="#"></a>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,277 @@
+.carrossel {
+    margin-top: 50px;
+    width: 1280px;
+    height: 649px;
+    background-color: #D9D9D9;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.carousel-item-active {
+    padding-top: 40px;
+}
+header {
+    background-color: #D9D9D9;
+    box-shadow: 0px 3px 10px  #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 98,9vw;
+}
+
+li {
+    list-style-type: none;
+
+}
+ 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.selecione_seu_estado {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    
+    justify-content: space-between;
+}
+
+.quadrado {
+    margin-top: 50px;
+    width: 240.01px;
+    height: 312.38px;
+    border-radius: 0px;
+    background-color: #ccc;
+    margin: 40px;
+    display: inline-block;
+}
+
+.shows_da_semana {   
+    
+    background-image: url(shows.png);  
+    background-repeat: round;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+.container-shows {
+    
+    display: flex;
+    align-items: center;
+}
+
+.container-shows p {
+    
+    font-size: 40px;
+}
+
+.quadrado-shows {
+    
+    margin-left: 700px;
+    width: 100px;
+    height: 80px; /* Ajuste a altura do quadrado conforme necessário */
+    background-color: #D9D9D9; /* Cor de fundo do quadrado */
+    margin-right: 20px; /* Espaço entre o quadrado e o parágrafo */
+    
+
+}
+
+button {
+
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    
+}
+
+span {
+
+    font-size: 20px;
+}
+
+
+/*hr {
+
+    width: 500px;
+
+}*/
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;   
+}
+
+.logo h1 {
+    color: #000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.button {
+    color: #000; /* Cor do texto no botão */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border: none;
+}
+
+.search-bar i {
+    margin: 0 5px; /* Espaçamento entre o ícone e o input */
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.li-footer{
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.p-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #C7C7C7;
+    padding:  0px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.sobre-genero  {    
+    font-size: 20px;
+    margin-bottom: 150px;
+    width: 70%;
+    padding-left: 30px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.sobre-genero h3 {
+
+    margin-left: 520px;
+    width: 400px;
+    
+}
+
+.sobre-genero img {
+    float: left;
+    margin-bottom: 80px;
+    padding: 45px;
+}
+
+.sobre-genero p {
+    font-size: 20px;
+    text-align: justify;      
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.Playlist h3 {
+    
+    font-size: 40px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.Playlist iframe {
+    
+    float: right;
+    padding-right: 45px;    
+
+}
+
+.texto-playlist {
+    
+    font-size: 20px;
+    margin-bottom: 150px;
+    width: 70%;
+    padding-left: 30px;
+    margin-top: 50px;
+    position: relative;
+    text-align: justify;
+
+}
+
+.texto-playlist li {
+
+    position: relative;
+    
+}

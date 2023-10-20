@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Underground</title>
+    
+
+    <style>
+
+
+        .logo {
+            padding-right: 50px;
+        }
+
+
+        .perfil {background-color: rgb(199, 197, 197);
+           padding: 30px;
+        
+           
+        }
+
+        .dados {background-color: rgb(177, 170, 170);
+        
+        height: 100px;
+       
+        padding-left: 30px;
+        padding-top: 90px;
+        padding-bottom: 35px;
+        border-radius: 2%;
+       
+        }
+
+    
+        footer{
+
+            background-color: #C7C7C7;
+            padding:  0px 20px;
+            text-align: center;
+        }
+
+        li {list-style-type: none;}
+
+        a {text-decoration: none;
+        color: black;}
+
+        .favoritados img {
+
+            float: left;
+            margin-right: 10px;
+    
+            
+        }
+
+        .favoritados p {
+
+             padding-top: 20px;
+        }
+
+       .favoritados {
+
+        background-color: rgb(201, 198, 198);
+        padding-bottom: 40px;
+        padding-top: 10px;
+        padding-right: 40px;
+        
+        margin: 10px 40px;
+        border-radius: 2%;
+       }
+
+    .titulo {padding-left:30px;}
+
+    .sair {background-color: #C7C7C7;
+    justify-content: center;
+width: fit-content;
+padding-right: 50px;
+padding-left: 50px;
+padding-bottom: 15px;
+padding-top: 15px;
+border-radius: 10%;
+margin: 10px 40px;
+margin-bottom: 200px;}
+
+
+
+
+nav ul {
+    
+        text-align: right;
+        padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+        list-style-type: none;
+        margin-left: 15px;}
+
+
+        header {display: flex;
+        justify-content: space-between;
+    padding-bottom: 40px;}
+
+    
+
+
+    </style>
+
+</head>
+
+    <body>
+
+
+        <header>
+            <h1 class="logo"><a href="#">Mapa do Underground</a></h1>
+            <form class="pesquisa" ="resultado_pesquisa.html" method="get">
+                <input type="text" id="pesquisa" name="q" placeholder="Digite sua pesquisa aqui">
+                <input type="submit" value="Pesquisar">
+            </form>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Login</a></li>
+        
+                </ul>
+            </nav>
+    
+        </header>
+    
+    
+
+
+        <div class="perfil">
+
+            <h2>Bem vindo, Cléber</h2> <!-- Nesse caso, o nome do usuário terá que ser uma variável no javascript que vai buscar o nome cadastrado no sistema -->
+
+            <h4>Seus dados</h4>
+
+            <p class="dados">Nome: nomeDoUsuario <br> Idade: idade <br> Cidade: cidade
+    
+            </p>
+
+
+            
+        </div>
+
+        <div>
+
+<h2 class="titulo">Eventos favoritos</h2>
+
+<ul class="favoritados">
+
+    <li>
+        <h3>Lupe de Lupe</h3> <hr> <img width="150" height="100" src="pagina_perfil/imagens_perfil/lupedelupe.jpg" alt="">
+        <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
+        Rua das Figueiras, 420 - Jardim - Santo André - SP </p>
+    </li>
+
+</ul>
+
+<br>
+<br>
+
+<ul class="favoritados">
+
+    <li>
+        <h3>Lupe de Lupe</h3> <hr> <img width="150" height="100" src="pagina_perfil/imagens_perfil/lupedelupe.jpg" alt="">
+        <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
+        Rua das Figueiras, 420 - Jardim - Santo André - SP</p>
+    </li>
+    
+</ul>
+
+
+        </div>
+
+        <br>
+        <br>
+
+        <p class="sair"><a href="#">SAIR</a></p>
+
+    
+
+        <footer>
+            <p>&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Endereço</a></li>
+                <li><a href="#">Siga a gente nas redes sociais</a></li>
+                <li><a href="#">Dúvidas frequentes</a></li>
+            </ul>
+            
+            <ion-icon name="logo-instagram"></ion-icon> <a href="#"></a>
+            <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
+            <ion-icon name="logo-twitter"></ion-icon> <a href="#"></a>
+            <ion-icon name="logo-tiktok"></ion-icon> <a href="#"></a>
+        </footer>
+    </body>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+[name="form-cad-evento"] {
+    width: 357px;
+    height: 72.20px;
+    background: #B2B2B2;
+    border-radius: 8px;
+}
+
+[name="answer-cad-evento"] {
+
+    background: #B2B2B2;
+    vertical-align: bottom;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    background-color: #B2B2B2 !important; 
+    border-color: #B2B2B2 !important; 
+}
+
+[name="desc-evento"] {
+    width: 740.15px !important; 
+    height: 242.88px !important;
+    background: #B2B2B2;
+    border-radius: 8px;
+}
+
+[name="atracoes"] {
+    width: 357px;
+    height: 183.23px;
+    background: #B2B2B2;
+    border-radius: 8px;
+}
+
+[name="email"] {
+    width: 739px !important;
+    height: 72.20px !important;
+    background: #B2B2B2;
+    border-radius: 8px;
+}
+
+[name="cadastro"] {
+    width: 201px;
+    height: 48.17px;
+    background: #B2B2B2;
+    border-radius: 8px;
+    border-color: #B2B2B2; 
+}
+
+[name="titulo"] {
+    width: 320px;
+    height: 21px;
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word; 
+}
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.li-footer{
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.p-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #C7C7C7;
+    padding:  0px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+header {
+    background-color: #D9D9D9;
+    box-shadow: 0px 3px 10px  #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 98,9vw;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;   
+}
+
+.logo h1 {
+    color: #000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}

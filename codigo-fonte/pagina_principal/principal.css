@@ -275,3 +275,8 @@ footer{
     position: relative;
     
 }
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}

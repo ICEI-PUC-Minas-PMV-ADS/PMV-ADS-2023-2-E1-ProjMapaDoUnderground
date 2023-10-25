@@ -52,39 +52,7 @@ h2 {
     margin: 40px;
     display: inline-block;
 }
-
-.shows_da_semana {   
-    
-    background-image: url(shows.png);  
-    background-repeat: round;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-size: cover;
-}
-
-.container-shows {
-    
-    display: flex;
-    align-items: center;
-}
-
-.container-shows p {
-    
-    font-size: 40px;
-}
-
-.quadrado-shows {
-    
-    margin-left: 700px;
-    width: 100px;
-    height: 80px; /* Ajuste a altura do quadrado conforme necessário */
-    background-color: #D9D9D9; /* Cor de fundo do quadrado */
-    margin-right: 20px; /* Espaço entre o quadrado e o parágrafo */
-    
-
-}
-
-button {
+/*button {
 
     background-color: #D9D9D9;
     border: none;
@@ -92,20 +60,7 @@ button {
     padding: 10px 20px;
     margin-left: 10px;
     
-}
-
-span {
-
-    font-size: 20px;
-}
-
-
-/*hr {
-
-    width: 500px;
-
 }*/
-
 
 .nav-bar {
     display: flex;
@@ -280,3 +235,39 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+#tabela {
+    align-items: right;
+    border-radius: 40px;    
+    width: 20%;
+}
+    
+
+tr, td {
+    text-align: center;
+    align-items: right;
+    border-bottom: 1px solid #000;
+    
+}
+
+.quadrado-shows {
+    margin-left: 700px;
+    width: 100px;
+    height: 80px; 
+    margin-right: 20px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+.circulo {
+    background-image: url(../pagina_principal/imagens/shows-da-semana.jpg);
+    border-radius: 500px;
+    background-size: cover;   border-radius: 70%;     margin-left: -1000px;
+    margin-right: -1000px;
+    
+}
+
+
+    

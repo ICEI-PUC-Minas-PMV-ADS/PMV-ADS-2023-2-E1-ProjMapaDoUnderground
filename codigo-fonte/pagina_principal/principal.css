@@ -264,9 +264,9 @@ h3 {
 .circulo {
     background-image: url(../pagina_principal/imagens/shows-da-semana.jpg);
     border-radius: 500px;
-    background-size: cover;   border-radius: 70%;     margin-left: -1000px;
-    margin-right: -1000px;
-    
+    background-size: cover;   border-radius: 50%;     margin-left: -1500px;
+    margin-right: -1500px;
+
 }
 
 

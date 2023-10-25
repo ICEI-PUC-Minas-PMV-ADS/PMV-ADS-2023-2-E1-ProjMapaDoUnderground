@@ -52,7 +52,7 @@ h2 {
     margin: 40px;
     display: inline-block;
 }
-/*button {
+button {
 
     background-color: #D9D9D9;
     border: none;
@@ -60,12 +60,13 @@ h2 {
     padding: 10px 20px;
     margin-left: 10px;
     
-}*/
+}
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+
 }
 
 .logo {
@@ -83,6 +84,7 @@ h2 {
     align-items: center;
     margin: 0;
     padding: 0;
+
 }
 
 .nav-list ul {
@@ -96,6 +98,7 @@ h2 {
     padding-top: 10px;
     margin: 0 15px;
     font-size: 20px;
+
 }
 
 .nav-link {
@@ -111,6 +114,14 @@ h2 {
     cursor: pointer;
     border: none;
     border-radius: 5px; /* Borda arredondada */
+}
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0,5em;
+    padding-left: 4.0em; 
 }
 
 .search-bar {
@@ -137,9 +148,10 @@ h2 {
     list-style: none;
     padding: 0;
     padding-top: 10px;
+    text-decoration: none;
 }
 
-.li-footer{
+.li-footer {
     list-style: none;
     background-color: #D9D9D9;
     border-radius: 33px;
@@ -149,7 +161,12 @@ h2 {
     text-align: center;
     display: inline-block;
     font-size: 20px;
+
 }
+ .li-footer a {
+    text-decoration: none;
+    color: #000;
+ }
 
 .p-footer{
     padding-top: 10px;
@@ -157,66 +174,65 @@ h2 {
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: #C7C7C7;
     padding:  0px 20px;
     text-align: center;
     margin-top: auto;
+
 }
 
 .sobre-genero  {    
     font-size: 20px;
     margin-bottom: 150px;
     width: 70%;
-    padding-left: 30px;
+    padding-left: 250px;
     margin-top: 50px;
-    position: relative;
 
 }
 
-.sobre-genero h3 {
-
-    margin-left: 520px;
-    width: 400px;
+.sobre-genero h4 {
+    text-align: justify;
+    margin-left: 523px;
+    margin-top: 200px;
+    margin-bottom: -140px;
     
 }
 
 .sobre-genero img {
     float: left;
     margin-bottom: 80px;
+    margin-top: 30px;
     padding: 45px;
 }
 
 .sobre-genero p {
     font-size: 20px;
-    text-align: justify;      
+    text-align: left;
+    justify-content: center;
+    margin-left: 500px;
+    width: 80%;
     margin-top: 150px;
-    margin-left: 400px;
 }
 .Playlist h3 {
-    
+    padding-top: 100px;
     font-size: 40px;
-    padding-top: 25px;
-    padding-right: 50px;
-    padding-bottom: 75px;
-    padding-left: 700px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 100px;
+    
 }
 
 .Playlist iframe {
     
     float: right;
-    padding-right: 45px;    
+    margin-right: 100px;
+    border-radius: 50px ;   
 
 }
 
 .texto-playlist {
     
     font-size: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     width: 70%;
     padding-left: 30px;
     margin-top: 50px;
@@ -264,7 +280,9 @@ h3 {
 .circulo {
     background-image: url(../pagina_principal/imagens/shows-da-semana.jpg);
     border-radius: 500px;
-    background-size: cover;   border-radius: 50%;     margin-left: -1500px;
+    background-size: cover;   
+    border-radius: 50%;     
+    margin-left: -1500px;
     margin-right: -1500px;
 
 }

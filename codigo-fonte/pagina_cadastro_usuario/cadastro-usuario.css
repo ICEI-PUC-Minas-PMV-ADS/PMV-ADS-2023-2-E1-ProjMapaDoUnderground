@@ -1,3 +1,126 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 98, 9vw;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo-header { 
+    display: flex;
+    align-items: center;
+}
+
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 225px
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 300px;
+    border: none;
+}
+
+.search-bar i {
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.li-footer {
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.li-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.p-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #C7C7C7;
+    padding: 0px 20px;
+    text-align: center;
+    margin-top: auto;
+
+}
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -30,8 +153,8 @@
     margin-bottom: 5px;
 }
 .item {
-    margin-right: 25px; /* Ajuste a margem conforme necessário */
-    display: inline-block; /* Para garantir que os elementos fiquem na mesma linha */
+    margin-right: 25px; 
+    display: inline-block; 
 }
 
 /* Estilo para o botão de cadastro */
@@ -142,4 +265,46 @@ header {
     text-decoration: none;
     color: #000;
     padding: 10px 20px;
+}
+
+footer {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 200px;
+    ;
+}
+
+.links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
 }

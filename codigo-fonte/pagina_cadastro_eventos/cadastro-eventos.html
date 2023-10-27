@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em Duas Colunas</title>
+    <link rel="stylesheet" href="cadastro-eventos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Mapa do Underground</h1>
+            </div>
+
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Buscar...">
+                <i class="fas fa-filter"></i>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Sobre</a></li>
+                    <li class="nav-item">
+                        <a href="#" target="_self" class="nav-link button">Meu perfil</a>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <br>
+    <div class="container  center-container">
+        <h2 name="titulo"> CADASTRO DE EVENTOS</h2>
+    </div>
+    <br>
+    <div class="container  center-container">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div name="form-cad-evento">
+                        <label for="Nome do Evento:">Nome do Evento:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <!-- Outros campos do primeiro formulário aqui -->
+                    <div name="form-cad-evento">
+                        <label for="campo1">CEP:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">CPF:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Data do Evento:</label>
+                        <input type="date" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Classificação Indicativa:</label>
+                        <input type="number" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="atracoes">
+                        <label for="campo1">Equipe de Produção:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Lotação Máxima:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div name="form-cad-evento">
+                        <label for="campo2">Nome do Responsável:</label>
+                        <input type="text" class="form-control" id="campo2" name="campo2">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo2">Endereço:</label>
+                        <input type="text" class="form-control" id="campo2" name="campo2">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">RG:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Hora:</label>
+                        <input type="time" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Consumo:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="atracoes">
+                        <label for="campo1">Atrações:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <br>
+                    <div name="form-cad-evento">
+                        <label for="campo1">Telefone:</label>
+                        <input type="text" class="form-control" id="campo1" name="campo1">
+                    </div>
+                    <!-- Outros campos do segundo formulário aqui -->
+
+                </form>
+            </div>
+        </div>
+    </div> 
+    <br>
+    <div class="container  center-container">
+        <form>
+            <div name="email">
+                    <label for="campo1">E-mail:</label>
+                    <input type="text" class="form-control" id="campo1" name="campo1">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="container  center-container">
+        <form>
+            <div name="desc-evento">
+                    <label for="campo1">Descrição do Evento:</label>
+                    <input type="text" class="form-control" id="campo1" name="campo1">
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="container center-container">
+        <button name="cadastro"> Cadastrar </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer>
+        <ul class="ul-footer">
+            <li class="li-footer"><a href="#">Endereço</a></li>
+            <li class="li-footer"><a href="#">Siga a gente nas redes sociais</a></li>
+            <li class="li-footer"><a href="#">Dúvidas frequentes</a></li>
+        </ul>
+
+        <div class="redes-sociais">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+        <p class="p-footer">&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
+
+    </footer>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
+
+</body>
+
+</html>

@@ -6,33 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários em Duas Colunas</title>
     <link rel="stylesheet" href="cadastro-eventos.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+        <!--Bootstrap 5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!--Jquery Carrossel-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/93b09a271f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1>Mapa do Underground</h1>
-            </div>
-
-            <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Buscar...">
-                <i class="fas fa-filter"></i>
-            </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Sobre</a></li>
-                    <li class="nav-item">
-                        <a href="#" target="_self" class="nav-link button">Meu perfil</a>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo-header">
+                    <img src="./imagens/logo-white (2).png" style="width: 350px;">
+                </div>
+    
+                <div class="search-bar">
+    
+                    <input type="text" placeholder="Buscar...">
+    
+                </div>
+    
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                        <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
+                    </ul>
+                </div>
+    
+            </nav>
+    
+        </header>
     <br>
     <div class="container  center-container">
         <h2 name="titulo"> CADASTRO DE EVENTOS</h2>
@@ -145,22 +166,27 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <br>
+
     <footer>
-        <ul class="ul-footer">
-            <li class="li-footer"><a href="#">Endereço</a></li>
-            <li class="li-footer"><a href="#">Siga a gente nas redes sociais</a></li>
-            <li class="li-footer"><a href="#">Dúvidas frequentes</a></li>
-        </ul>
-
-        <div class="redes-sociais">
-            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+        <div class="container-footer">
+            <div class="logo">
+                <a href="..\pagina_principal\principal.html">
+                    <img src="./imagens/logo-white-rd.png" alt="Logo">
+                </a>
+            </div>
+            <div class="links">
+                <a href="#">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
         </div>
-
-        <p class="p-footer">&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
-
     </footer>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
 

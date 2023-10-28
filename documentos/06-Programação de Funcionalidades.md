@@ -7,22 +7,22 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 #### Primeiro Carrossel
 
 ![Primeiro Carrossel([PMV-ADS-2023-2-E1-ProjMapaDoUnderground/documentos
-/img/Primeiro-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Primeiro-Carrossel.jpg)
+/img/Primeiro-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Primeiro-Carrossel.jpg))
 
 #### Segundo Carrossel
 
 ![Segundo Carrossel([PMV-ADS-2023-2-E1-ProjMapaDoUnderground/documentos
-/img/Segundo-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Segundo-Carrossel.jpg)
+/img/Segundo-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Segundo-Carrossel.jpg))
 
 #### Terceiro Carrossel
 
 ![Terceiro Carrossel([PMV-ADS-2023-2-E1-ProjMapaDoUnderground/documentos
-/img/Terceiro-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Terceiro-Carrossel.jpg)
+/img/Terceiro-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Terceiro-Carrossel.jpg))
 
 #### Quarto Carrossel
 
 ![Quarto Carrossel([PMV-ADS-2023-2-E1-ProjMapaDoUnderground/documentos
-/img/Quarto-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Quarto-Carrossel.jpg)
+/img/Quarto-Carrossel.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/documentos/img/Quarto-Carrossel.jpg))
 
 
 #### Requisito atendido

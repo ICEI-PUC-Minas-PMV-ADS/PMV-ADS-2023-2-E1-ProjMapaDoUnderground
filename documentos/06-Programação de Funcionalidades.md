@@ -42,10 +42,11 @@ Em desenvolvimento.
 #### Instruções de acesso
 
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/codigo-fonte/pagina_principal/principal.html<br>
-Clique em qualquer imagem do primeiro carrossel e será levado à página referente ao evento mostrado.<br>
-Clique em qualquer card de estado no segundo carrossel e será levado à página que contém todos os eventos que estão acontecendo naquele estado.<br>
-Clique em algum dos botões "Shows do Gênero" no terceiro carrossel e será levado à página que contém todos os shows que estão acontecendo referentes àquele gênero.<br>
-Clique em algum dos frames de música no quarto carrossel e será levado à página do youtube que contêm o vídeo proposto. 
+
+- Clique em qualquer imagem do primeiro carrossel e será levado à página referente ao evento mostrado;
+- Clique em qualquer card de estado no segundo carrossel e será levado à página que contém todos os eventos que estão acontecendo naquele estado;
+- Clique em algum dos botões "Shows do Gênero" no terceiro carrossel e será levado à página que contém todos os shows que estão acontecendo referentes àquele gênero;
+- Clique em algum dos frames de música no quarto carrossel e será levado à página do youtube que contêm o vídeo proposto. 
 
 #### Responsáveis
 

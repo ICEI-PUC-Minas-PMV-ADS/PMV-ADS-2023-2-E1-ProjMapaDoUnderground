@@ -8,9 +8,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/8164f49e-3046-498d-b02d-0679630cac8b) 
 
 ## Protótipo
-
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
-
 ### Protótipo de baixa fidelidade
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
@@ -53,7 +50,3 @@ Página apenas destinada ao produtor de eventos.
 #### Página Sobre
 Informações sobre as criadoras do site e de contato.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/77d8a8c6-ec32-432b-9df1-6ee56bb105b3)
->> - [Figma](https://www.figma.com/)
-
-
-

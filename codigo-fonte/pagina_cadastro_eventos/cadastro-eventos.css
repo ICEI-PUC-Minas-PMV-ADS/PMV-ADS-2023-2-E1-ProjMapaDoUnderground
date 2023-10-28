@@ -5,13 +5,13 @@
 [name="form-cad-evento"] {
     width: 357px;
     height: 72.20px;
-    background: #B2B2B2;
+    background:  #e5d7f0;
     border-radius: 8px;
 }
 
 [name="answer-cad-evento"] {
 
-    background: #B2B2B2;
+    background:  #e5d7f0;
     vertical-align: bottom;
 }
 
@@ -21,37 +21,38 @@
 }
 
 .form-control {
-    background-color: #B2B2B2 !important; 
-    border-color: #B2B2B2 !important; 
+    background-color: #e5d7f0 !important; 
+    border-color: #e5d7f0 !important; 
 }
 
 [name="desc-evento"] {
     width: 740.15px !important; 
     height: 242.88px !important;
-    background: #B2B2B2;
+    background:  #e5d7f0;
     border-radius: 8px;
 }
 
 [name="atracoes"] {
     width: 357px;
     height: 183.23px;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
 [name="email"] {
     width: 739px !important;
     height: 72.20px !important;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
 [name="cadastro"] {
     width: 201px;
     height: 48.17px;
-    background: #B2B2B2;
+    background: #421b6e;
     border-radius: 8px;
-    border-color: #B2B2B2; 
+    border-color:  #421b6e; 
+    color: #b2b2b2;
 }
 
 [name="titulo"] {
@@ -460,4 +461,9 @@ footer {
 .redes-sociais i {
     font-size: 24px;
     color: #ffffff;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(19deg, rgba(62, 236, 172, 0.5) 0%, rgba(161, 116, 238, 0.5) 100%);
 }

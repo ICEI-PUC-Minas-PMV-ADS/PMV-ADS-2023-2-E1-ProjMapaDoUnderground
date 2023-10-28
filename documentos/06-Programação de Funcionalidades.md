@@ -2,43 +2,38 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
+### Carrossel
 
 [Adicione imagem da funcionalidade/tela]
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável.
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
+- principal.html;
+- principal.css;
+- bootstrap.bundle.min.js;
+- popper.min.js;
+- bootstrap.min.js.
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
-
+Em desenvolvimento.
 
 #### Instruções de acesso
 
 [Adicione as orientações de acesso à funcionalidade]
 
 
-#### Responsável
+#### Responsáveis
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
+- Ana Laura;
+- Carolina;
+- Maria Vitória;
+- Larissa;
+- Sarah;
+- Thabata.

@@ -38,7 +38,7 @@ O Mapa do <i>Underground</i> é um site de busca de eventos destinado a consumid
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://icei-puc-minas-pmv-ads.github.io/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/codigo-fonte/pagina_principal/principal.html 
 
 # Código-Fonte
 

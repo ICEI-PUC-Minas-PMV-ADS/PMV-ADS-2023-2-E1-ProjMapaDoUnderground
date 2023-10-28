@@ -4,6 +4,16 @@
 
 body {
     overflow-x: hidden;
+    background-color: #e5d7f0 !important;
+}
+
+.background-config {
+    background-color: #e5d7f0 !important;
+}
+
+.background-card {
+    background-color: #e5d7f0 !important;
+    border-color: #703fa9 !important; 
 }
 
 
@@ -42,6 +52,12 @@ li {
 }
 
 a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+}
+
+.redes-sociais-text {
     text-decoration: none !important;
     color: rgb(255, 255, 255) !important;
     font-size: 18px;
@@ -300,9 +316,9 @@ td {
 
 
 .circulo {    
-    border-radius: 500px;
+    /*border-radius: 500px;*/
     background-size: cover;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin-left: -1500px;
     margin-right: -1500px;
     background-image: linear-gradient(19deg, rgba(62, 236, 172, 0.5) 0%, rgba(161, 116, 238, 0.5) 100%);
@@ -326,6 +342,7 @@ td {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 h4 {

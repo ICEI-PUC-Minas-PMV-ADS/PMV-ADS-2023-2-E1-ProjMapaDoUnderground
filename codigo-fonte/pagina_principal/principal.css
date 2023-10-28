@@ -30,8 +30,8 @@ body {
 .carousel-control-prev, .carousel-control-next {
     margin-right: -150px;
     margin-left: -150px;
+    
 }
-
 
 .carousel-item-active {
     padding-top: 40px;

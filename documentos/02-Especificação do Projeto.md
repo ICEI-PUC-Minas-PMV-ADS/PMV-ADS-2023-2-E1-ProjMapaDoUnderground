@@ -49,12 +49,7 @@
 |  Consumidor de eventos undergrounds;                | Fazer comentários nas publicações;                     | Interagir com o público interessado no mesmo evento que eu.                            |
 
 ## Requisitos do Projeto
-
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
@@ -69,11 +64,8 @@
 | RF-09 |A plataforma deve disparar e-mail a usuários qualificados a cada publicação de evento;| Baixa |
 | RF-10 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |
 
-**Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
@@ -81,7 +73,3 @@
 | RNF-02 |Site compatível com os navegadores mais usados na atualidade;| Alta  |
 | RNF-03 |Site responsivo para Android e IOS;| Alta  |
 | RNF-04 |Sistema operacional Windows, MAC, Linux.| Alta  |
- 
-
-**Prioridade: Alta / Média / Baixa. 
-

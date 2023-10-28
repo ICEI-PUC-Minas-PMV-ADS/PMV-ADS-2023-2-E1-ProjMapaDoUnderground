@@ -21,9 +21,10 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 ![Quarto Carrossel](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/d70cb38c6f1f6e8864bc2f2fdd1cfbd995e199c5/documentos/img/Quarto-Carrossel.jpg)
 
 
-#### Requisito atendido
+#### Requisitos atendidos
 
-RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável.
+RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
+RF-06: A plataforma deve apresentar todos os eventos publicados na página inicial.
 
 
 #### Artefatos da funcionalidade

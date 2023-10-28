@@ -41,8 +41,7 @@ Em desenvolvimento.
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/codigo-fonte/pagina_principal/principal.html
 
 #### Responsáveis
 

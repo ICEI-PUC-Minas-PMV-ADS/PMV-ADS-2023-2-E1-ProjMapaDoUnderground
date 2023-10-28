@@ -1,6 +1,6 @@
 # Mapa do Underground
 
-`CURSO`: Análise e Dsenvolvimento de Sistemas
+`CURSO`: Análise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`: Desenvolvimento de Aplicação Web Front-End
 

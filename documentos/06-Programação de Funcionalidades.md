@@ -23,8 +23,8 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisitos atendidos
 
-RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
-RF-06: A plataforma deve apresentar todos os eventos publicados na página inicial.
+- RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
+- RF-06: A plataforma deve apresentar todos os eventos publicados na página inicial.
 
 
 #### Artefatos da funcionalidade

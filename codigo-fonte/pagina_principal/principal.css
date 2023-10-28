@@ -1,6 +1,12 @@
+html, body {
+    background-color: #33b78f;
+    overflow-x: hidden;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
 }
+
 
 .carrossel {
     margin-top: 50px;
@@ -12,6 +18,11 @@
     margin-right: auto;
     margin-bottom: 50px;
 }
+.carousel-control-prev, .carousel-control-next {
+    margin-right: -150px;
+    margin-left: -150px;
+}
+
 
 .carousel-item-active {
     padding-top: 40px;
@@ -44,6 +55,12 @@ a {
 
 .btn-shows-da-semana {
     border-radius: 23px;
+    background-color: #421b6e;
+    color: #ffffff;
+}
+
+.btn-shows-da-semana:hover {
+    background-color: #33b78f
 }
 
 h2 {
@@ -194,25 +211,35 @@ footer {
     padding: 0px 20px;
     text-align: center;
     margin-top: auto;
-
 }
 
 
-.Playlist {
-
-    padding-bottom: 100px;
+#playlist {
+    height: 1000x;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 120px;
 }
 
-.Playlist h7 {
-    padding-top: 100px;
-    font-size: 40px;
+.col- {
+    height: -500px;
+}
+
+.col-md-6 p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 0 auto;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    position: relative;
     text-align: left;
-    margin-left: 100px;
 
 }
 
-.Playlist iframe {
-
+#carouselplaylist iframe {
     float: right;
     border-radius: 23px;
     width: 20px;
@@ -220,24 +247,13 @@ footer {
 
 }
 
-.texto-playlist {
-
-    font-size: 20px;
-    margin-bottom: 50px;
-    width: 50%;
-    padding-left: 30px;
-    margin-left: 270px;
-    margin-top: 50px;
-    position: relative;
-    text-align: justify;
-
-}
-
-.texto-playlist li {
+#carouselplayslist li {
 
     position: relative;
 
 }
+
+
 
 .center-container {
     display: flex;
@@ -246,7 +262,7 @@ footer {
 
 #tabela {
     align-items: right;
-    border-radius: 40px;
+    border-radius: 5px;
     width: 20%
 }
 
@@ -264,12 +280,8 @@ td {
     width: 100px;
     height: 80px;
     margin-right: 20px;
-
 }
 
-h {
-    text-align: center;
-}
 
 .circulo {
     background-image: url(../pagina_principal/imagens/shows-da-semana.jpg);
@@ -281,29 +293,52 @@ h {
 
 }
 
+.h2-genero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Sobre o gênero*/
+
 #mycarousel3 {
-    height: 600px;
+    height: 700px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     transition: transform 1s ease-in-out;
-    width: 68%;
+    width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 h4 {
     text-align: left;
     color: #000000;
     font-size: 50px;
+    margin-left: 6px;
 }
 
 #mycarousel3 p {
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     margin-top: 15px;
     margin-left: 5px;
     margin-right: 10px;
     font-family: 'Poppins', sans-serif;
+    display: inline-block;
 }
+
+.botao-genero {
+    vertical-align: left;
+    display: inline-block;
+    margin-right: 500px;
+    padding-left: 1px;
+    padding-right: 10px;
+}
+
+
+/*fim do sobre o gênero*/
 
 
 footer {
@@ -311,7 +346,6 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    
     height: 120px;
     display: flex;
     justify-content: center;
@@ -348,17 +382,12 @@ footer {
     color: #ffffff;
 }
 
-.carouselplaylist {
-    height: 600px;
-    display: flex;
-    align-items: center;
-    transition: 20s;
-    width: 40%;
-    margin: 0 auto;
-}
-
 h5 {
     text-align: left;
     color: #000000;
     font-size: 50px;
+}
+#multi-item-carousel .cards-wrapper{
+    
+
 }

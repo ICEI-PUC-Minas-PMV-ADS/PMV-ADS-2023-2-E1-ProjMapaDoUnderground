@@ -5,6 +5,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 As páginas terão como elementos padrões o header e o footer, além dos elementos de identidade visual citados abaixo:
 
 Cores: RGB: #e5d7f0, RGB: #703fa9, RGB: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%), RGB: #33b78f,  RGB: #421b6e e RGB: linear-gradient(19deg, rgba(62, 236, 172, 0.5) 0%, rgba(161, 116, 238, 0.5) 100%);
+
 Font-family: Poppins.
 
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href= "https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/blob/main/codigo-fonte/pagina_principal/principal.css">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href= "https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/tree/main/codigo-fonte/pagina_principal/imagens">aqui</a>.

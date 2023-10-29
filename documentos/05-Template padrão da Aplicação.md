@@ -12,13 +12,14 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 <h3><b>Tela Inicial do Site</b></h3>
 Exibe informações sobre os eventos, podendo ser escolhidos eventos pela localidade, pelos shows da semana e por gênero musical, além de ter uma playlist de músicas underground e menus navegáveis para as páginas de login e sobre na header, no footer é possível acessar o endereço, página de dúvidas frequentes e as redes sociais do Mapa do Underground.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/dafe7636-7a46-4dce-81f7-4656c90a2a67">
   <figcaption> Figura 1 - Primeira parte da tela, com a header navegável e carrossel de bandas.
 </figure>
     
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/1ddbf00a-a07d-45c2-a767-d4be232e77b6">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/400931ae-a7af-42eb-b3bd-cc9bf37fcb19">
   <figcaption> Figura 2 - Segunda parte da tela, com carrossel de seleção de eventos por Estado.
 </figure>
     

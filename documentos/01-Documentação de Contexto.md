@@ -39,22 +39,19 @@ Com o advento da internet, a possibilidade de a cena ser mais vista e propagada 
  
 
 Gráfico 1 - Participação do público em eventos undergrounds. 
-![Screenshot do gráfico gerado pela pesquisa de campo da cena Underground, 2023.]()
 
-
- 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/144811063/9337c18b-fac3-45ed-b4a3-9338c69183f6)
 
 Fonte: Pesquisa de campo da cena Underground, 2023 
-
- 
 
 Considerando uma pesquisa qualitativa realizada, é perceptível o interesse da maior parte do público em frequentar shows underground. 
 
  
 
- 
+ Gráfico 1 - Divulgação de eventos. 
 
-Gráfico 1 - Divulgação de eventos. 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/144811063/4afd6669-aad9-4924-81b2-a9b245f0aff0)
+
 
 Fonte: Pesquisa de campo da cena Underground, 2023 
 

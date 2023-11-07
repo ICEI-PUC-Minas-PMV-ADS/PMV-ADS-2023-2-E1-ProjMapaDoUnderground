@@ -1,10 +1,13 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     overflow-x: hidden;
     background-color: #e5d7f0 !important;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
 
 .background-config {
@@ -18,7 +21,7 @@ header {
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
-    width: 98, 9vw;
+    width: 100%;
 }
 
 li {
@@ -97,7 +100,6 @@ a {
 
 /* CONFIGURAÇÕES HEADER */
 
-
 /* ------------------------------------------------------------------------------------------------------------------ */
 
 /* CONFIGURAÇÕES FOOTER */
@@ -144,8 +146,8 @@ footer {
 }
 
 /* CONFIGURAÇÕES FOOTER */
-/* ------------------------------------------------------------------------------------------------------------------ */
 
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 /* CONTEÚDO DA PAGINA */
 
@@ -188,7 +190,6 @@ p{
 }
 
 /* FAVORITAR */
-
 
 
 .botao-imagem {

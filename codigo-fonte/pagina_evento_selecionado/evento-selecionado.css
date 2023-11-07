@@ -155,7 +155,7 @@ h1 {
     padding: 20px;
 }
 
-.retangulo {
+.capa-evento {
     width: 1800px;
     height: 800px;
     background-color: #ccc;
@@ -185,4 +185,22 @@ p{
     padding-right: 150px;
     font-size: 24px;
     padding-bottom: 42px;
+}
+
+/* FAVORITAR */
+
+
+
+.botao-imagem {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    margin-top: -40px;
+    padding-left: 1600px;
+}
+
+.botao-imagem img {
+    border: none;
+    width: 100%; /* Ajuste o tamanho conforme necessário */
 }

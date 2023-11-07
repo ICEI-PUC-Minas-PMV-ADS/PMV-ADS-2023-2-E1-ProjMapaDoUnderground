@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="eventosPosFiltrosStyle.css">
+    <link rel="stylesheet" href="./eventos-pos-filtros.css">
+    <script src="https://kit.fontawesome.com/93b09a271f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Eventos pós filtros</title>
 </head>
 
 <header>
     <nav class="nav-bar">
-        <div class="logo">
-            <h1>Mapa Underground</h1>
+        <div class="logo-header">
+            <img src="./assets/logo-white.png" style="width: 350px;">
+            <a href="../pagina_principal/principal.html"></a>
         </div>
 
         <div class="search-bar">
-            <i class="fas fa-search"></i>
+
             <input type="text" placeholder="Buscar...">
-            <i class="fas fa-filter"></i>
+
         </div>
 
         <div class="nav-list">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Eventos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
+                </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link button">Meu perfil</a>
+                    <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
             </ul>
         </div>
 
     </nav>
-    </header>
+</header>
 
     <div class="quadrados-container">
         <div class="quadrado"></div>
@@ -54,22 +61,22 @@
     </div>
 
     <footer>
-        
-        <ul class="ul-footer">
-            <li class="li-footer"><a href="#">Endereço</a></li>
-            <li class="li-footer"><a href="#">Siga a gente nas redes sociais</a></li>
-            <li class="li-footer"><a href="#">Dúvidas frequentes</a></li>
-        </ul>
-
-        <div class="redes-sociais">
-            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="./assets/logo-white-rd.png" alt="Logo">
+            </div>
+            <div class="links">
+                <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
         </div>
-
-        <p class="p-footer">&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
-         
     </footer>
 
 </body>

@@ -1,17 +1,29 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* CONFIGURAÇÕES HEADER */
 
 header {
-    background-color: #D9D9D9;
-    box-shadow: 0px 3px 10px  #b9b9b9;
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 100%;
 }
 
-body{
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
 }
 
 .nav-bar {
@@ -20,13 +32,9 @@ body{
     padding: 1.5rem 6rem;
 }
 
-.logo {
+.logo-header { 
     display: flex;
-    align-items: center;   
-}
-
-.logo h1 {
-    color: #000;
+    align-items: center;
 }
 
 .nav-list {
@@ -37,7 +45,7 @@ body{
     padding: 0;
 }
 
-.nav-list ul{
+.nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -50,38 +58,40 @@ body{
     font-size: 20px;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: #000;
-    padding: 10px 20px;
-}
-
-.button {
-    color: #000; /* Cor do texto no botão */
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px; /* Borda arredondada */
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
+    padding-left: 225px
 }
 
 .search-bar input {
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 10px;
-    width: 200px;
+    width: 300px;
     border: none;
 }
 
 .search-bar i {
-    margin: 0 5px; /* Espaçamento entre o ícone e o input */
-    font-size: 20px; /* Tamanho do ícone */
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
 }
+
+/* CONFIGURAÇÕES HEADER */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
 
 .quadrado {
     width: 240.011px;
@@ -124,21 +134,49 @@ body{
     font-size: 16px;
 }
 
-footer{
-    background-color: #C7C7C7;
-    padding:  0px 20px;
-    text-align: center;
-    margin-top: auto;
-}
+/* CONFIGURAÇÕES FOOTER */
 
-.redes-sociais {
+footer {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 120px;
     display: flex;
     justify-content: center;
-    margin-top: 0px;
+    align-items: center;
 }
 
-.social-icon {
-    font-size: 30px;
-    margin: 0 10px;
-    color: #000; 
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
+
+.logo img {
+    max-width: 200px;
+
+}
+
+.links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* CONFIGURAÇÕES FOOTER */
+
+/* ------------------------------------------------------------------------------------------------------------------ */

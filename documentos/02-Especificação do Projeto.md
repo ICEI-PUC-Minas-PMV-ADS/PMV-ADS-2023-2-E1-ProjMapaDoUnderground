@@ -57,8 +57,8 @@
 | RF-02 |A plataforma deve permitir login de usuário baseando-se nos dois perfis de usuário especificados;| Alta | 
 | RF-03 |A plataforma deve permitir cadastro de novos eventos para o perfil ‘produtor de eventos’;| Alta | 
 | RF-04 |A plataforma deve permitir edição do evento para o usuário que o publicou;| Alta | 
-| RF-05 |A plataforma deve disponibilizar filtros de localização, gênero, preço e data na busca por eventos;| Alta | 
-| RF-06 |A plataforma deve apresentar todos os eventos publicados na página inicial;| Média | 
+| RF-05 |A plataforma deve disponibilizar filtros de localização, gênero e data na busca por eventos;| Alta | 
+| RF-06 |A plataforma deve apresentar eventos publicados na página inicial;| Média | 
 | RF-07 |A plataforma deve exibir o botão “favoritar” nas publicações de evento;| Média | 
 | RF-08 |A plataforma deve exibir o botão “confirmar presença” nas publicações de evento;| Baixa | 
 | RF-09 |A plataforma deve disparar e-mail a usuários qualificados a cada publicação de evento;| Baixa |

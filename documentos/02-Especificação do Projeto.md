@@ -61,8 +61,7 @@
 | RF-06 |A plataforma deve apresentar eventos publicados na página inicial;| Média | 
 | RF-07 |A plataforma deve exibir o botão “favoritar” nas publicações de evento;| Média | 
 | RF-08 |A plataforma deve exibir o botão “confirmar presença” nas publicações de evento;| Baixa | 
-| RF-09 |A plataforma deve disparar e-mail a usuários qualificados a cada publicação de evento;| Baixa |
-| RF-10 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |
+| RF-09 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |
 
 
 ### Requisitos não Funcionais

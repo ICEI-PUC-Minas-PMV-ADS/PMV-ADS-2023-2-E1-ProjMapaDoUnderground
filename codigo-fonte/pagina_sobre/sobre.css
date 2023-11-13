@@ -1,8 +1,3 @@
-body { 
-    margin: 0px;
-    padding: 0px;
-}
-
 body p {
     text-align: center;
     width: 937px;
@@ -12,11 +7,21 @@ body p {
 }
 
 header {
-    background-color: #D9D9D9;
-    box-shadow: 0px 3px 10px #b9b9b9;
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
-    width: 98,9vw;
+    width: 98, 9vw;
+}
+#foto-evento {
+    margin-top: 50px;
+    width: 100%;
+    height: 649px;
+    background-color: #D9D9D9;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 50px;
+    
 }
 
 .nav-bar {
@@ -25,13 +30,9 @@ header {
     padding: 1.5rem 6rem;
 }
 
-.logo {
+.logo-header { 
     display: flex;
-    align-items: center;   
-}
-
-.logo h1 {
-    color: #000;
+    align-items: center;
 }
 
 .nav-list {
@@ -40,6 +41,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+
 }
 
 .nav-list ul {
@@ -53,6 +55,7 @@ header {
     padding-top: 10px;
     margin: 0 15px;
     font-size: 20px;
+
 }
 
 .nav-link {
@@ -62,42 +65,44 @@ header {
 }
 
 .button {
-    color: #000; /* Cor do texto no botão */
+    color: #000;
+    /* Cor do texto no botão */
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     border: none;
-    border-radius: 5px; /* Borda arredondada */
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
+    padding-left: 225px
 }
 
 .search-bar input {
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 10px;
-    width: 200px;
+    width: 300px;
     border: none;
 }
 
 .search-bar i {
-    margin: 0 5px; /* Espaçamento entre o ícone e o input */
-    font-size: 20px; /* Tamanho do ícone */
-}
-
-#foto-evento {
-    margin-top: 50px;
-    width: 1280px;
-    height: 649px;
-    background-color: #D9D9D9;
-    background-size: cover;
-    align-items: center;
-    margin-left: 300px;
-    margin-right: auto;
-    margin-bottom: 50px;
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
 }
 
 .ul-footer {
@@ -106,9 +111,10 @@ header {
     list-style: none;
     padding: 0;
     padding-top: 10px;
+    text-decoration: none;
 }
 
-.li-footer{
+.li-footer {
     list-style: none;
     background-color: #D9D9D9;
     border-radius: 33px;
@@ -118,40 +124,51 @@ header {
     text-align: center;
     display: inline-block;
     font-size: 20px;
+    text-decoration: none;
+
 }
 
-.p-footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 16px;
+
+.titulo, .titulo-equipe {
+    margin-left: 820px;
+    margin-bottom: 20px;
+}
+.titulo-equipe {
+    margin-top: 150px;
+    margin-bottom: -70px;
+}
+
+
+.card-line-one, .card-line-two {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.card-line-two {
+    margin-top: -7%;
+}
+
+.card-line-one .card, .card-line-two .card {
+    margin: 3%;
+}
+.card-line-one .card .card-body .card-text, .card-line-two .card .card-body .card-text {
+    margin-left: -250%;
+    margin-top: 5%;
 }
 
 footer {
-    background-color: #C7C7C7;
-    text-align: center;
-    margin-top: 250px;
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
     padding: 20px;
-    padding-bottom: 135px;
-    padding-top: 30px;
-    height: 15vh;
+    padding-top: 150px;
+    margin-top: 10%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer p {
-    padding-bottom: 10px;
-    padding-top: 100px;
-    height: 60px;
-}
-
-.titulo {
-    margin-left: 840px;
-}
-
-div img {
-    margin-left: 293px;
-    padding: 5px;
-    display: inline;
-    float: inline;  
-}
-
-footer .nav-item {
-    line-height: 10px;
+.background-config {
+    background-color: #e5d7f0 !important;
 }

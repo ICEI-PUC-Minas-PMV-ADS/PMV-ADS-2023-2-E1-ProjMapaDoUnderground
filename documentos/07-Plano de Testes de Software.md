@@ -8,13 +8,8 @@
 |Caso de Teste    | CT-02 - Verificar o funcionamento dos dois tipos de login |
 |:---|:---|
 | Requisitos Associados | RF-02 : A plataforma deve permitir login de usuário baseando-se nos dois perfis de usuário especificados. |
-| Objetivo do Teste | Verificar se o usuário consegue fazer o login e ser redirecionado para a página inicial.
-Verificar se o usuário consegue fazer o login como produtor e ser redirecionado para a página inical. |
-| Passos | 1. Acessar o navegador.
-2. Informar o endereço do site.
-3. Visualizar a página Home.
-4. Clicar em "login", no menu.
-5. Preencher os dados e clicar no botão "login". |
+| Objetivo do Teste | Verificar se o usuário consegue fazer o login e ser redirecionado para a página inicial. Verificar se o usuário consegue fazer o login como produtor e ser redirecionado para a página inical. |
+| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em "login", no menu. 5. Preencher os dados e clicar no botão "login". |
 | Critérios de êxito | Após o login, o usuario deverá ser redirecionado à página inicial.  |
 | Responsável pela elaborar do caso de Teste | Thabata |
 

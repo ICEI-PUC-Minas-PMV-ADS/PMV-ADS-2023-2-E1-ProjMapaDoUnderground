@@ -2,11 +2,11 @@
 
 |Caso de Teste    | CT-01 - Verificar o funcionamento dos links da página Home |
 |:---|:---|
-| Requisitos Associados |
+| Requisitos Associados |                                                       | Objetivo do Teste | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
+                                                                                                      Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.|
 |RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
  RF-06: A plataforma deve apresentar eventos selecionados na página incial. |
-| Objetivo do Teste | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
-Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.|
+
 | Passos | 1. Acessar o navegador; 
 2. Informar o endereço do site; 
 3. Visualizar a página Home; 

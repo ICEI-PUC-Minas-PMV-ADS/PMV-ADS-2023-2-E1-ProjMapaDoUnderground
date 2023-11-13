@@ -2,9 +2,10 @@
 
 Caso de Teste | Requisitos Associados | Objetivo do Teste | Passos | Critérios de êxito | Responsável pela elaborar do caso de Teste |
 ----|----|----|----|----|----
-|CT-01 - Verificar o funcionamento dos links da página Home | |RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
- RF-06: A plataforma deve apresentar eventos selecionados na página incial.| |Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
- Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.| |1. Acessar o navegador; 2. Informar o endereço do site; 3. Visualizar a página Home;  4. Clicar nos links da página Home; 5. Clicar nos eventos selecionados.| |Todos os links da home estão sendo respectivamente encaminhados corretamente. Todos os eventos então linkados para a pagina de eventos selecionados.| |Maria Vitória|  
+|CT-01 - Verificar o funcionamento dos links da página Home | 
+----|RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
+ RF-06: A plataforma deve apresentar eventos selecionados na página incial.| ----| |Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
+ Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.| ----| |1. Acessar o navegador; 2. Informar o endereço do site; 3. Visualizar a página Home;  4. Clicar nos links da página Home; 5. Clicar nos eventos selecionados.|---- |Todos os links da home estão sendo respectivamente encaminhados corretamente. Todos os eventos então linkados para a pagina de eventos selecionados.| |----||Maria Vitória|  
  
 
  

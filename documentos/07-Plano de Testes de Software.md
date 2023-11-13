@@ -6,7 +6,11 @@
 RF-06: A plataforma deve apresentar eventos selecionados na página incial. |
 | Objetivo do Teste | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
 Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.|
-| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar nos links da página Home. 5. Clicar nos eventos selecionados. |
+| Passos | 1. Acessar o navegador. 
+           2. Informar o endereço do site. 
+           3. Visualizar a página Home. 
+           4. Clicar nos links da página Home. 
+           5. Clicar nos eventos selecionados. |
 | Critérios de êxito | Todos os links da home estão sendo respectivamente encaminhados corretamente.
 Todos os eventos então linkados para a pagina de eventos selecionados.  |
 | Responsável pela elaborar do caso de Teste | Maria Vitória|

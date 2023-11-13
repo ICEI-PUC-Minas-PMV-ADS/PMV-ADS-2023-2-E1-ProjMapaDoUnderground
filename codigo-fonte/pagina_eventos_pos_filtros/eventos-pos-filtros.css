@@ -1,7 +1,17 @@
-*{
-    padding: 0;
+body, html {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #e5d7f0 !important;
+}
+
+* {
     font-family: 'Poppins', sans-serif;
+}
+
+.background-config {
+    background-color: #e5d7f0 !important;
 }
 
 /* CONFIGURAÇÕES HEADER */
@@ -92,46 +102,17 @@ a {
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 
-
-.quadrado {
-    width: 240.011px;
-    height: 312.38px; 
-    border-radius: 21px;  
-    background-color: #ccc;
+.evento {
+    width: 220px;
+    height: 300px;
     margin: 10px; /* Adiciona uma margem de 10 pixels entre os quadrados */
     display: inline-block; /* Faz os quadrados ficarem lado a lado */
 }
 
 .quadrados-container {
-    padding-top: 30px;
+    border-radius: 20px;
+    padding-top: 15px;
     text-align: center; /* Alinha os quadrados no centro da página */
-    padding-bottom: 30px;
-}
-
-.ul-footer {
-    list-style: none;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    padding-top: 30px;
-}
-
-.li-footer{
-    list-style: none;
-    background-color: #D9D9D9;
-    border-radius: 33px;
-    padding: 10px;
-    margin: 100px;
-    flex: 1;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.p-footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 16px;
 }
 
 /* CONFIGURAÇÕES FOOTER */

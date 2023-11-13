@@ -2,9 +2,9 @@
 
 |Caso de Teste    | CT-01 - Verificar o funcionamento dos links da página Home |
 |:---|:---|
-| Requisitos Associados |                                                       
-|RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
- RF-06: A plataforma deve apresentar eventos selecionados na página incial. |
+| Requisitos Associados | RF-01: A plataforma deve ter uma página inicial intuitiva com menu navegável;
+ RF-06: A plataforma deve apresentar eventos selecionados na página incial. |                                              
+
 |:---|:---|
 | Objetivo do Teste | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente.
 Verificar se a página inicial exibe todos os eventos e se eles estão linkados corretamente.|

@@ -190,8 +190,6 @@ p{
 }
 
 /* FAVORITAR */
-
-
 .botao-imagem {
     display: inline-block;
     text-decoration: none;
@@ -204,4 +202,61 @@ p{
 .botao-imagem img {
     border: none;
     width: 100%; /* Ajuste o tamanho conforme necessário */
+}
+
+
+/* FAVORITAR */
+
+
+
+.comment-section {
+    max-width: 1570px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.info-usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info-usuario img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comentario-usuario {
+    font-size: 18px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    padding: 10px;
+    background-color: #421b6e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
 }

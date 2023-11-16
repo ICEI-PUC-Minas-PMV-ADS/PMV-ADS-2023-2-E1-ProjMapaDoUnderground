@@ -18,16 +18,18 @@
     padding-top: 10px;
 }
 
-.item{
-    align-content: flex-start;
-    display: flex;
-    display:inline-block;
-    padding-top: 10px;
+[name="cadastro"] {
+    width: 201px;
+    height: 48.17px;
+    background: #421b6e;
+    border-radius: 8px;
+    border-color:  #421b6e; 
+    color: #b2b2b2;
 }
 
-.button{
-    color: #421b6e;
-    align-items: center;
+.center-container {
+    display: flex;
+    justify-content: center;
 }
 
 

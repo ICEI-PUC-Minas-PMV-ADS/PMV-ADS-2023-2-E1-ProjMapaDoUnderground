@@ -1,40 +1,202 @@
-#GenerosMusicais 
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+body {
+  background-color: #e5d7f0 !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
-
-.container {
+#carouselGeneros {
+  max-width: 800px;
+  margin: auto;
   display: flex;
-  justify-content: space-between; 
-  align-items: flex-start; 
-  overflow: hidden; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-top: 50px;
 }
 
-.conteudo {
-  display: flex;
-  gap: 10px; 
+
+.carousel-inner {
+  max-height: 400px; /* Defina a altura máxima conforme desejado */
 }
 
-.conteudo img {
-  max-width: 100%; 
+.carousel-item {
+  height: 100%; /* Preenche a altura do carrossel */
 }
 
-button {
-  background-color: #D9D9D9;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+.carousel-item img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.h1-titulo {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.h2-evento {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  margin-right: -150px;
+  margin-left: -150px;
+}
+
+.h3-titulo {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.sobre-genero {
+  max-width: 1050px;
+  margin: auto;
+  padding: 30px;
+}
+
+.sobre-genero p {
+  text-align: left;
+  /* Remova a largura fixa e ajuste conforme necessário */
+}
+
+.sobre-genero img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* CONFIGURAÇÕES HEADER */
+
+header {
+  background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+  box-shadow: 0px -3px 10px #b9b9b9;
+  position: relative;
+  height: 17vh;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 18px;
-  cursor: pointer;
 }
 
-/* Estilos para os botões "anterior" e "seguinte" */
-#anterior {
-  border-radius: 10px 0 0 10px ; 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
 }
 
-#seguinte {
-  border-radius: 0 10px 10px 0; 
+.logo-header { 
+  display: flex;
+  align-items: center;
 }
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  padding-top: 10px;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.search-bar ::placeholder {
+  color: #000000;
+  background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -0, 5em;
+  padding-left: 4.0em;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 225px
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 300px;
+  border: none;
+}
+
+.search-bar i {
+  margin: 0 5px;
+  /* Espaçamento entre o ícone e o input */
+  font-size: 20px;
+  /* Tamanho do ícone */
+}
+
+/* CONFIGURAÇÕES HEADER */
+
+/* CONFIGURAÇÕES FOOTER */
+
+footer {
+  background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-footer {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 200px;
+
+}
+
+.links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.redes-sociais i {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* CONFIGURAÇÕES FOOTER */
+

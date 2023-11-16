@@ -31,32 +31,28 @@
 <body>
     <!--HEADER-->
     <header>
-        <nav class="nav-bar">
-            <div class="logo-header">
-                <img src="./imagens/logo-white (2).png" style="width: 350px;">
-            </div>
+    <nav class="nav-bar">
+        <div class="logo-header">
+            <img src="./imagens/logo-white (2).png" style="width: 350px;">
+        </div>
 
-            <div class="search-bar">
+        <div class="search-bar">
+            <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
+        </div>
 
-                <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-            </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a>
-                </ul>
-            </div>
-
-        </nav>
-
-    </header>
 
     <!-- CARROSSEL DO HEADER-->
-
+    <div class="carousel-container">
     <div id="carouselExampleDark" class="carousel carousel-dark slide background-config" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -89,6 +85,7 @@
         </div>
    
     </div>
+</div>
     </div>
     </div>
 

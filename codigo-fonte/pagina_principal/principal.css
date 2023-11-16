@@ -26,7 +26,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    z-index: 0;
 }
+.carousel-container {
+    position: sticky;
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
 .carousel-control-prev, .carousel-control-next {
     margin-right: -150px;
     margin-left: -150px;
@@ -42,7 +48,8 @@ header {
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
-    width: 98, 9vw;
+    width: 98.9%;
+    z-index: 1;
 }
 
 li {
@@ -112,12 +119,12 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    z-index: 2;
 }
 
-.logo-header { 
-    display: flex;
-    align-items: left;
-
+.logo-header img {
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-list {
@@ -171,9 +178,11 @@ button {
 
 .search-bar {
     display: flex;
+    flex: 1;
     align-items: center;
     padding-left: 225px
 }
+
 
 .search-bar input {
     padding: 8px;
@@ -396,7 +405,8 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    height: 120px;
+    flex-direction: column;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,14 +416,15 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
 .logo img {
-    max-width: 200px;
-
+    max-width: 100%;
+    height: auto;
 }
 
 .links a {
@@ -489,3 +500,24 @@ h5 {
     margin-left: -120px;
 }
 
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar {
+        padding-left: 0;
+        margin: 10px 0;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

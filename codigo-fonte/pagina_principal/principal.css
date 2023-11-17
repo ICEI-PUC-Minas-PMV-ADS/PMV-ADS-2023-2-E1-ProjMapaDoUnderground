@@ -407,7 +407,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     flex-direction: column;
     height: auto;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -415,7 +415,8 @@ footer {
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Divide a largura em duas colunas iguais */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -423,7 +424,7 @@ footer {
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
 

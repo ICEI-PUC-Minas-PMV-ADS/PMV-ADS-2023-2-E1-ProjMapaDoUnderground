@@ -4,62 +4,415 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="filtro_ex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Filtros</title>
 </head>
 <body>
     <header>
-        <h1>How can I help you?</h1>
-        <div class="input-wrapper">
-            <label for="filter" class="sr-only">Filter</label>
-            <input id="filter" type="text" placeholder="Filter">
-            <i class="ph-magnifying-glass"></i>
+        <nav class="nav-bar">
+            <div class="logo-header">
+                <img src="./assets/logo-white.png" style="width: 350px;">
+                <a href="../pagina_principal/principal.html"></a>
+            </div>
+    
+            <div class="search-bar">
+    
+                <input type="text" placeholder="Buscar...">
+    
+            </div>
+    
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
+                </ul>
+            </div>
+    
+        </nav>
+    <section class="projects">
+        <div class="buttons">
+            <button class="btn" onclick="filterElements('Todos')">Todos</button>
+            <button class="btn" onclick="filterElements('Gênero')">Gênero</button>
+            <button class="btn" onclick="filterElements('Localização')">Localização</button>
+            <button class="btn" onclick="filterElements('Data')">Data</button>
         </div>
-    </header>
-
-    <main>
-        <ul class="cards">
-            <li>
-                <div class="header">
-                    <i class="classph-graduation-cap"></i>
-                    <h2>How to Start</h2>
+        <div class="objects">
+            <div class="box Gênero">
+                <h3>Gênero</h3>
+                <div class="row justify-content-center" class="box Gênero">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, maxime consequatur inventore fugiat rem possimus explicabo. Assumenda sequi nobis voluptate.
-                </p>
-                <a href="#">More</a>
-            </li>
-            <li>
-                <div class="header">
-                    <i class="classph-bug"></i>
-                    <h2>Issues</h2>
+            </div>
+            <div class="box Gênero especial hide">
+                <div class="row justify-content-center" class="box Gênero">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ex magni odit delectus necessitatibus eum sed, placeat, illum facilis error minus quaerat temporibus! Hic soluta accusantium reprehenderit enim labore. Sint.
-                </p>
-                <a href="#">More</a>
-            </li>
-            <li>
-                <div class="classheader">
-                    <i class="classph-question"></i>
-                    <h2>FAQ</h2>
+            </div>
+            <div class="box Localização">
+                <h3>Localização</h3>
+                <div class="row justify-content-center" class="box Localização">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sapiente provident, voluptatem doloremque deleniti temporibus quaerat expedita in quibusdam at esse consectetur natus saepe! Distinctio numquam, ullam iste iusto reiciendis aperiam. Itaque nesciunt earum eum officia! Accusamus harum dicta itaque?
-                </p>
-                <a href="#">More</a>
-            </li>
-            <li>
-                <div class="classheader">
-                    <i class="classph-code"></i>
-                    <h2>Conding</h2>
+            </div>
+            <div class="box Localização especial hide">
+                <div class="row justify-content-center" class="box Localização">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, placeat aliquid sapiente accusantium, autem veniam quia, ducimus fugiat corrupti ipsum nostrum quaerat id maiores itaque aliquam nesciunt asperiores omnis magni!
-                </p>
-                <a href="#">More</a>
-            </li>
-        </ul>
-    </main>    
+            </div>
+            <div class="box Data">
+                <h3>Data</h3>
+                <div class="row justify-content-center" >
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box Data especial hide">
+                <div class="row justify-content-center" class="box Data">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="filtro_ex.js"></script>
+    <footer>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="./assets/logo-white-rd.png" alt="Logo">
+            </div>
+            <div class="links">
+                <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

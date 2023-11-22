@@ -1,0 +1,412 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #e5d7f0 !important;
+}
+
+.background-config {
+    background-color: #e5d7f0 !important;
+}
+
+.background-card {
+    background-color: #e5d7f0 !important;
+    border-color: #703fa9 !important; 
+}
+
+#foto-evento {
+    width: 100%;
+    height: 649px;
+    background-color: #D9D9D9;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+header {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 98.9%;
+    z-index: 1;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+}
+
+.redes-sociais-text {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+}
+
+.selecione_seu_estado {
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+
+.btn-shows-da-semana {
+    border-radius: 23px;
+    background-color: #421b6e;
+    color: #ffffff;
+}
+
+.btn-shows-da-semana:hover {
+    background-color: #33b78f
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.container {
+
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.quadrado {
+    margin-top: 50px;
+    width: 240.01px;
+    height: 312.38px;
+    border-radius: 20px;
+    background-color: #ccc;
+    margin: 40px;
+    display: inline-block;
+}
+
+button {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    z-index: 2;
+}
+
+.logo-header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.button {
+    color: #000;
+    /* Cor do texto no botão */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 225px
+}
+
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 300px;
+    border: none;
+}
+
+.search-bar i {
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
+}
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.li-footer {
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.li-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.p-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #C7C7C7;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+/* Playlist */
+
+#playlist {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container-playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.h5-playlist {
+    font-size: 30px;
+}
+
+.custom-lista {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+
+.nav-lista {
+    display: inline; /* Ou use "display: inline-block;" para adicionar margens entre os itens */
+    margin-right: 10px; /*  (opcional) */
+}
+
+.col-md-6 h6 {
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+    padding: 17px;
+}
+
+.col-md-6 p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 0 auto;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    text-align: left;
+
+}
+
+#carouselplaylist iframe {
+    float: right;
+    border-radius: 23px;
+    width: 20px;
+    height: 239px;
+
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Divide a largura em duas colunas iguais */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: auto;
+    height: auto;
+}
+
+.links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h5 {
+    text-align: left;
+    color: #000000;
+    font-size: 50px;
+}
+/* Estilos para o carrossel */
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Estilos para os cards dentro do carrossel */
+.card {
+    
+    border: 1px solid #ccc;
+    margin: 10px;
+    height: 96%; /* Defina uma altura máxima para os cards */
+}
+
+/*.card-body {
+    background-color: white;
+}*/
+.card-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1rem;
+    max-height: 60px; /* Defina uma altura máxima para a descrição do card */
+    overflow: hidden;
+}
+/*.carousel-control-prev:hover, .carousel-control-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+
+}*/
+.row-justify-content-center {
+    justify-content: center;
+}
+.container-playlist, .carousel-control-prev, .carousel-control-next {
+    margin-right: -120px;
+    margin-left: -120px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar {
+        padding-left: 0;
+        margin: 10px 0;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

@@ -1,117 +1,661 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mapa do Underground</title>
-    <link rel="stylesheet" href="exStyle.css">
+    <link rel="stylesheet" href="eventos-cidade.css">
+    <!--Jquery Carrossel-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/93b09a271f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Bootstrap 5-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
-
+    <!--HEADER-->
     <header>
-        <h1><a href="#">Mapa do Underground</a></h1>
-        <form action="resultado_pesquisa.html" method="get">
-            <input type="text" id="pesquisa" name="q" placeholder="Digite sua pesquisa aqui">
-            <input type="submit" value="Pesquisar">
-        </form>
+    <nav class="nav-bar">
+        <div class="logo-header">
+            <img src="./imagens/logo-white (2).png" style="width: 350px;">
+        </div>
 
-    </header>
+        <div class="search-bar">
+            <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
+        </div>
 
-    <nav>
-        <ul>
-            <li><a href="#">Eventos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Login</a></li>
-
-        </ul>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
+            </ul>
+        </div>
     </nav>
+</header>
 
-    <div id="Cidade">
-        <ul>
-            <a href="#"><img src="Imagens/Cidade_banner.png" alt=""></a>
-        </ul>
-    </div>
 
-    <div id="Para_voce">
-        <h2>Para você</h2> 
-        <img src="Imagens/seta-esquerda.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/seta-direita.png" alt="">
-    </div>
+    <!-- IMAGEM NO HEADER-->
+    
+</header>
+<img id="foto-evento" src="imagens/foto-evento-4.jpg" alt="">
 
-    <div id="Eventos_hoje">
-        <h2>Eventos hoje</h2> 
-        <img src="Imagens/seta-esquerda.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/seta-direita.png" alt="">
+    <!--PARA VOCE-->
+<div class="background-config">
+    <h2 class="selecione_seu_estado">PARA VOCE</h2>
+    <div class="container">
+        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Bahia.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO01</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO02</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Minas Gerais.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO03</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Paraná.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO04</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Pará.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 5"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO05</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 6"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO06</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Santa Catarina.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 7"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO07</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/São Paulo.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 8"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO08</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
     </div>
+</div>
 
-    <div id="Mais_populares">
-        <h2>Mais populares</h2> 
-        <img src="Imagens/seta-esquerda.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/seta-direita.png" alt="">
-    </div>
+    <!-- Inclua o Bootstrap JS no final do corpo para um melhor desempenho -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-    <div id="Eventos_essa_semana">
-        <h2>Eventos essa semana</h2> 
-        <img src="Imagens/seta-esquerda.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/seta-direita.png" alt="">
+<!--EVENTOS HOJE-->
+<div class="background-config">
+    <h2 class="selecione_seu_estado">EVENTOS HOJE</h2>
+    <div class="container">
+        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Bahia.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO01</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO02</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Minas Gerais.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO03</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Paraná.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO04</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Pará.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 5"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO05</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 6"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO06</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Santa Catarina.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 7"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO07</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/São Paulo.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 8"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO08</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
     </div>
+</div>
 
-    <div id="Eventos_gratuitos">
-        <h2>Eventos gratuitos</h2> 
-        <img src="Imagens/seta-esquerda.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/Selecione_seu_estado.png" alt="">
-        <img src="Imagens/seta-direita.png" alt="">
+    <!-- Inclua o Bootstrap JS no final do corpo para um melhor desempenho -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+<!--MAIS POPULARES-->
+<div class="background-config">
+    <h2 class="selecione_seu_estado">MAIS POPULARES</h2>
+    <div class="container">
+        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Bahia.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO01</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO02</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Minas Gerais.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO03</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Paraná.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO04</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Pará.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 5"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO05</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 6"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO06</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Santa Catarina.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 7"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO07</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/São Paulo.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 8"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO08</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
     </div>
+</div>
+
+    <!-- Inclua o Bootstrap JS no final do corpo para um melhor desempenho -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<!--EVENTOS ESSA SEMANA-->
+<div class="background-config">
+    <h2 class="selecione_seu_estado">EVENTOS ESSA SEMANA</h2>
+    <div class="container">
+        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Bahia.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO01</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO02</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Minas Gerais.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO03</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Paraná.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO04</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Pará.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 5"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO05</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 6"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO06</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Santa Catarina.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 7"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO07</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/São Paulo.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 8"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO08</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    <!-- Inclua o Bootstrap JS no final do corpo para um melhor desempenho -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<!--EVENTOS GRATUITOS-->
+<div class="background-config">
+    <h2 class="selecione_seu_estado">EVENTOS GRATUITOS</h2>
+    <div class="container">
+        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Bahia.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 1"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO01</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 2"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO02</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Minas Gerais.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 3"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO03</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Paraná.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 4"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO04</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Pará.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 5"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO05</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Rio de Janeiro.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 6"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO06</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/Santa Catarina.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 7"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO07</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card background-card">
+                                <a href="../pagina_eventos_cidade/eventos-cidade.html"><img src="./imagens/Estados/São Paulo.jpg" style="height: 200px;" class="card-img-top" alt="Imagem 8"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">EVENTO08</h5>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    <!-- Inclua o Bootstrap JS no final do corpo para um melhor desempenho -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
 
     
-    <div id="Playlist">
-
-        <h3>Playlist do Underground</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TdsDs3YU-mk?si=X8P8Li4Pc9QsOY5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h4>Virgingod</h4>
-        <p> Mateus, mais conhecido como virgingod*, foi um dos pioneiros no pluggn'b brasileiro, inspirado em artistas como David Shawty e Hella Sketchy. Participante do coletivo contracultura DIGIHORROR. </p>
-        <li> Rap </li>
-        <li> Trap </li>
-        <li> Odeia se definir por gênero musical </li>
+    <!-- PLAYSLIST -->
+    
+    <div class="container-playlist">
+    <div>
+        <h5 class="h5-playlist">PLAYLIST DO UNDERGROUND</h5>
     </div>
-
+        <div id="playlist" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Lupe de Lupe</h6>
+                            <p>
+                                "Vivemos numa realidade instantânea, caótica e etérea. A Lupe de Lupe se utiliza disso para
+                                promover um retalho de imagens aleatórias do que a banda encara como um tempo líquido em que
+                                as pessoas ouvem playlists e não álbuns, jogam jogos de mundo aberto com inúmeras rotas e
+                                procuram qualquer tipo de prazer momentâneo para aguentar mais um dia."
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xNRVq_VG1Bc" width="100%" height="300"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>BaianaSystem</h6>
+                            <p>
+                                "BaianaSystem é um projeto musical formado em 2009 com o objetivo de encontrar novas
+                                possibilidades sonoras para a guitarra baiana, instrumento criado em Salvador – Bahia nos anos
+                                1940 e que foi responsável pela criação do trio elétrico. O nome vem da junção de 'guitarra
+                                Baiana' com 'sound system', que são sistemas de som criados e popularizados na Jamaica."
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t21AT7MHE94" width="100%" height="350"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#playlist" data-bs-slide="prev">
+                <i class="bi bi-chevron-left" style="font-size: 30px; color: #000000"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#playlist" data-bs-slide="next">
+                <i class="bi bi-chevron-right" style="font-size: 30px; color: #000000"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <!--  FOOTER -->
+    <br>
     <footer>
-        <p>&copy; 2023 Mapa do Underground. Todos os direitos reservados.</p>
-        <ul>
-            <li><a href="#">Endereço</a></li>
-            <li><a href="#">Siga a gente nas redes sociais</a></li>
-            <li><a href="#">Dúvidas frequentes</a></li>
-        </ul>
-        
-        <ion-icon name="logo-instagram"></ion-icon> <a href="#"></a>
-        <ion-icon name="logo-facebook"></ion-icon> <a href="#"></a>
-        <ion-icon name="logo-twitter"></ion-icon> <a href="#"></a>
-        <ion-icon name="logo-tiktok"></ion-icon> <a href="#"></a>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="./imagens/logo-white-rd (2).png" alt="Logo">
+            </div>
+            <div class="links">
+                <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
+        </div>
     </footer>
-</body>
-<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
-
 </body>
 
 </html>

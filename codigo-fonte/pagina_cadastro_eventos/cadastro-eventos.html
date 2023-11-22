@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulários em Duas Colunas</title>
+    <title>Cadastro de Eventos</title>
     <link rel="stylesheet" href="cadastro-eventos.css">
         <!--Bootstrap 5-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -30,72 +30,70 @@
 <body>
     <body>
         <!--HEADER-->
-    <header>
-        <nav class="nav-bar">
-            <div class="logo-header">
-                <img src="./imagens/logo-white (2).png" style="width: 350px;">
-            </div>
-
-            <div class="search-bar">
-
-                <input type="text" placeholder="Buscar...">
-
-            </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a>
-                </ul>
-            </div>
-
-        </nav>
-
-    </header>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo-header">
+                    <img src="./imagens/logo-white (2).png" style="width: 350px;">
+                </div>
+        
+                <div class="search-bar">
+                    <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
+                </div>
+        
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                        <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     <br>
-    <div class="container  center-container">
-        <h2 name="titulo"> CADASTRO DE EVENTOS</h2>
+    <div class="container center-container">
+        <h1 class="container center-container">CADASTRO DE EVENTOS</h1>
+        <br> <!-- Adicione uma quebra de linha após o título -->
+        <b></b>
     </div>
+    <br>
     <br>
     <div class="container  center-container">
         <div class="row">
             <div class="col-md-6">
                 <form>
                     <div name="form-cad-evento">
-                        <label for="Nome do Evento:">Nome do Evento:</label>
+                        <label for="Nome do Evento:">&nbspNome do Evento:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <!-- Outros campos do primeiro formulário aqui -->
                     <div name="form-cad-evento">
-                        <label for="campo1">CEP:</label>
+                        <label for="campo1">&nbspCEP:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">CPF:</label>
+                        <label for="campo1">&nbspCPF:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Data do Evento:</label>
+                        <label for="campo1">&nbspData do Evento:</label>
                         <input type="date" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Classificação Indicativa:</label>
+                        <label for="campo1">&nbspClassificação Indicativa:</label>
                         <input type="number" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="atracoes">
-                        <label for="campo1">Equipe de Produção:</label>
+                        <label for="campo1">&nbspEquipe de Produção:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Lotação Máxima:</label>
+                        <label for="campo1">&nbspLotação Máxima:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                 </form>
@@ -103,37 +101,37 @@
             <div class="col-md-6">
                 <form>
                     <div name="form-cad-evento">
-                        <label for="campo2">Nome do Responsável:</label>
+                        <label for="campo2">&nbspNome do Responsável:</label>
                         <input type="text" class="form-control" id="campo2" name="campo2">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo2">Endereço:</label>
+                        <label for="campo2">&nbspEndereço:</label>
                         <input type="text" class="form-control" id="campo2" name="campo2">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">RG:</label>
+                        <label for="campo1">&nbspRG:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Hora:</label>
+                        <label for="campo1">&nbspHora:</label>
                         <input type="time" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Consumo:</label>
+                        <label for="campo1">&nbspConsumo:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="atracoes">
-                        <label for="campo1">Atrações:</label>
+                        <label for="campo1">&nbspAtrações:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <br>
                     <div name="form-cad-evento">
-                        <label for="campo1">Telefone:</label>
+                        <label for="campo1">&nbspTelefone:</label>
                         <input type="text" class="form-control" id="campo1" name="campo1">
                     </div>
                     <!-- Outros campos do segundo formulário aqui -->
@@ -146,7 +144,7 @@
     <div class="container  center-container">
         <form>
             <div name="email">
-                    <label for="campo1">E-mail:</label>
+                    <label for="campo1">&nbspE-mail:</label>
                     <input type="text" class="form-control" id="campo1" name="campo1">
             </div>
         </form>
@@ -155,14 +153,14 @@
     <div class="container  center-container">
         <form>
             <div name="desc-evento">
-                    <label for="campo1">Descrição do Evento:</label>
+                    <label for="campo1">&nbspDescrição do Evento:</label>
                     <input type="text" class="form-control" id="campo1" name="campo1">
             </div>
         </form>
     </div>
     <br>
     <div class="container center-container">
-        <button name="cadastro"> Cadastrar </button>
+        <button class="btn-shows-da-semana"> Cadastrar </button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 

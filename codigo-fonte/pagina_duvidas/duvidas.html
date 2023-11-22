@@ -33,27 +33,21 @@
             <div class="logo-header">
                 <img src="./imagens/logo-white (2).png" style="width: 350px;">
             </div>
-
+    
             <div class="search-bar">
-
-                <input type="text" placeholder="Buscar...">
-
+                <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
             </div>
-
+    
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
+                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
-    <div class="duvida-global">
+    <div name="duvida-global">
         <br>
         <div class="container center-container">
             <h1 class="container center-container">Como podemos te ajudar?</h1>
@@ -62,29 +56,30 @@
         </div>
         <br>
         <form class="form-inline container center-container" style="height: 70px; width: 500px;">
-            <input class="form-control mr-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" style="border-color: black !important; border-radius: 50px;">
-            <button class="btn btn-primary" type="submit" style="border-radius: 50px; background-color: rgb(13, 13, 13); border-color: aliceblue;">Pesquisar</button>
+            <input class="form-control mr-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" style="border-color:  #421b6e !important; border-radius: 50px;">
+            <button class="btn btn-primary" type="submit" style="border-radius: 50px; background-color: #421b6e; border-color: aliceblue;">Pesquisar</button>
         </form>
         <br>
     </div>
     
 
+<div style="background-image: linear-gradient(19deg, rgba(62, 236, 172, 0.5) 0%, rgba(161, 116, 238, 0.5) 100%);">
 <br>
-
 <div class="container center-container">
     <h2>Dúvidas Frequentes</h2>
 </div>
 <br>
 
-<div class="container center-container">
+
+<div class="container center-container" >
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; text-lef" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; background-color: #421b6e;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Como cadastrar eventos ?
         </button>
         <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <p>Os eventos são cadastrados na página de cadastro de eventos que pode ser acessada clicando no menu.</p>
-                <p>Também é possivel</p>
+            <li class="dropdown-item" style="display:contents;">
+                <p>&nbsp Os eventos são cadastrados na página de cadastro de eventos, que pode ser acessada pelo perfil do produtor. </p>
+                <p>&nbsp Caso ainda não tenha, crie um perfil conosco!</p>
             </li>
         </ul>
     </div>
@@ -93,13 +88,12 @@
 
 <div class="container center-container">
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; text-lef" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Como cadastrar eventos ?
+        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; background-color: #421b6e;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Como criar um perfil?
         </button>
         <ul class="dropdown-menu">
-            <li class="dropdown-item">
-                <p>Os eventos são cadastrados na página de cadastro de eventos que pode ser acessada clicando no menu.</p>
-                <p>Também é possivel</p>
+            <li class="dropdown-item" style="display:contents;">
+                <p>&nbspOs perfis são criados a partir da página de login, sendo acessada pelo menu do site, logo ali em cima! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
             </li>
         </ul>
     </div>
@@ -108,113 +102,56 @@
 
 <div class="container center-container">
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; text-lef" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Como cadastrar eventos ?
+        <button class="btn btn-secondary dropdown-toggle bi-text-left" style="width: 900px; white-space: normal; background-color: #421b6e;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Como divulgar meu evento?
         </button>
         <ul class="dropdown-menu">
             <li class="dropdown-item">
-                <p>Os eventos são cadastrados na página de cadastro de eventos que pode ser acessada clicando no menu.</p>
-                <p>Também é possivel</p>
+                <p>Os eventos são divulgados em nossas redes sociais, é só cadastrar no site e entrar em contato com a gente!</p>
             </li>
         </ul>
     </div>
 </div> 
-
-
 <br>
-
 <div class="container  center-container">
-    <h2 name="titulo"> CADASTRO DE EVENTOS</h2>
+    <h1 class="container center-container"> Não encontrou o que precisava?</h1>
 </div>
-<br>
-<div class="container  center-container">
-    <div class="row">
-        <div class="col-md-6">
-            <form>
-                <div name="form-cad-evento">
-                    <label for="Nome do Evento:">Nome do Evento:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <!-- Outros campos do primeiro formulário aqui -->
-                <div name="form-cad-evento">
-                    <label for="campo1">CEP:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">CPF:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Data do Evento:</label>
-                    <input type="date" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Classificação Indicativa:</label>
-                    <input type="number" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="atracoes">
-                    <label for="campo1">Equipe de Produção:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Lotação Máxima:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-            </form>
-        </div>
-        <div class="col-md-6">
-            <form>
-                <div name="form-cad-evento">
-                    <label for="campo2">Nome do Responsável:</label>
-                    <input type="text" class="form-control" id="campo2" name="campo2">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo2">Endereço:</label>
-                    <input type="text" class="form-control" id="campo2" name="campo2">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">RG:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Hora:</label>
-                    <input type="time" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Consumo:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="atracoes">
-                    <label for="campo1">Atrações:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <br>
-                <div name="form-cad-evento">
-                    <label for="campo1">Telefone:</label>
-                    <input type="text" class="form-control" id="campo1" name="campo1">
-                </div>
-                <!-- Outros campos do segundo formulário aqui -->
 
-            </form>
-        </div>
-    </div>
-</div> 
+<div class="container  center-container">
+    <h1 class="container center-container"> Fale conosco!</h1>
+</div>
 <br>
 <div class="container  center-container">
     <form>
         <div name="email">
-                <label for="campo1">E-mail:</label>
+                <label for="campo1">&nbspEndereço de e-mail*:</label>
+                <input type="text" class="form-control" id="campo1" name="campo1">
+        </div>
+    </form>
+</div>
+<br>
+<div class="container  center-container">
+    <form>
+        <div name="email">
+                <label for="campo1">&nbspNome:</label>
+                <input type="text" class="form-control" id="campo1" name="campo1">
+        </div>
+    </form>
+</div>
+<br>
+<div class="container  center-container">
+    <form>
+        <div name="email">
+                <label for="campo1">&nbspSobrenome*:</label>
+                <input type="text" class="form-control" id="campo1" name="campo1">
+        </div>
+    </form>
+</div>
+<br>
+<div class="container  center-container">
+    <form>
+        <div name="email">
+                <label for="campo1">&nbspAssunto:</label>
                 <input type="text" class="form-control" id="campo1" name="campo1">
         </div>
     </form>
@@ -223,19 +160,26 @@
 <div class="container  center-container">
     <form>
         <div name="desc-evento">
-                <label for="campo1">Descrição do Evento:</label>
+                <label for="campo1">&nbspDescrição:</label>
                 <input type="text" class="form-control" id="campo1" name="campo1">
         </div>
     </form>
 </div>
 <br>
+<div class="container  center-container" >
+    <form >
+                <label for="campo1" >Anexos:</label>
+                <input type="file" class="form-control" id="campo1" name="campo1">
+    </form>
+</div>
+<br>
 <div class="container center-container">
-    <button name="cadastro"> Cadastrar </button>
+    <button class="btn-shows-da-semana"> Enviar </button>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <br>
-
+</div>
 <footer>
     <div class="container-footer">
         <div class="logo">

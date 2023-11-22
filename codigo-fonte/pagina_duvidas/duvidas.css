@@ -5,13 +5,13 @@
 [name="form-cad-evento"] {
     width: 357px;
     height: 72.20px;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
 [name="answer-cad-evento"] {
 
-    background: #B2B2B2;
+    background: #e5d7f0;
     vertical-align: bottom;
 }
 
@@ -20,10 +20,9 @@
     justify-content: center;
 }
 
-.duvida-global {
+[name = duvida-global] {
     
-    background: #B3B3B3;
-
+    background-color:#e5d7f0; 
 
 }
 
@@ -34,37 +33,44 @@
 
 }
 .form-control {
-    background-color: #B2B2B2 !important; 
-    border-color: #B2B2B2 !important; 
+    background-color: #e5d7f0 !important; 
+    border-color: #e5d7f0 !important; 
 }
 
 [name="desc-evento"] {
     width: 740.15px !important; 
     height: 242.88px !important;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
 [name="atracoes"] {
     width: 357px;
     height: 183.23px;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
 [name="email"] {
     width: 739px !important;
     height: 72.20px !important;
-    background: #B2B2B2;
+    background: #e5d7f0;
     border-radius: 8px;
 }
 
-[name="cadastro"] {
+
+
+.btn-shows-da-semana {
     width: 201px;
     height: 48.17px;
-    background: #B2B2B2;
     border-radius: 8px;
-    border-color: #B2B2B2; 
+    background-color: #421b6e;
+    color: #ffffff;
+    border-color: #421b6e;
+}
+
+.btn-shows-da-semana:hover {
+    background-color: #33b78f
 }
 
 [name="titulo"] {
@@ -438,9 +444,9 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    
-    height: 120px;
-    display: flex;
+    flex-direction: column;
+    height: auto;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -448,15 +454,17 @@ footer {
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Divide a largura em duas colunas iguais */
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
 .logo img {
-    max-width: 200px;
-    ;
+    max-width: auto;
+    height: auto;
 }
 
 .links a {

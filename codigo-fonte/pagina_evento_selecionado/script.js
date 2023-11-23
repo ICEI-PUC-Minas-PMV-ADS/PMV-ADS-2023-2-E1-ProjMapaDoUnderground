@@ -14,3 +14,15 @@ document.getElementById('botao').addEventListener('click', function(event) {
     clicado = !clicado;
 });
 
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var menuIcon = document.getElementById("menuIcon");
+    var navList = document.getElementById("navList");
+
+    menuIcon.addEventListener("click", function () {
+        navList.classList.toggle("active");
+    });
+});

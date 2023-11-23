@@ -1,72 +1,94 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
-    background-color: #e5d7f0 !important;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #e5d7f0 !important;
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .background-config {
-    background-color: #e5d7f0 !important;
+  background-color: #e5d7f0 !important;
 }
 
 /* CONFIGURAÇÕES HEADER */
 
 header {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    box-shadow: 0px -3px 10px #b9b9b9;
-    position: relative;
-    height: 100 vh;
-    width: 100%;
+  background-image: linear-gradient(
+    147deg,
+    #421b6e 0%,
+    #5e2089 33%,
+    #33b78f 73%,
+    #421b6e 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  box-shadow: 0px -3px 10px #b9b9b9;
+  position: relative;
+  width: 100%;
 }
 
 li {
-    list-style-type: none;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 a {
-    text-decoration: none !important;
-    color: rgb(255, 255, 255) !important;
-    font-size: 18px;
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 18px;
 }
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6rem;
-}
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    width: 100%; /* Garante que a barra de navegação ocupe a largura total */
+  }
 
-.logo-header { 
-    align-items: left;
-    width: 10%; 
+.logo-header {
+  width: 10%; /* Ajuste o valor conforme necessário */
+  margin-left: 5%;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 10px 20px;
-}
+    margin: 0px; /* Remova a margem para evitar espaçamento indesejado */
+    padding-left: 10%;
+    width: 100%;
+  }
+  
+  /* Adicione uma media query para ajustar o estilo em telas menores */
+  @media only screen and (max-width: 768px) {
+    .nav-list ul {
+      justify-content: space-around; /* Ou outro valor que você preferir */
+    }
+  }
 
 .nav-item {
-    padding-top: 10px;
-    margin: 0 15px;
-    font-size: 20px;
+  padding-top: 10px;
+  margin: 0 15px;
+  font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+  white-space: nowrap; /* Evita que os itens se quebrem em várias linhas */
 }
+
 
 .search-bar ::placeholder {
     color: #000000;
@@ -79,23 +101,114 @@ a {
 
 .search-bar {
     display: flex;
+    flex: 1;
     align-items: center;
-    margin-left: 18%;
+    width: 60%; /* Ajuste a largura conforme necessário */
+    min-width: 300px; /* Define uma largura mínima */
+
+    /* Adapta a largura em telas menores */
+    @media only screen and (max-width: 768px) {
+        width: 100%; /* Ocupa a largura total em telas menores */
+    }
 }
 
 .search-bar input {
     padding: 8px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 10px;
-    width: 300px;
+    width: 100%; /* Ocupa a largura total */
     border: none;
+
+    /* Ajusta o tamanho da fonte em telas menores, se necessário */
+    @media only screen and (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
-.search-bar i {
-    margin: 0 5px;
-    /* Espaçamento entre o ícone e o input */
+/* CONFIGURAÇÕES HEADER */
+
+/* Adicionando estilos para o menu sanduíche */
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+/* Estilos para telas menores usando media query */
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column; /* Ajusta a direção do layout para uma coluna */
+    align-items: flex-start; /* Centraliza os itens na coluna */
+    position: fixed; /* Altera para posição fixa */
+    top: 90px; /* Ajusta a posição para abaixo do header */
+    right: 0; /* Muda a posição para o lado direito */
+    width: 100%;
+    background-color: #5e2089; /* Cor de fundo para a lista de navegação */
+    z-index: 2;
+    transition: top 0.3s, margin-top 0.3s; /* Adiciona uma transição suave para as propriedades top e margin-top */
+    
+  }
+
+  .nav-list.active {
+    display: flex; /* Adiciona para exibir a lista quando ativa */
+    margin-top: 70px;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    position: fixed; /* Adicionando posição fixa */
+    top: 55px; /* Ajuste a posição conforme necessário */
+    right: 50px; /* Ajuste a posição conforme necessário */
+    z-index: 3; /* Certifique-se de que o ícone fique acima do conteúdo da página */
+  }
+
+  .search-bar {
+    width: 50%; /* Ajuste para ocupar a largura total */
+    margin-top: 10px;
+    order: 2; /* Ajusta a ordem para garantir que apareça após o ícone do menu */
+    align-items: left; /* Alinha os itens ao centro */
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+
+  .search-bar input {
+    width: calc(
+      100% - 20px
+    ); /* Ajusta a largura do input para levar em consideração o espaçamento */
+  }
+
+  .nav-bar {
+    justify-content: space-between; /* Ajusta o layout para mostrar o menu sanduíche */
+    padding: 1.5rem 1rem; /* Ajusta o espaçamento */
+    position: relative;
+    min-height: 70px; /* Garante espaço suficiente quando o menu está aberto */
+  }
+
+/* Ajuste para exibir itens um em cima do outro */
+
+  .nav-list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style: none;
+    padding: 10px 10px;
+    margin-left: 25px;
+  }
+
+  .nav-item {
+    padding-top: 10px;
+    margin: 0;
     font-size: 20px;
-    /* Tamanho do ícone */
+  }
 }
 
 /* CONFIGURAÇÕES HEADER */
@@ -104,46 +217,69 @@ a {
 
 /* CONFIGURAÇÕES FOOTER */
 
+/* Estilos padrão para o footer */
+
 footer {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    background-image: linear-gradient(
+      147deg,
+      #421b6e 0%,
+      #5e2089 33%,
+      #33b78f 73%,
+      #421b6e 100%
+    );
     padding: 20px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    height: 120px;
+    font-family: "Poppins", sans-serif;
+    height: auto;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-}
-
-.container-footer {
+  }
+  
+  .container-footer {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.logo img {
-    max-width: 200px;
-
-}
-
-.links a {
-    margin: 0 20px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.redes-sociais a {
+  }
+  
+  .logo img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .links,
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .links a,
+  .redes-sociais a {
     margin: 0 10px;
     text-decoration: none;
-}
-
-.redes-sociais i {
+    color: #ffffff;
+  }
+  
+  .redes-sociais i {
     font-size: 24px;
     color: #ffffff;
-}
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .links,
+    .redes-sociais {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 
 /* CONFIGURAÇÕES FOOTER */
 
@@ -151,111 +287,117 @@ footer {
 
 /* CONTEÚDO DA PAGINA */
 
-
 h1 {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .capa-evento {
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 33px;
+    border-radius: 20px;
     margin: 10px auto;
     clear: both;
-}
-
+  }
 
 h3 {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 24px;
-    padding-bottom: 57px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 57px;
 }
 
-h2{
-    padding-left: 10%;
-    
+h2 {
+  padding-left: 10%;
 }
 
-p{
-    margin-left: 10%;
-    margin-right:10%;
-    font-size: 22px;
-    padding-bottom: 42px;
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 22px;
+  padding-bottom: 42px;
 }
 
 /* FAVORITAR */
 
 .botao-imagem {
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    width: 80px;
-    margin-top: -50px;
-    margin-left: 85%;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 80px;
+  margin-top: -50px;
+  margin-left: 85%;
 }
 
 .botao-imagem img {
-    border: none;
-    width: 100%; /* Ajuste o tamanho conforme necessário */
+  border: none;
+  width: 100%; /* Ajuste o tamanho conforme necessário */
 }
+
+
+@media only screen and (max-width: 768px) {
+    .botao-imagem {
+      width: 60px; /* Ajuste conforme necessário para telas menores */
+      margin-left: 80%; /* Ajuste conforme necessário para telas menores */
+    }
+  }
+
 
 /* COMENTÁRIOS */
 
 .comment-section {
-    max-width: 78%;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 78%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .comment {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
 }
 
 .info-usuario {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .info-usuario img {
-    border-radius: 50%;
-    margin-right: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .comentario-usuario {
-    font-size: 18px;
-    margin-left: 5%;
+  font-size: 18px;
+  margin-left: 5%;
 }
 
 textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    resize: vertical;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 button {
-    padding: 10px;
-    background-color: #421b6e;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 100%;
+  padding: 10px;
+  background-color: #421b6e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }

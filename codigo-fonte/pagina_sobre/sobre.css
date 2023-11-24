@@ -5,14 +5,6 @@ body p {
     flex-shrink: 0;
     margin-left: 480px;
 }
-
-header {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    box-shadow: 0px -3px 10px #b9b9b9;
-    position: relative;
-    height: 15vh;
-    width: 98, 9vw;
-}
 #foto-evento {
     margin-top: 50px;
     width: 100%;
@@ -22,6 +14,26 @@ header {
     align-items: center;
     margin-bottom: 50px;
     
+}
+
+header {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
+    position: relative;
+    height: 17vh;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
 }
 
 .nav-bar {
@@ -41,7 +53,6 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
-
 }
 
 .nav-list ul {
@@ -55,24 +66,6 @@ header {
     padding-top: 10px;
     margin: 0 15px;
     font-size: 20px;
-
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #000;
-    padding: 10px 20px;
-}
-
-.button {
-    color: #000;
-    /* Cor do texto no botão */
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    /* Borda arredondada */
 }
 
 .search-bar ::placeholder {
@@ -105,28 +98,43 @@ header {
     /* Tamanho do ícone */
 }
 
-.ul-footer {
-    list-style: none;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    padding-top: 10px;
-    text-decoration: none;
-}
-
-.li-footer {
-    list-style: none;
-    background-color: #D9D9D9;
-    border-radius: 33px;
-    padding: 10px;
-    margin: 50px;
-    flex: 1;
+footer {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    padding: 20px;
+    margin-top: 10%;
     text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: none;
-
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
 
 
 .titulo, .titulo-equipe {
@@ -155,19 +163,6 @@ header {
 .card-line-one .card .card-body .card-text, .card-line-two .card .card-body .card-text {
     margin-left: -250%;
     margin-top: 5%;
-}
-
-footer {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    padding: 20px;
-    padding-top: 150px;
-    margin-top: 10%;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .background-config {
     background-color: #e5d7f0 !important;

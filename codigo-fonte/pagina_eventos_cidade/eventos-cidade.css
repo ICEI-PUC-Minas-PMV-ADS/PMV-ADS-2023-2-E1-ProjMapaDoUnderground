@@ -18,7 +18,7 @@ body {
 
 #foto-evento {
     width: 100%;
-    height: 649px;
+    height: 600px;
     background-color: #D9D9D9;
     background-size: cover;
     align-items: center;
@@ -31,7 +31,7 @@ header {
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
-    width: 98.9%;
+    width: 100%;
     z-index: 1;
 }
 
@@ -75,7 +75,6 @@ h2 {
 }
 
 .container {
-
     justify-content: space-between;
     padding-bottom: 70px;
 }
@@ -254,14 +253,14 @@ footer {
     margin-right: 10px; /*  (opcional) */
 }
 
-.col-md-6 h6 {
+.col-md-3 h6 {
     text-align: left;
     color: #000000;
     font-size: 25px;
     padding: 17px;
 }
 
-.col-md-6 p {
+.col-md-3 p {
     font-size: 18px;
     margin-bottom: 50px;
     width: 0 auto;
@@ -410,3 +409,4 @@ h5 {
         text-align: center;
     }
 }
+

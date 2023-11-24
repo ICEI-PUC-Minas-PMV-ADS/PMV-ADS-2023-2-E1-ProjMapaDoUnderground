@@ -53,9 +53,19 @@ a {
     width: 100%; 
   }
 
-.logo-header {
-  width: 5%; 
-  margin-left: 5%;
+  .logo-header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: auto;
+    height: auto;
+}
+
+.logo-header img {
+  width: 90%;
+  margin-left: 10%;
 }
 
 .nav-list {

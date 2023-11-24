@@ -13,101 +13,107 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-    <nav class="nav-bar">
-        <div class="logo-header">
-            <img src="imagens/logo-white (2).png" style="width: 350px;">
-            <a href="../pagina_principal/principal.html"></a>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo-header">
+                <a href="../pagina_principal/principal.html"><img src="imagens/logo-white.png">
+                </a>
+            </div>
+
+            <div class="search-bar">
+
+                <input type="text" placeholder="Buscar...">
+
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
+                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="../pagina_cadastro_usuario/cadastro-usuario.html" target="_self" class="nav-link">Cadastre-se</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <div class="wrappers-container">
+        <div class="wrapper usuario-wrapper">
+            <form action="">
+                <h1>Login Usuário</h1>
+                <p>Conheça os melhores eventos</p>
+                <div class="form-floating input-box">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="your-email@gmail.com" />
+                    <label for="floatingInput">Email</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="form-floating input-box">
+                    <input type="password" class="form-control" id="floatingInput" placeholder="password" />
+                    <label for="floatingInput">Senha</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="form-check remember-forgot">
+                    <input type="checkbox" class="form-check-input" id="manterConectado" name="manterConectado">
+                    <label for="manterConectado">Mantenha-me conectado</label>
+                    <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar Conta</u></a>
+                </div>
+
+                <a href="../pagina_principal/principal.html" button class="btn btn-primary btn-lg custom-btn">LOGIN</a>
+                
+
+            </form>
         </div>
 
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar...">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
-            </ul>
-        </div>
-    </nav>
-</header>
+        <div class="wrapper produtor-wrapper">
+            <form action="">
+                <h1>Login Produtor</h1>
+                <p>Crie eventos inesquecíveis</p>
+                <div class="form-floating input-box">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="your-email@gmail.com" />
+                    <label for="floatingInput">Email</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="form-floating input-box">
+                    <input type="password" class="form-control" id="floatingInput" placeholder="password" />
+                    <label for="floatingInput">Senha</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="form-check remember-forgot">
+                    <input type="checkbox" class="form-check-input" id="manterConectado" name="manterConectado">
+                    <label for="manterConectado">Mantenha-me conectado</label>
+                    <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar Conta</u></a>
+                </div>
 
-<div class="wrappers-container">
-    <div class="wrapper usuario-wrapper">
-        <form action="">
-            <h1>Login Usuário</h1>
-            <p>Conheça os melhores eventos</p>
-            <div class="form-floating input-box">
-                <input type="email" class="form-control" id="floatingInput" placeholder="your-email@gmail.com" />
-                <label for="floatingInput">Email</label>
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="form-floating input-box">
-                <input type="password" class="form-control" id="floatingInput" placeholder="password" />
-                <label for="floatingInput">Senha</label>
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <div class="form-check remember-forgot">
-                <input type="checkbox" class="form-check-input" id="manterConectado" name="manterConectado">
-                <label for="manterConectado">Mantenha-me conectado</label>
-                <a href="#">Criar Conta</a>
-            </div>
-
-            <button class="btn btn-primary btn-lg custom-btn">LOGIN</button>
-        </form>
-    </div>
-
-    <div class="wrapper produtor-wrapper">
-        <form action="">
-            <h1>Login Produtor</h1>
-            <p>Crie eventos inesquecíveis</p>
-            <div class="form-floating input-box">
-                <input type="email" class="form-control" id="floatingInput" placeholder="your-email@gmail.com" />
-                <label for="floatingInput">Email</label>
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="form-floating input-box">
-                <input type="password" class="form-control" id="floatingInput" placeholder="password" />
-                <label for="floatingInput">Senha</label>
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <div class="form-check remember-forgot">
-                <input type="checkbox" class="form-check-input" id="manterConectado" name="manterConectado">
-                <label for="manterConectado">Mantenha-me conectado</label>
-                <a href="#">Criar Conta</a>
-            </div>
-
-            <button class="btn btn-primary btn-lg custom-btn">LOGIN</button>
-        </form>
-    </div>
-</div>
-
-<footer>
-    <div class="container-footer">
-        <div class="logo">
-            <img src="imagens/logo-white-rd (2).png" alt="Logo">
-        </div>
-        <div class="links">
-            <a
-                href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
-            <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
-            <a href="#">Siga a gente nas redes sociais</a>
-        </div>
-        <div class="redes-sociais">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+                <a href="../pagina_principal/principal.html" button class="btn btn-primary btn-lg custom-btn">LOGIN</button></a>
+            </form>
         </div>
     </div>
-</footer>
+
+    <footer>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="imagens/logo-white-rd.png" alt="Logo">
+
+            </div>
+            <div class="links">
+                <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

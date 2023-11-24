@@ -16,7 +16,6 @@ body {
     border-color: #703fa9 !important; 
 }
 
-
 .carrossel {
     margin-top: 50px;
     width: 1280px;
@@ -30,7 +29,7 @@ body {
 }
 .carousel-container {
     position: sticky;
-    margin-top: 50px; /* Adjust the margin as needed */
+    margin-top: 0px; /* Adjust the margin as needed */
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -48,7 +47,7 @@ header {
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
-    width: 98.9%;
+    width: 100%;
     z-index: 1;
 }
 
@@ -73,7 +72,6 @@ a {
 .selecione_seu_estado {
     margin-bottom: 50px;
     margin-top: 50px;
-   
 }
 
 .btn-shows-da-semana {
@@ -92,7 +90,6 @@ h2 {
 }
 
 .container {
-
     justify-content: space-between;
     padding-bottom: 70px;
 }
@@ -375,14 +372,12 @@ h4 {
 .botao-genero {
     width: 200px;
     text-align: center;
-    margin-right: 400px;
-    padding-left: 34px;
+    padding-left: 24px;
     padding-right: 10px;
     border-radius: 23px;
     align-self: flex-start;
     background-color: #421b6e;
     color: #ffffff;
-   
 }
 
 .botao-genero:hover {

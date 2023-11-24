@@ -18,270 +18,173 @@ html {
 /* CONFIGURAÇÕES HEADER */
 
 header {
-  background-image: linear-gradient(
-    147deg,
-    #421b6e 0%,
-    #5e2089 33%,
-    #33b78f 73%,
-    #421b6e 100%
-  );
+  background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);
+  padding: 15px;
   display: flex;
-  flex-direction: column;
-  align-items:center;
-  box-shadow: 0px -3px 10px #b9b9b9;
-  position: relative;
-  width: 100%;
-}
-
-li {
-  list-style-type: none;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-a {
-  text-decoration: none !important;
-  color: rgb(255, 255, 255) !important;
-  font-size: 18px;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 1.5rem;
-    width: 100%; 
-  }
-
-  .logo-header {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    width: auto;
-    height: auto;
-}
-
-.logo-header img {
-  width: 90%;
-  margin-left: 10%;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0px; 
-    padding-left: 10%;
-    width: 100%;
-  }
-  
-  /* Adicione uma media query para ajustar o estilo em telas menores */
-  @media only screen and (max-width: 768px) {
-    .nav-list ul {
-      justify-content: space-around; 
-    }
-  }
-
-.nav-item {
-  padding-top: 10px;
-  margin: 0 15px;
-  font-size: 18px; 
-  white-space: nowrap; /* Evita que os itens se quebrem em várias linhas */
+.logo-container {
+  flex: 0 0 auto;
 }
 
-
-.search-bar ::placeholder {
-    color: #000000;
-    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -0, 5em;
-    padding-left: 4.0em;
+.logo {
+  height: 70px;
 }
-
-.search-bar {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    width: 60%; 
-    min-width: 300px; /* Define uma largura mínima */
-
-    /* Adapta a largura em telas menores */
-    @media only screen and (max-width: 768px) {
-        width: 100%; 
-    }
-}
-
-.search-bar input {
-    padding: 8px;
-    border-radius: 15px;
-    margin-right: 10px;
-    width: 100%; /* Ocupa a largura total */
-    border: none;
-
-    /* Ajusta o tamanho da fonte em telas menores, se necessário */
-    @media only screen and (max-width: 768px) {
-        font-size: 14px;
-    }
-}
-
-/* Adicionando estilos para o menu sanduíche */
 
 .menu-icon {
   display: none;
+  font-size: 24px;
+  color: #fff;
   cursor: pointer;
 }
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
+.search-and-links {
+  display: flex;
+  align-items: center;
 }
 
-/* Estilos para telas menores usando media query */
-@media only screen and (max-width: 768px) {
-  .nav-list {
-    display: none;
-    flex-direction: column; 
-    align-items: flex-start; 
-    position: fixed; 
-    top: 90px; 
-    right: 0; 
+.search-bar input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px; /* ou qualquer valor desejado para o arredondamento */
+  padding: 5px; /* ajuste conforme necessário */
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Media query para tornar o menu responsivo */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #5e2089;
     width: 100%;
-    background-color: #5e2089; 
-    z-index: 2;
-    transition: top 0.3s, margin-top 0.3s; 
-    
+    display: none;
   }
 
-  .nav-list.active {
-    display: flex; 
-    margin-top: 70px;
+  .nav-links a {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 0.5px inset #fff;
+    width: 100%;
+    text-align: left;
+    margin-right: -5%;
+  }
+
+  .nav-links.active {
+    display: flex;
+    margin-top: 35px;
   }
 
   .menu-icon {
     display: block;
-    cursor: pointer;
-    position: fixed; 
-    top: 55px; 
-    right: 50px; 
-    z-index: 3; 
+  }
+
+  .search-and-links {
+    flex-direction: column;
+    align-items: center;
   }
 
   .search-bar {
-    width: 50%; 
+    display: block;
     margin-top: 10px;
-    order: 2; 
-    align-items: left; 
-    margin-bottom: 30px;
-    margin-left: 25px;
+    margin-right: 0;
   }
 
-  .search-bar input {
-    width: calc(
-      100% - 20px
-    ); 
-  }
-
-  .nav-bar {
-    justify-content: space-between;
-    padding: 1.5rem 1rem; 
-    position: relative;
-    min-height: 70px; 
-  }
-
-/* Ajuste para exibir itens um em cima do outro */
-
-  .nav-list ul {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    list-style: none;
-    padding: 10px 10px;
-    margin-left: 25px;
-  }
-
-  .nav-item {
-    padding-top: 10px;
-    margin: 0;
-    font-size: 20px;
+  .search-and-links {
+    width: 100%;
+    justify-content: center;
   }
 }
 
 /* CONFIGURAÇÕES FOOTER */
 
 footer {
-    background-image: linear-gradient(
-      147deg,
-      #421b6e 0%,
-      #5e2089 33%,
-      #33b78f 73%,
-      #421b6e 100%
-    );
-    padding: 20px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    height: auto;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container-footer {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .logo img {
-    max-width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .links,
-  .redes-sociais {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-  }
-  
-  .links a,
-  .redes-sociais a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  .redes-sociais i {
-    font-size: 24px;
-    color: #ffffff;
-  }
-  
+  background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  @media only screen and (max-width: 768px) {
-    .links,
-    .redes-sociais {
-      flex-direction: column;
-      text-align: center;
-    }
-  }
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 200px;
+  align-items: center;
+}
+
+.links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.redes-sociais i {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.ul-footer {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.li-footer{
+  list-style: none;
+  background-color: #D9D9D9;
+  border-radius: 33px;
+  padding: 10px;
+  margin: 50px;
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.p-footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
 
 
 /* CONTEÚDO DA PAGINA */
@@ -340,8 +243,8 @@ p {
 
 @media only screen and (max-width: 768px) {
     .botao-imagem {
-      width: 60px; 
-      margin-left: 80%; 
+      width: 60px; /* Ajuste conforme necessário para telas menores */
+      margin-left: 80%; /* Ajuste conforme necessário para telas menores */
     }
   }
 

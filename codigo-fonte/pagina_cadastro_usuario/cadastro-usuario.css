@@ -24,8 +24,7 @@
     background: #421b6e;
     border-radius: 8px;
     border-color:  #421b6e; 
-    color: #b2b2b2;
-}
+    color: #b2b2b2;}
 
 .center-container {
     display: flex;
@@ -72,15 +71,14 @@
 
 footer{
     background-color: #C7C7C7;
-    padding:  0px 20px;
     text-align: center;
-    margin-top: auto;
+
 }
 
 header {
     background-color: #D9D9D9;
     box-shadow: 0px 3px 10px  #b9b9b9;
-    position: relative;
+    position : relative;
     height: 15vh;
     width: 98,9vw;
 }
@@ -246,12 +244,8 @@ footer {
 
 .search-bar i {
     margin: 0 5px;
-    /* Espaçamento entre o ícone e o input */
     font-size: 20px;
-    /* Tamanho do ícone */
 }
-
-/* divisor*/
 
 
 header {

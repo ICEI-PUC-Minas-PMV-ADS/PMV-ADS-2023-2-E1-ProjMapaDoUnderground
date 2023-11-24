@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,7 @@ body {
 
 .usuario-wrapper {
     background: #3eecac80;
+    border-right: 50px;
 }
 
 .produtor-wrapper {
@@ -117,6 +122,10 @@ body {
 
 .produtor-wrapper .custom-btn:hover {
     background-color: #33b78f !important;
+}
+
+.remember-forgot .criar-conta {
+    float: right;
 }
 
 .register {

@@ -1,6 +1,9 @@
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
 body {
   background-color: #e5d7f0 !important;
-  font-family: 'Poppins', sans-serif !important;
 }
 
 #carouselGeneros {
@@ -13,7 +16,6 @@ body {
   text-align: left;
   padding-top: 50px;
 }
-
 
 .carousel-inner {
   max-height: 400px; /* Defina a altura máxima conforme desejado */
@@ -36,6 +38,15 @@ body {
 .h2-evento {
   font-size: 15px;
   margin-top: 10px;
+}
+
+a .h2-evento {
+  color: #000000;
+  position: center;
+}
+
+a .h2-evento:hover {
+  color: #421b6e
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -163,6 +174,7 @@ footer {
   padding: 20px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,7 +182,7 @@ footer {
 }
 
 .container-footer {
-  max-width: 1200px; /* Adjust the max-width as needed */
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -198,5 +210,4 @@ footer {
   color: #ffffff;
 }
 
-/* CONFIGURAÇÕES FOOTER */
-
+/* FIM CONFIGURAÇÕES FOOTER */

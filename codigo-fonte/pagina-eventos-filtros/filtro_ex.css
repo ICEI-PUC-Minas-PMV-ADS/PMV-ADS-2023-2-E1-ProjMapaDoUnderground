@@ -16,13 +16,6 @@ body {
     border-color: #703fa9 !important; 
 }
 
-.buttons {
-    margin: 0 auto;
-    text-align: center;
-    padding: 2rem;
-    padding-top: 1%;
-}
-
 .box {
     text-align: center;
     display: none;
@@ -30,29 +23,24 @@ body {
     padding-bottom: 8%;
 }
 
-.box h3 {
-    padding-bottom: 3%;
-    padding-top: 0 auto;
-}
-
 .col-md-2 .card {
     background-color: aqua;
     display: flex;
-    height: 300%;
+    height: 86%;
 }
-
-.show {
-    display: block;
+.projects {
+    margin-left: 18%;
+    padding-top: 2%;
 }
-.hide {
-    display: none;
+.projects button {
+    margin-left: 5%;
 }
 
 header {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
-    height: 15vh;
+    height: 0%;
     width: 100%;
 }
 
@@ -75,9 +63,11 @@ a {
     padding-right: 16.5%;
 }
 
-.logo-header {
+.logo-header img {
     display: flex;
     align-items: center;
+    margin-left: -20%;
+    margin-bottom: 0%;
 }
 
 .nav-list {
@@ -147,7 +137,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 20%;
 }
 
 .li-footer {
@@ -199,3 +189,46 @@ footer {
         font-size: 24px;
         color: #ffffff;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para links */
+  ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul li a:hover {
+    color: blue;
+  }

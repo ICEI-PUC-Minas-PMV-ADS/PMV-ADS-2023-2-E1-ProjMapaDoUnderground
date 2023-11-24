@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="filtro_ex.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Filtros</title>
 </head>
@@ -13,16 +16,12 @@
     <header>
         <nav class="nav-bar">
             <div class="logo-header">
-                <img src="./assets/logo-white.png" style="width: 350px;">
+                <img src="./imagens/logo-white1.png" style="width: 350px;">
                 <a href="../pagina_principal/principal.html"></a>
-            </div>
-    
-            <div class="search-bar">
-    
-                <input type="text" placeholder="Buscar...">
-    
-            </div>
-    
+            </div>    
+            <div class="search-bar">    
+                <input type="text" placeholder="Buscar...">    
+            </div>    
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
@@ -31,23 +30,35 @@
                     <li class="nav-item">
                         <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
                 </ul>
-            </div>
-    
+            </div>    
         </nav>
+    </header>
     <section class="projects">
-        <div class="buttons">
-            <button class="btn" onclick="filterElements('Todos')">Todos</button>
-            <button class="btn" onclick="filterElements('Gênero')">Gênero</button>
-            <button class="btn" onclick="filterElements('Localização')">Localização</button>
-            <button class="btn" onclick="filterElements('Data')">Data</button>
+        <button onclick="showGenre()">Filtrar por Gênero</button>
+        <div id="genreModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Escolha um Gênero:<br></br><br><button onclick="filterElements('Gênero')">Eletrônica</button></br><br><button onclick="filterElements('Gênero')">Rock</button></br><br><button onclick="filterElements('Gênero')">Reggae</button></br></h2>
         </div>
+        </div>
+
+        <button onclick="showLocal()">Filtrar por Localização</button>
+        <div id="localModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Escolha uma Localização<br></br><br><button onclick="filterElements('Localização')">São Paulo</button></br><br><button onclick="filterElements('Localização')">Rio de Janeiro</button></br><br><button onclick="filterElements('Localização')">Minas Gerais</button></br></h2>
+        </div>
+        </div>
+        
+        <button onclick="showCalendar()">Filtrar por Data</button><input type="text" id="datepicker">
+    </section>
+
         <div class="objects">
             <div class="box Gênero">
-                <h3>Gênero</h3>
                 <div class="row justify-content-center" class="box Gênero">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento brasuca.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -56,7 +67,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento burning spear.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -65,7 +76,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento dream-on.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -74,7 +85,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento encontro das tribos.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -83,7 +94,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento flor-da-vida.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -92,7 +103,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento goptun.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -105,7 +116,7 @@
                 <div class="row justify-content-center" class="box Gênero">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento jovens reggae.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -114,7 +125,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento mahina.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -123,7 +134,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento novas frequencias.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -132,7 +143,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento reggae experience.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -141,7 +152,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento reggae na lazy days.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -150,7 +161,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="#"><img src="./imagens/evento reggae na vibe.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -160,7 +171,6 @@
                 </div>
             </div>
             <div class="box Localização">
-                <h3>Localização</h3>
                 <div class="row justify-content-center" class="box Localização">
                     <div class="col-md-2">
                         <div class="card background-card">
@@ -277,7 +287,6 @@
                 </div>
             </div>
             <div class="box Data">
-                <h3>Data</h3>
                 <div class="row justify-content-center" >
                     <div class="col-md-2">
                         <div class="card background-card">
@@ -399,7 +408,7 @@
     <footer>
         <div class="container-footer">
             <div class="logo">
-                <img src="./assets/logo-white-rd.png" alt="Logo">
+                <img src="./imagens/logo-white-rd.png" alt="Logo">
             </div>
             <div class="links">
                 <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>

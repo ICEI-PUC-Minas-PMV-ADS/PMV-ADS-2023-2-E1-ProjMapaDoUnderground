@@ -30,25 +30,26 @@
 
 <body>
     <!--HEADER-->
-    <header>
-    <nav class="nav-bar">
+    <header class="header-container">
         <div class="logo-header">
-            <img src="./imagens/logo-white (2).png" style="width: 350px;">
+            <a href="../pagina_principal/principal.html">
+                <img src="./imagens/logo-white.png" width="100" height="70" alt="Logo">
+            </a>
         </div>
-
         <div class="search-bar">
-            <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
+          <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="nav-links">
+          <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+          <a href="..\pagina_sobre\sobre.html">Sobre</a>
+          <a href="..\pagina_login\login.html">Meu perfil</a>
         </div>
 
-        <div class="nav-list">
-            <ul>
-                <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <script src="./menu.js"></script>
+
+
+      </header>
 
 
     <!-- IMAGEM NO HEADER-->
@@ -58,7 +59,7 @@
 
     <!--PARA VOCE-->
 <div class="background-config">
-    <h2 class="selecione_seu_estado">PARA VOCE</h2>
+    <h2 class="selecione_seu_estado">PARA VOCÊ</h2>
     <div class="container">
         <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -164,7 +165,7 @@
 <div class="background-config">
     <h2 class="selecione_seu_estado">EVENTOS HOJE</h2>
     <div class="container">
-        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="multi-item-carousel2" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -247,11 +248,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#multi-item-carousel2" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#multi-item-carousel2" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </a>
@@ -269,7 +270,7 @@
 <div class="background-config">
     <h2 class="selecione_seu_estado">MAIS POPULARES</h2>
     <div class="container">
-        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="multi-item-carousel3" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -352,11 +353,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#multi-item-carousel3" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#multi-item-carousel3" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </a>
@@ -373,7 +374,7 @@
 <div class="background-config">
     <h2 class="selecione_seu_estado">EVENTOS ESSA SEMANA</h2>
     <div class="container">
-        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="multi-item-carousel4" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -456,11 +457,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#multi-item-carousel4" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#multi-item-carousel4" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </a>
@@ -477,7 +478,7 @@
 <div class="background-config">
     <h2 class="selecione_seu_estado">EVENTOS GRATUITOS</h2>
     <div class="container">
-        <div id="multi-item-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div id="multi-item-carousel5" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -560,11 +561,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#multi-item-carousel" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#multi-item-carousel5" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </a>
-            <a class="carousel-control-next" href="#multi-item-carousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#multi-item-carousel5" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </a>

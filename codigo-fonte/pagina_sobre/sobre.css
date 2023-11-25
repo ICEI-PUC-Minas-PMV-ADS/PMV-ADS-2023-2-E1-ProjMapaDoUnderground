@@ -45,110 +45,98 @@ body p {
     background-color: #e5d7f0 !important;
 }
 
-header {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    box-shadow: 0px -3px 10px #b9b9b9;
+header.header-container {
     position: relative;
-    height: 15vh;
-    width: 100%;
-    z-index: 1;
-}
-
-li {
-    list-style-type: none;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-a {
-    text-decoration: none !important;
-    color: rgb(255, 255, 255) !important;
-    font-size: 18px;
-}
-
-.nav-bar {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);
+    padding: 15px;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
-    z-index: 2;
-}
-
-.logo-header img {
-    max-width: 100%;
-    height: auto;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: center;
     align-items: center;
+  }
+  
+  .logo-header img {
+    width: 300px;
+    height: 70px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse as dimensões especificadas */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  
+  .logo-header,
+  .logo-header a,
+  .logo-header img {
     margin: 0;
     padding: 0;
-
-}
-
-.nav-list ul {
+    border: 0;
+  }
+  .search-and-links {
     display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 10px 20px;
-}
-
-.nav-item {
-    padding-top: 10px;
-    margin: 0 15px;
-    font-size: 20px;
-
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #000;
-    padding: 10px 20px;
-}
-
-.button {
-    color: #000;
-    /* Cor do texto no botão */
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    /* Borda arredondada */
-}
-
-.search-bar ::placeholder {
-    color: #000000;
-    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -0, 5em;
-    padding-left: 4.0em;
-}
-
-.search-bar {
-    display: flex;
-    flex: 1;
     align-items: center;
-    padding-left: 225px
-}
-
-
-.search-bar input {
-    padding: 8px;
-    border-radius: 20px;
-    margin-right: 10px;
-    width: 300px;
-    border: none;
-}
-
-.search-bar i {
-    margin: 0 5px;
-    /* Espaçamento entre o ícone e o input */
-    font-size: 20px;
-    /* Tamanho do ícone */
-}
+  }
+  
+  .search-bar input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    padding: 5px; 
+  }
+  
+  .search-bar {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Estilos para telas maiores */
+  
+  @media screen and (min-width: 769px) {
+    #burger {
+      display: none; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none; 
+      position: absolute;
+      top: 100px; 
+      left: 0;
+      width: 100%;
+      background-color: #421b6e;
+      z-index: 1;
+    }
+  
+    #burger {
+      display: block; 
+      cursor: pointer;
+      background-color:  #33b78f;
+      border-radius: 50px;
+      color: white;
+      text-align: left;
+      padding: 10px;
+    }
+  
+    .nav-links.show {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav-links.show a {
+      padding: 15px;
+      text-align: left;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
 
 footer {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 

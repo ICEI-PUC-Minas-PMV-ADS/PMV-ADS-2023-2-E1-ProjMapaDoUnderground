@@ -13,26 +13,24 @@
     <title>Filtros</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo-header">
-                <img src="./imagens/logo-white1.png" style="width: 350px;">
-                <a href="../pagina_principal/principal.html"></a>
-            </div>    
-            <div class="search-bar">    
-                <input type="text" placeholder="Buscar...">    
-            </div>    
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a>
-                </ul>
-            </div>    
-        </nav>
-    </header>
+    <header class="header-container">
+        <div class="logo-container">
+          <a href="/codigo-fonte/pagina_principal/principal-usuario.html"><img src="./imagens/logo-white1.png" alt="Logo" class="logo"></a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="nav-links">
+          <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+          <a href="..\pagina_sobre\sobre.html">Sobre</a>
+          <a href="..\pagina_login\login.html">Meu perfil</a>
+        </div>
+
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <script src="./menu.js"></script>
+
+
+      </header>
     <section class="projects">
         <button onclick="showGenre()">Filtrar por Gênero</button>
         <div id="genreModal" class="modal">
@@ -56,7 +54,7 @@
                 <div class="row justify-content-center" class="box Gênero">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento brasuca.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento brasuca.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -65,7 +63,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento burning spear.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento burning spear.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -74,7 +72,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento dream-on.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento dream-on.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -83,7 +81,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento encontro das tribos.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento encontro das tribos.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -92,7 +90,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento flor-da-vida.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento flor-da-vida.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -101,7 +99,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento goptun.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento goptun.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -114,7 +112,7 @@
                 <div class="row justify-content-center" class="box Gênero">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento jovens reggae.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento jovens reggae.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -123,7 +121,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento mahina.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento mahina.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -132,7 +130,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento novas frequencias.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento novas frequencias.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -141,7 +139,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae experience.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae experience.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -150,7 +148,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae na lazy days.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae na lazy days.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -159,7 +157,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae na vibe.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae na vibe.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -172,7 +170,7 @@
                 <div class="row justify-content-center" class="box Localização">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento um festival.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento um festival.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -181,7 +179,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento summer breeze.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento summer breeze.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -190,7 +188,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento somos rock.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento somos rock.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -199,7 +197,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento sb-summer.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento sb-summer.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -208,7 +206,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento role de reggae.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento role de reggae.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -217,7 +215,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento rock rec.png" class="card-img-top" alt="Imagem 2"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento rock rec.png" class="card-img-top" alt="Imagem 2"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -230,7 +228,7 @@
                 <div class="row justify-content-center" class="box Localização">
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento rock rec.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento rock rec.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -239,7 +237,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae na vibe.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae na vibe.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -248,7 +246,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae na lazy days.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae na lazy days.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -257,7 +255,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento reggae experience.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento reggae experience.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>
@@ -266,7 +264,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="card background-card">
-                            <a href="#"><img src="./imagens/evento novas frequencias.png" class="card-img-top" alt="Imagem 1"></a>
+                            <a href="/codigo-fonte/pagina_evento_selecionado/evento-selecionado.html"><img src="./imagens/evento novas frequencias.png" class="card-img-top" alt="Imagem 1"></a>
                             <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <p class="card-text"></p>

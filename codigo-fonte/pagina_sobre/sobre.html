@@ -9,27 +9,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body class="background-config">
-    <header>
-      <nav class="nav-bar">
-          <div class="logo-header">
-              <a href="../pagina_principal/principal.html">
-                  <img src="./imagens/logo-white (2).png" style="width: 350px;" alt="Logo">
-              </a>
-          </div>
+  <header class="header-container">
+    <div class="logo-header">
+        <a href="../pagina_principal/principal.html">
+            <img src="./imagens/logo-white (2).png" width="100" height="70" alt="Logo">
+        </a>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Pesquisar...">
+    </div>
+    <div class="nav-links">
+      <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+      <a href="..\pagina_sobre\sobre.html">Sobre</a>
+      <a href="..\pagina_login\login.html">Meu perfil</a>
+    </div>
 
-          <div class="search-bar">
-              <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
-          </div>
+    <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+    <script src="./menu.js"></script>
 
-          <div class="nav-list">
-              <ul>
-                  <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                  <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
-                  <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
-              </ul>
-          </div>
-      </nav>
-    </header>
+
+  </header>
     <img id="foto-evento" src="imagens/foto-evento-4.jpg" alt="">
     <h1 class="titulo">SOBRE O MAPA</h1>
     <p>Somos estudantes do primeiro período de Análise e Desenvolvimento de Sistemas. O nosso projeto chamado de Mapa do Underground é um Website destinado à busca de eventos por consumidores da cena, divulgação de eventos de produtores musicais locais e conexão entre o público e agente da cena underground. A ideia surgiu da necessidade de um local específico que abraçasse os produtores e artistas da cena, a fim de alavancar sua visibilidade gerando rentabilidade financeira aos profissionais, além de tornar o meio de cultura underground maior e mais fortalecido ao recrutar novos consumidores por meio da divulgação da cultura e de seus eventos e festivais.</p>
@@ -79,12 +78,10 @@
     <footer>
       <div class="container-footer">
           <div class="logo">
-              <a href="..\pagina_principal\principal.html">
-                  <img src="./imagens/logo-white-rd (2).png" alt="Logo">
-              </a>
+              <img src="./imagens/logo-white-rd (2).png" alt="Logo">
           </div>
           <div class="links">
-              <a href="#">Endereço</a>
+              <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
               <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
               <a href="#">Siga a gente nas redes sociais</a>
           </div>

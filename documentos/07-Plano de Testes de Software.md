@@ -34,7 +34,7 @@
 
 |Caso de Teste    | CT-05 - Verificar o funcionamento dos filtros |
 |:---|:---|
-| Requisitos Associados | RF-05 : A plataforma deve disponibilizar filtros de localização, gênero e data na busca por eventos. |
+| Requisitos Associados | RF-05 : A plataforma deve disponibilizar filtros de localização e gênero na busca por eventos. |
 | Objetivo do Teste | Verificar se os filtros de pesquisa estão capturando as informações fornecidas pelo usuário |
 | Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar na barra de pesquisa. 5. Fornecer a informação . |
 | Critérios de êxito | Os dados inseridos na barra de pesquisa devem mostrar os eventos relacionados à informação dada.  |

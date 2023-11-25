@@ -36,8 +36,8 @@
 |:---|:---|
 | Requisitos Associados | RF-05 : A plataforma deve disponibilizar filtros de localização e gênero na busca por eventos. |
 | Objetivo do Teste | Verificar se os filtros de pesquisa estão capturando as informações fornecidas pelo usuário |
-| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar na barra de pesquisa. 5. Fornecer a informação . |
-| Critérios de êxito | Os dados inseridos na barra de pesquisa devem mostrar os eventos relacionados à informação dada.  |
+| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar no botão "Eventos", localizado no canto superior direito da página. 5.Clicar em qualquer botão "Filtrar por..." |
+| Critérios de êxito | Os botões clicados devem exibir os eventos correspondentes aos filtros escolhidos  |
 | Responsável pela elaborar do caso de Teste | Ana Laura |
 
 |Caso de Teste    | CT-06 - Verificar a publicação de comentários no evento selecionado|
@@ -54,12 +54,12 @@
 | Objetivo do Teste | Descrição do objetivo do teste |
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Responsável pela elaborar do caso de Teste | Ana Laura, Carolina, Larissa, Maria Vitória, Sara e Thabata. |
 
 |Caso de Teste    | CT-08 - Verificar a responsividade e compatibilidade do site |
 |:---|:---|
 | Requisitos Associados | RNF-02: Site compatível com os navegadores mais usados na atualidade; RNF-03: Site responsivo para Android e IOS; RNF-04: Sistema operacional Windows, MAC, Linux. |
 | Objetivo do Teste | Verificar se a reponsividade do site em diferentes tipos de navegadores está otimizada. |
 | Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Deve ser fornecido um site otimizado e responsível em dispositivos e navegadores.  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Critérios de êxito | Deve ser fornecido um site otimizado e responsivo em dispositivos e navegadores.  |
+| Responsável pela elaborar do caso de Teste | Ana Laura, Carolina, Larissa, Maria Vitória, Sara e Thabata. |

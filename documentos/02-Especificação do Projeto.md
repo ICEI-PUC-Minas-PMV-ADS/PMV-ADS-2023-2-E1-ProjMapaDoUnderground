@@ -42,7 +42,7 @@
 |  Produtor de eventos;                | Criar registros de eventos;                       | Ter o evento publicado pela plataforma;                              |
 | Produtor de eventos;                | Editar registros de eventos;                       | Corrigir, retirar ou incrementar informações ao evento;                            |
 |  Consumidor de eventos undergrounds;                | Fazer login na plataforma;                       | Estar atualizado sobre as publicações de eventos;                              |
-|  Consumidor de eventos undergrounds;                | Localizar os eventos, filtrando por localização, preço, data e gênero;                      | Ter acesso direto aos eventos; favoráveis para mim.                              |
+|  Consumidor de eventos undergrounds;                | Localizar os eventos, filtrando por localização e gênero;                      | Ter acesso direto aos eventos; favoráveis para mim.                              |
 |  Consumidor de eventos undergrounds;                | Favoritar os eventos do meu interesse;                      | Acessá-los com mais facilidade;                              |
 |  Consumidor de eventos undergrounds;                | Receber notificação via e-mail sempre que um evento for divulgado;            | Estar sempre atualizado dos próximos eventos;                            |
 |  Consumidor de eventos undergrounds;                | Fazer comentários nas publicações;                     | Interagir com o público interessado no mesmo evento que eu.                            |
@@ -56,7 +56,7 @@
 | RF-02 |A plataforma deve permitir login de usuário baseando-se nos dois perfis de usuário especificados;| Alta | 
 | RF-03 |A plataforma deve permitir cadastro de novos eventos para o perfil ‘produtor de eventos’;| Alta | 
 | RF-04 |A plataforma deve permitir edição do evento para o usuário que o publicou;| Alta | 
-| RF-05 |A plataforma deve disponibilizar filtros de localização, gênero e data na busca por eventos;| Alta | 
+| RF-05 |A plataforma deve disponibilizar filtros de localização e na busca por eventos;| Alta | 
 | RF-06 |A plataforma deve apresentar eventos publicados na página inicial;| Média | 
 | RF-07 |A plataforma deve exibir o botão “favoritar” nas publicações de evento;| Média | 
 | RF-09 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |

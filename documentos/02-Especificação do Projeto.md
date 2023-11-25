@@ -44,7 +44,6 @@
 |  Consumidor de eventos undergrounds;                | Fazer login na plataforma;                       | Estar atualizado sobre as publicações de eventos;                              |
 |  Consumidor de eventos undergrounds;                | Localizar os eventos, filtrando por localização, preço, data e gênero;                      | Ter acesso direto aos eventos; favoráveis para mim.                              |
 |  Consumidor de eventos undergrounds;                | Favoritar os eventos do meu interesse;                      | Acessá-los com mais facilidade;                              |
-|  Consumidor de eventos undergrounds;                | Confirmar presença nos eventos que irei;                      | Sinalizar o meu comparecimento;                              |
 |  Consumidor de eventos undergrounds;                | Receber notificação via e-mail sempre que um evento for divulgado;            | Estar sempre atualizado dos próximos eventos;                            |
 |  Consumidor de eventos undergrounds;                | Fazer comentários nas publicações;                     | Interagir com o público interessado no mesmo evento que eu.                            |
 
@@ -60,7 +59,6 @@
 | RF-05 |A plataforma deve disponibilizar filtros de localização, gênero e data na busca por eventos;| Alta | 
 | RF-06 |A plataforma deve apresentar eventos publicados na página inicial;| Média | 
 | RF-07 |A plataforma deve exibir o botão “favoritar” nas publicações de evento;| Média | 
-| RF-08 |A plataforma deve exibir o botão “confirmar presença” nas publicações de evento;| Baixa | 
 | RF-09 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |
 
 

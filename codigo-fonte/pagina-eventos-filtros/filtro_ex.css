@@ -18,15 +18,18 @@ body {
 
 .box {
     text-align: center;
-    display: none;
     padding: 4%;
     padding-bottom: 8%;
+}
+
+.box .especial {
+    display: none;
 }
 
 .col-md-2 .card {
     background-color: aqua;
     display: flex;
-    height: 86%;
+    height: 82.1%;
 }
 .projects {
     margin-left: 18%;
@@ -39,6 +42,7 @@ body {
     align-self: flex-start;
     background-color: #421b6e;
     color: #ffffff;
+    margin-left: 17%;
 }
 
 header {
@@ -141,7 +145,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 32%;
+    margin-top: 6%;
 }
 
 .li-footer {

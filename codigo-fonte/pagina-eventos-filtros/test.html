@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filtro_ex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Filtros</title>
+</head>
+<body>
+    <header>
+ 
+    </header>
+    <section class="projects">
+        <button onclick="showGenre()">Filtrar por Gênero</button>
+        <div id="genreModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Escolha um Gênero:<br></br><br><button onclick="filterElements('Gênero')">Eletrônica</button></br><br><button onclick="filterElements('Gênero')">Rock</button></br><br><button onclick="filterElements('Gênero')">Reggae</button></br></h2>
+        </div>
+        </div>
+
+        <button onclick="showLocal()">Filtrar por Localização</button>
+        <div id="localModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Escolha uma Localização<br></br><br><button onclick="filterElements('Localização')">São Paulo</button></br><br><button onclick="filterElements('Localização')">Rio de Janeiro</button></br><br><button onclick="filterElements('Localização')">Minas Gerais</button></br></h2>
+        </div>
+        </div>
+    </section>
+
+            <div class="box localizacao show">
+                <div class="row justify-content-center" class="box Localização">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box Localização especial hide">
+                <div class="row justify-content-center" class="box Localização">
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card background-card">
+                            <a href="#"><img src="" class="card-img-top" alt="Imagem 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script src="filtro_ex.js"></script>
+    <footer>
+    </footer>
+</body>
+</html>

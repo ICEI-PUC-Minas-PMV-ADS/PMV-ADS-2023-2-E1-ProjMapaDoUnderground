@@ -1,6 +1,3 @@
-function showCalendar() {
-    $("#datepicker").datepicker("show");
-}
 function filterElements(category) {
     const elements = document.querySelectorAll(".box");
 
@@ -14,26 +11,24 @@ function filterElements(category) {
 
     // Aqui você pode adicionar lógica para exibir as caixas ao clicar nos botões do filtro
     const especialBoxG = document.querySelector('.box.Gênero.especial');
+    const boxG = document.querySelector('.box.Gênero');
     const especialBoxL = document.querySelector('.box.Localização.especial');
-    const especialBoxD = document.querySelector('.box.Data.especial');
+    const boxL = document.querySelector('.box.Localização');
     
     if (category === 'Gênero') {
-        especialBoxG.classList.remove('hide');
-        especialBoxL.classList.add('hide');
-        especialBoxD.classList.add('hide');
+        especialBoxG.style.display = "flex"
+        especialBoxL.style.display = "none";
+        boxL.style.display = "none";
     } else if (category === 'Localização') {
-        especialBoxG.classList.add('hide');
-        especialBoxL.classList.remove('hide');
-        especialBoxD.classList.add('hide');
-    } else if (category === 'Data') {
-        especialBoxG.classList.add('hide');
-        especialBoxL.classList.add('hide');
-        especialBoxD.classList.remove('hide');
+        especialBoxL.style.display = "flex"
+        especialBoxG.style.display = "none";
+        boxG.style.display = "none";
     } else {
         // Se nenhum botão específico for clicado, pode-se ocultar todas as caixas especiais
-        especialBoxG.classList.add('hide');
-        especialBoxL.classList.add('hide');
-        especialBoxD.classList.add('hide');
+        especialBoxG.style.display = "none";
+        boxG.style.display = "none";
+        especialBoxL.style.display = "none";
+        boxL.style.display = "none";
     }
 }
 
@@ -54,9 +49,3 @@ function closeModal() {
         modal.style.display = "none";
     });
 }
-$(function() {
-    $("#datepicker").datepicker({
-        dateFormat: "dd/mm/yy" // Formato da data
-        // Outras opções e configurações podem ser adicionadas aqui
-    });
-});

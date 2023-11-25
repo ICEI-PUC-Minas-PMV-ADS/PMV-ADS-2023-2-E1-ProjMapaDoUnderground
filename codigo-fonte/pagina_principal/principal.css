@@ -152,11 +152,15 @@ header.header-container {
     border-radius: 23px;
     background-color: #421b6e;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .btn-shows-da-semana:hover {
     background-color: #33b78f
 }
+
+
+
 h2 {
     text-align: center;
     font-weight: 500;
@@ -183,20 +187,8 @@ button {
     border-radius: 50px;
     padding: 10px 20px;
     margin-left: 10px;
-}
-
-
-.button {
-    color: #000;
-    /* Cor do texto no botão */
-    text-align: center;
     text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    /* Borda arredondada */
 }
-
 
 .ul-footer {
     list-style: none;
@@ -370,10 +362,9 @@ h4 {
 }
 
 .botao-genero {
-    width: 200px;
+    width: 150px;
     text-align: center;
-    padding-left: 24px;
-    padding-right: 10px;
+    padding: 10px; /* Certifique-se de que não há um padding significativo */
     border-radius: 23px;
     align-self: flex-start;
     background-color: #421b6e;

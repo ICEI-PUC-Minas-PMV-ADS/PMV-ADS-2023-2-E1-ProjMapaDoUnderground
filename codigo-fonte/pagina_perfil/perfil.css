@@ -2,6 +2,27 @@
     font-family: "Poppins", sans-serif;
   }
 
+  h2 {  
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  li img {
+
+    border-radius: 10px;
+
+  }
+
+
+  p {
+    font-size: 16px;
+  }
+
+
+
 body {
     overflow-x: hidden;
     background-color: #e5d7f0 !important;
@@ -181,23 +202,31 @@ margin: 10px 40px;
 
 .titulo {padding:50px;}
 
-
-
-.lista-botoes li {
-    display: inline-block;
-    margin: 20px;
-    background-color: #5e2089;
-    border-radius: 10px;
-   padding-left: 15px;
+.lista-botoes {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 15px;
    padding-right: 15px;
    margin-bottom: 100px;
-   
 }
 
-.lista-botoes a {
-    color: white;
-    
+.sair, .cadastro-evento {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #421b6e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.sair:hover, .cadastro-evento:hover {
+    background-color: #45a049;
+}
+
+
 
 
 

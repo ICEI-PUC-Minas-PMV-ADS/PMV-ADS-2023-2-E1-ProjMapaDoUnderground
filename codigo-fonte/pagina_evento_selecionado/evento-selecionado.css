@@ -27,14 +27,20 @@ header.header-container {
   align-items: center;
 }
 
-.logo-container {
-  flex: 0 0 auto;
-}
-
-.logo {
+.logo-header img {
+  width: 300px;
   height: 70px;
+  max-width: 100%; /* Garante que a imagem não ultrapasse as dimensões especificadas */
+  height: auto; /* Mantém a proporção original da imagem */
 }
 
+.logo-header,
+.logo-header a,
+.logo-header img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .search-and-links {
   display: flex;
   align-items: center;

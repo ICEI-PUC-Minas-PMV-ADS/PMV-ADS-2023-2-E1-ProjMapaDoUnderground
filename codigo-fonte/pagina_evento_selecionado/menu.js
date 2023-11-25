@@ -1,25 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const menuIcon = document.querySelector('.menu-icon');
-    const navLinks = document.querySelector('.nav-links');
-
-    menuIcon.addEventListener('click', function () {
-        // Alternar a visibilidade do menu ao clicar no ícone
-        navLinks.classList.toggle('active');
-<<<<<<< HEAD
+function clickMenu() {
+    var navLinks = document.querySelector('.nav-links');
+  
+    // Verifica se os links estão visíveis
+    var isVisible = window.getComputedStyle(navLinks).display !== 'none';
+  
+    // Alterna a classe 'show' para exibir ou ocultar os links de navegação
+    if (isVisible) {
+      navLinks.classList.remove('show');
+    } else {
+      navLinks.classList.add('show');
     }
-    );
-});
-
-const removeActiveWhenScrollingDownThePage = () => {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.remove('active');
-}
-
-if (window.innerWidth < 768) {
-    window.addEventListener('scroll', removeActiveWhenScrollingDownThePage);
-}
-
-=======
-    });
-});
->>>>>>> 127284458181e6ed824c0662956cd2bc8782d172
+  }

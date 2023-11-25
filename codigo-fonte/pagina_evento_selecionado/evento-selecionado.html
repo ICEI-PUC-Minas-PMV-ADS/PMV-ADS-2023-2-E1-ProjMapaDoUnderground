@@ -8,19 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="./script.js"></script>
     <title>Evento Selecionado</title>   
 </head>
 
 <body>
     
-    <header>
+    <header class="header-container">
         <div class="logo-container">
-<<<<<<< HEAD
-          <img src="./assets/logo-white1.png" alt="Logo" class="logo">
-=======
           <img src="./assets/logo-white.png" alt="Logo" class="logo">
->>>>>>> 127284458181e6ed824c0662956cd2bc8782d172
         </div>
         <div class="search-bar">
           <input type="text" placeholder="Pesquisar...">
@@ -30,10 +27,11 @@
           <a href="#">Sobre</a>
           <a href="#">Meu perfil</a>
         </div>
-        <div class="menu-icon">&#9776;</div>
 
-        <script src="menu.js"></script>
-        
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <script src="./menu.js"></script>
+
+
       </header>
 
     <h1 class="titulo-pagina"> Evento lupe de Lupe</h1>
@@ -128,6 +126,7 @@ Não perca a chance de fazer parte deste evento de rock épico com Lupe de Lupe.
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

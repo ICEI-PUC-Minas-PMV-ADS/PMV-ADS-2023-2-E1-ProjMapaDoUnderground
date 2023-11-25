@@ -29,30 +29,29 @@
 
 
 <body>
-    <header>
-        <nav class="nav-bar">
+    <body>
+        <!--HEADER-->
+        <header class="header-container">
             <div class="logo-header">
-                <img src="./imagens/logo-white (2).png" style="width: 350px;">
+                <a href="../pagina_principal/principal.html">
+                    <img src="./imagens/logo-white (2).png" width="100" height="70" alt="Logo">
+                </a>
             </div>
-
             <div class="search-bar">
-
-                <input type="text" placeholder="Buscar...">
-
+              <input type="text" placeholder="Pesquisar...">
             </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Login</a>
-                </ul>
+            <div class="nav-links">
+              <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+              <a href="..\pagina_sobre\sobre.html">Sobre</a>
+              <a href="..\pagina_login\login.html">Meu perfil</a>
             </div>
-
-        </nav>
-    </header>
+    
+            <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+            <script src="./menu.js"></script>
+    
+    
+          </header>
+    
     <br>
     <br>
 <br>

@@ -1,6 +1,4 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
+
 
 body {
     overflow-x: hidden;
@@ -214,7 +212,6 @@ button {
     text-align: center;
     display: inline-block;
     font-size: 20px;
-
 }
 
 .li-footer a {
@@ -291,7 +288,6 @@ footer {
     border-radius: 23px;
     width: 20px;
     height: 239px;
-
 }
 
 .center-container {

@@ -31,7 +31,7 @@ body {
 }
 
 .h1-titulo {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 35px;
 }
 
@@ -55,7 +55,7 @@ a .h2-evento:hover {
 }
 
 .h3-titulo {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Poppins', sans-serif;
   text-align: left;
   margin-top: 25px;
@@ -70,6 +70,7 @@ a .h2-evento:hover {
 
 .sobre-genero p {
   text-align: left;
+  font-size: 16px;
   /* Remova a largura fixa e ajuste conforme necessário */
 }
 

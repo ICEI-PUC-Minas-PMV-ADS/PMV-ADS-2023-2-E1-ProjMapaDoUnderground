@@ -1,20 +1,11 @@
 body p {
     text-align: center;
     width: 937px;
-    height: 340px;
-    flex-shrink: 0;
     margin-left: 480px;
-}
-
-header {
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    box-shadow: 0px -3px 10px #b9b9b9;
-    position: relative;
-    height: 15vh;
-    width: 98, 9vw;
+    margin-top: 5%;
 }
 #foto-evento {
-    margin-top: 50px;
+    margin-top: 0 auto;
     width: 100%;
     height: 649px;
     background-color: #D9D9D9;
@@ -23,120 +14,6 @@ header {
     margin-bottom: 50px;
     
 }
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 1.5rem;
-    width: 100%; 
-  }
-
-.logo-header {
-  width: 5%; 
-  margin-left: 5%;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-
-}
-
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0px; 
-    padding-left: 10%;
-    width: 100%;
-}
-
-.nav-item {
-    padding-top: 10px;
-    margin: 0 15px;
-    font-size: 20px;
-
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #000;
-    padding: 10px 20px;
-}
-
-.button {
-    color: #000;
-    /* Cor do texto no botão */
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    /* Borda arredondada */
-}
-
-
-.search-bar ::placeholder {
-    color: #000000;
-    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -0, 5em;
-    padding-left: 4.0em;
-}
-
-.search-bar {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    width: 60%; 
-    min-width: 300px; /* Define uma largura mínima */
-}
-
-.search-bar input {
-    padding: 8px;
-    border-radius: 15px;
-    margin-right: 10px;
-    width: 100%; /* Ocupa a largura total */
-    border: none;
-}
-
-.search-bar i {
-    margin: 0 5px;
-    /* Espaçamento entre o ícone e o input */
-    font-size: 20px;
-    /* Tamanho do ícone */
-}
-
-.ul-footer {
-    list-style: none;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    padding-top: 10px;
-    text-decoration: none;
-}
-
-.li-footer {
-    list-style: none;
-    background-color: #D9D9D9;
-    border-radius: 33px;
-    padding: 10px;
-    margin: 50px;
-    flex: 1;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: none;
-
-}
-
-
-
 .titulo, .titulo-equipe {
     margin-left: 820px;
     margin-bottom: 20px;
@@ -164,19 +41,232 @@ header {
     margin-left: -250%;
     margin-top: 5%;
 }
+.background-config {
+    background-color: #e5d7f0 !important;
+}
+
+header {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    box-shadow: 0px -3px 10px #b9b9b9;
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    z-index: 2;
+}
+
+.logo-header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.button {
+    color: #000;
+    /* Cor do texto no botão */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 225px
+}
+
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 300px;
+    border: none;
+}
+
+.search-bar i {
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
+}
 
 footer {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
     padding: 20px;
-    padding-top: 150px;
-    margin-top: 10%;
-    text-align: left;
+    margin-top: 5%;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    height: 120px;
-    display: flex;
+    flex-direction: column;
+    height: auto;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
-.background-config {
-    background-color: #e5d7f0 !important;
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Divide a largura em duas colunas iguais */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: auto;
+    height: auto;
+}
+
+.links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+    /* Adicione estilos específicos para telas menores que 480px aqui */
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-header {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .nav-list {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .nav-list.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #444;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+    .nav-list li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para Ipads e Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Adicione estilos específicos para Ipads e Tablets aqui */
+    .navbar {
+        padding: 15px 0;
+    }
+    .navbar-header {
+        justify-content: flex-start;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .nav-list {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .nav-list {
+        padding: 0;
+    }
+    .nav-list li {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .navbar {
+        background-color: #333;
+    }
+    .nav-list li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
 }

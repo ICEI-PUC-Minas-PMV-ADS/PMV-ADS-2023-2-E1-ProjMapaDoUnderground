@@ -8,43 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="script.js" defer></script>
+    <script src="./script.js"></script>
     <title>Evento Selecionado</title>   
 </head>
 
 <body>
     
     <header>
-        <nav class="nav-bar">
-            <div class="logo-header">
-                <a href="../pagina_principal/principal.html"><img src="assets/logo-white1.png"></a>
-            </div>
+        <div class="logo-container">
+          <img src="./assets/logo-white1.png" alt="Logo" class="logo">
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="nav-links">
+          <a href="#">Eventos</a>
+          <a href="#">Sobre</a>
+          <a href="#">Meu perfil</a>
+        </div>
+        <div class="menu-icon">&#9776;</div>
 
-            <!-- Adicionando o menu sanduíche -->
-            <nav class="nav-bar">
-                <div class="logo-header">
-                    <a href="../pagina_principal/principal.html"></a>
-                </div>
-            
-                <div class="menu-icon" id="menuIcon">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-            
-                <div class="nav-list" id="navList">
-                    <div class="search-bar">
-                        <input type="text" placeholder="Buscar...">
-                    </div>
-            
-                    <ul>
-                        <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                        <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
-                        <li class="nav-item"><a href="..\pagina_perfil\perfil.html" target="_self" class="nav-link button">Meu perfil</a></li>
-                    </ul>
-                </div>
-            </nav>
-    </header>
+        <script src="menu.js"></script>
+        
+      </header>
 
     <h1 class="titulo-pagina"> Evento lupe de Lupe</h1>
     <div><img class="capa-evento" src="./assets/lupedelupe.jpg" alt=""></div>
@@ -54,6 +40,7 @@
             <img src="./assets/favoritar.png" alt="Botão Normal" id="imagem-normal">
             <img src="./assets/favoritar-click.png" alt="Botão Clicado" id="imagem-clicada" style="display:none;">
         </a>
+        <script src="./favoritar.js"></script>
     </div>
 
 
@@ -117,6 +104,8 @@ Não perca a chance de fazer parte deste evento de rock épico com Lupe de Lupe.
 
 
    
+    <!--  FOOTER -->
+    <br>
     <footer>
         <div class="container-footer">
             <div class="logo">
@@ -135,10 +124,7 @@ Não perca a chance de fazer parte deste evento de rock épico com Lupe de Lupe.
             </div>
         </div>
     </footer>
-
-   
-
-
 </body>
+
 </html>
 

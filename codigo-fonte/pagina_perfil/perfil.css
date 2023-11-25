@@ -1,40 +1,149 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    overflow-x: hidden;
+    background-color: #e5d7f0 !important;
+}
 header {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
     box-shadow: 0px -3px 10px #b9b9b9;
     position: relative;
     height: 15vh;
     width: 100%;
+    margin-left: -1%;
+    padding-right: 1.5%;
+    margin-top: -1%;
+    z-index: 1;
 }
 
-body {
-    overflow-x: hidden;
-    background-color: #e5d7f0 !important;
+li {
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
+a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;}
+    padding: 1.5rem 6rem;
+    z-index: 2;
+}
 
-    .nav-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;}
+.logo-header img {
+    max-width: 100%;
+    height: auto;
+}
 
-        .nav-item {
-            padding-top: 10px;
-            margin: 0 15px;
-            font-size: 20px;
-        
-        }
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 
-        .nav-link {
-            text-decoration: none;
-            color: #000;
-            padding: 10px 20px;
-        }
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.button {
+    color: #000;
+    /* Cor do texto no botão */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.search-bar ::placeholder {
+    color: #000000;
+    background: url(https://www.pngmart.com/files/8/Search-Button-PNG-Transparent-Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -0, 5em;
+    padding-left: 4.0em;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 225px
+}
+
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 300px;
+    border: none;
+}
+
+.search-bar i {
+    margin: 0 5px;
+    /* Espaçamento entre o ícone e o input */
+    font-size: 20px;
+    /* Tamanho do ícone */
+}
+
+.ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.li-footer {
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.li-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.p-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
 
         .perfil {
             
@@ -52,7 +161,6 @@ body {
 
     float: left;
     margin-right: 10px;
-    
 
     
 }
@@ -68,8 +176,7 @@ padding-top: 10px;
 padding-right: 40px;
 
 margin: 10px 40px;
-background-color: #f78ff7;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .titulo {padding:50px;}
@@ -98,27 +205,35 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 footer {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
-    padding: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    height: 120px;
-    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -1%;
+    display:flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Divide a largura em duas colunas iguais */
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
 .logo img {
-    max-width: 200px;
-
+    max-width: auto;
+    height: auto;
 }
 
 .links a {

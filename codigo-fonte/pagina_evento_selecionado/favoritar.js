@@ -17,12 +17,3 @@ document.getElementById('botao').addEventListener('click', function(event) {
 
 
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    var menuIcon = document.getElementById("menuIcon");
-    var navList = document.getElementById("navList");
-
-    menuIcon.addEventListener("click", function () {
-        navList.classList.toggle("active");
-    });
-});

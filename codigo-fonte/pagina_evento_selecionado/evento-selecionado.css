@@ -83,6 +83,7 @@ header {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 
 /* Media query para tornar o menu responsivo */
 
@@ -106,6 +107,21 @@ header {
     display: none;
   }
 
+=======
+/* Media query para tornar o menu responsivo */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #5e2089;
+    width: 100%;
+    display: none;
+  }
+
+>>>>>>> 127284458181e6ed824c0662956cd2bc8782d172
   .nav-links a {
     margin: 0;
     padding: 10px;

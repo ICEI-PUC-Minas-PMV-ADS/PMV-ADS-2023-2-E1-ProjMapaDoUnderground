@@ -34,21 +34,13 @@
 
 |Caso de Teste    | CT-05 - Verificar o funcionamento dos filtros |
 |:---|:---|
-| Requisitos Associados | RF-05 : A plataforma deve disponibilizar filtros de localização, gênero e data na busca por eventos. |
+| Requisitos Associados | RF-05 : A plataforma deve disponibilizar filtros de localização e gênero na busca por eventos. |
 | Objetivo do Teste | Verificar se os filtros de pesquisa estão capturando as informações fornecidas pelo usuário |
 | Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar na barra de pesquisa. 5. Fornecer a informação . |
 | Critérios de êxito | Os dados inseridos na barra de pesquisa devem mostrar os eventos relacionados à informação dada.  |
 | Responsável pela elaborar do caso de Teste | Ana Laura |
 
-|Caso de Teste    | CT-06 - Verificar o funcionamento do botão confirmar presença |
-|:---|:---|
-| Requisitos Associados | RF-08: A plataforma deve exibir o botão “confirmar presença” nas publicações de evento. |
-| Objetivo do Teste | Verificar se a presença do usuário no evento foi confirmada. |
-| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em um evento na página Home. 5. Clicar no botão "confirmar presença". 6. Verificar se apresenta a informação "presença confirmada". |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Carolina |
-
-|Caso de Teste    | CT-07 - Verificar a publicação de comentários no evento selecionado|
+|Caso de Teste    | CT-06 - Verificar a publicação de comentários no evento selecionado|
 |:---|:---|
 | Requisitos Associados | RF-09: A plataforma deve permitir comentários nas publicações de evento; |
 | Objetivo do Teste | Verificar se o usuário consegue publicar comentários na pagina de evento selecionado. |
@@ -56,7 +48,7 @@
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Sara |
 
-|Caso de Teste    | CT-08 - Hospedar o site |
+|Caso de Teste    | CT-07 - Hospedar o site |
 |:---|:---|
 | Requisitos Associados | RNF-01: Site publicado em um ambiente acessível publicamente na Internet; |
 | Objetivo do Teste | Descrição do objetivo do teste |
@@ -64,7 +56,7 @@
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
-|Caso de Teste    | CT-09 - Verificar a responsividade e compatibilidade do site |
+|Caso de Teste    | CT-08 - Verificar a responsividade e compatibilidade do site |
 |:---|:---|
 | Requisitos Associados | RNF-02: Site compatível com os navegadores mais usados na atualidade; RNF-03: Site responsivo para Android e IOS; RNF-04: Sistema operacional Windows, MAC, Linux. |
 | Objetivo do Teste | Verificar se a reponsividade do site em diferentes tipos de navegadores está otimizada. |

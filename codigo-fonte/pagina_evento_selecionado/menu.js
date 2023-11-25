@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     menuIcon.addEventListener('click', function () {
         // Alternar a visibilidade do menu ao clicar no ícone
         navLinks.classList.toggle('active');
+<<<<<<< HEAD
     }
     );
 });
@@ -18,3 +19,7 @@ if (window.innerWidth < 768) {
     window.addEventListener('scroll', removeActiveWhenScrollingDownThePage);
 }
 
+=======
+    });
+});
+>>>>>>> 127284458181e6ed824c0662956cd2bc8782d172

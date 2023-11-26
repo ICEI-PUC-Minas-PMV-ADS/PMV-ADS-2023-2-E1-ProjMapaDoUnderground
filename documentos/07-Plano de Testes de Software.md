@@ -40,12 +40,12 @@
 | Critérios de êxito | Os botões clicados devem exibir os eventos correspondentes aos filtros escolhidos  |
 | Responsável pela elaborar do caso de Teste | Ana Laura |
 
-|Caso de Teste    | CT-06 - Verificar a publicação de comentários no evento selecionado|
+|Caso de Teste    | CT-06 - Verificar a existência da barra de comentários no evento selecionado|
 |:---|:---|
-| Requisitos Associados | RF-09: A plataforma deve permitir comentários nas publicações de evento; |
+| Requisitos Associados | RF-09: A plataforma deve conter uma área de comentários; |
 | Objetivo do Teste | Verificar se o usuário consegue publicar comentários na pagina de evento selecionado. |
-| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em um evento na página Home. 5. Clicar em "adicionar comentário". 6. Escrever um comentário e clicar em "enviar". 7. Verificar se o comentário foi exibido na página. |
-| Critérios de êxito | Indicar os critérios de êxito  |
+| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em um evento na página Home. |
+| Critérios de êxito | Aparecer a barra de comentários na página do evento selecionado  |
 | Responsável pela elaborar do caso de Teste | Sara |
 
 |Caso de Teste    | CT-07 - Hospedar o site |

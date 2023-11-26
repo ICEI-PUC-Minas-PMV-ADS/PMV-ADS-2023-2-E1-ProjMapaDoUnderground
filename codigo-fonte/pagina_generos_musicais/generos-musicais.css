@@ -40,7 +40,7 @@ body {
   margin-top: 10px;
 }
 
-a .h2-evento {
+.h2-evento {
   color: #000000;
   position: center;
 }
@@ -180,16 +180,17 @@ header.header-container {
 
 /* CONFIGURAÇÕES FOOTER */
 
+/* CONFIGURAÇÕES FOOTER */
+
 footer {
   background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
   padding: 20px;
+  width: 100%;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .container-footer {
@@ -198,11 +199,12 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
-.logo img {
+.logo-header img {
   max-width: 200px;
-
+  height: auto;
 }
 
 .links a {
@@ -221,4 +223,28 @@ footer {
   color: #ffffff;
 }
 
-/* FIM CONFIGURAÇÕES FOOTER */
+.ul-footer {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.li-footer {
+  list-style: none;
+  background-color: #D9D9D9;
+  border-radius: 33px;
+  padding: 10px;
+  margin: 50px;
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.p-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}

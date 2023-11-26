@@ -8,7 +8,6 @@ body p {
     margin-top: 0 auto;
     width: 100%;
     height: 649px;
-    background-color: #D9D9D9;
     background-size: cover;
     align-items: center;
     margin-bottom: 50px;
@@ -41,9 +40,11 @@ body p {
     margin-left: -250%;
     margin-top: 5%;
 }
-.background-config {
-    background-color: #e5d7f0 !important;
+.card-line-one .card .card-img-top {
+  width: 192px; 
+  height: 172px;
 }
+
 
 header.header-container {
     position: relative;
@@ -212,49 +213,4 @@ footer {
     .nav-list li {
         margin: 10px 0;
     }
-}
-
-/* Estilos para Ipads e Tablets (481px - 768px) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Adicione estilos específicos para Ipads e Tablets aqui */
-    .navbar {
-        padding: 15px 0;
-    }
-    .navbar-header {
-        justify-content: flex-start;
-    }
-    .logo {
-        margin-left: 10px;
-    }
-    .nav-list {
-        display: flex !important;
-        justify-content: flex-end;
-    }
-    .hamburger-menu {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .nav-list {
-        padding: 0;
-    }
-    .nav-list li {
-        margin-right: 30px;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-
-    .navbar {
-        background-color: #333;
-    }
-    .nav-list li a {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-
 }

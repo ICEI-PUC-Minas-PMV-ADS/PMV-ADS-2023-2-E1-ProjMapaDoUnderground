@@ -21,6 +21,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | 	O resultado foi bem sucedido como é mostrado no vídeo abaixo  |
 | Responsável pela execução do caso de Teste | Larissa |
+- Cadastro de eventos: https://youtu.be/dKdkFwqkYEA
 
 |Caso de Teste    | CT-04 - Verificar o favoritos nas páginas de evento |
 |:---|:---|

@@ -23,6 +23,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Sara |
+<li><a href="https://www.youtube.com/watch?v=JZws72YvODA"> Plano de teste verificar favoritos e comentários.
 
 |Caso de Teste    | CT-05 - Verificar o funcionamento dos filtros |
 |:---|:---|

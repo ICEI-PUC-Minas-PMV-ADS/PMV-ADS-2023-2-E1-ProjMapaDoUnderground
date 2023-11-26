@@ -28,6 +28,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Ana Laura |
+- Filtro de Gênero: https://vimeo.com/888325416?share=copy
+- Filtro de Localização: https://vimeo.com/888325430?share=copy
 
 |Caso de Teste    | CT-06 - Verificar a publicação de comentários no evento selecionado |
 |:---|:---|

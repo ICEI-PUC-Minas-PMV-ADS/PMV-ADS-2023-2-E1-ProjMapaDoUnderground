@@ -19,7 +19,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   
 |Caso de Teste    | CT-03 - Verificar o cadastro de eventos |
 |:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
+| Resultados obtidos | 	O resultado foi bem sucedido como é mostrado no vídeo abaixo  |
 | Responsável pela execução do caso de Teste | Larissa |
 
 |Caso de Teste    | CT-04 - Verificar o favoritos nas páginas de evento |

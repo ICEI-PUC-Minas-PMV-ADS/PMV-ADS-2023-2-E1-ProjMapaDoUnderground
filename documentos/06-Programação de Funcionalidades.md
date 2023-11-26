@@ -222,7 +222,7 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 - Sara.
 
 ### Tela de Eventos por Estado
-### Carrosséis
+#### Carrosséis
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/9834b666-e17f-4092-9a2e-04f425f09f4c)
 

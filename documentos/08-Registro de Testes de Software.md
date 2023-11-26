@@ -8,12 +8,15 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Maria Vitória |
+- Links da página principal: https://www.youtube.com/watch?v=CiLqmmMgVXw
 
 |Caso de Teste    | CT-02 - Verificar o funcionamento dos dois tipos de login |
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Thabata |
-
+- Login do usuário: https://www.youtube.com/watch?v=18lEK-cEfYE
+- login do produtor: https://www.youtube.com/watch?v=olbKpSoRxdw
+  
 |Caso de Teste    | CT-03 - Verificar o cadastro de eventos |
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
@@ -23,8 +26,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Sara |
-<li><a href="https://www.youtube.com/watch?v=JZws72YvODA"> Plano de teste verificar favoritos e comentários.
-<br>
+- Favoritar: https://www.youtube.com/watch?v=JZws72YvODA
 
 |Caso de Teste    | CT-05 - Verificar o funcionamento dos filtros |
 |:---|:---|
@@ -37,6 +39,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Sara |
+- Comentários : https://www.youtube.com/watch?v=JZws72YvODA
 
 |Caso de Teste    | CT-07 - Hospedar o site |
 |:---|:---|

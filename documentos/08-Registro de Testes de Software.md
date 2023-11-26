@@ -32,8 +32,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Descrever resultados do teste  |
 | Responsável pela execução do caso de Teste | Ana Laura |
-- Filtro de Gênero: https://vimeo.com/888325416?share=copy
-- Filtro de Localização: https://vimeo.com/888325430?share=copy
+- Filtro de Gênero: https://www.youtube.com/watch?v=ont7ukge_qs
+- Filtro de Localização: https://www.youtube.com/watch?v=VV0_ElX2qcg
 
 |Caso de Teste    | CT-06 - Verificar a existência da barra de comentários no evento selecionado |
 |:---|:---|

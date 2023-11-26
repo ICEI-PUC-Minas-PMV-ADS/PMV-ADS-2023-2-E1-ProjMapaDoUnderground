@@ -58,7 +58,7 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 - Thabata.
 
   
-### Tela de Cadastro de Usuário
+### Tela de Cadastro de Eventos
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/71e13d84-1bf5-4535-ae0f-5a67ca7d508b)
 

@@ -56,3 +56,35 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 - Larissa;
 - Sarah;
 - Thabata.
+
+  
+### Tela de Cadastro de Usuário
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/114714846/71e13d84-1bf5-4535-ae0f-5a67ca7d508b)
+
+#### Requisitos atendidos
+
+- RF-03: A plataforma deve permitir cadastro de novos eventos para o perfil ‘produtor de eventos; 
+
+#### Artefatos da funcionalidade
+
+- cadastro-eventos.html;
+- caddastro-eventos.css;
+- bootstrap.bundle.min.js;
+- popper.min.js;
+- bootstrap.min.js.
+
+#### Estrutura de Dados
+
+Em desenvolvimento.
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/codigo-fonte/pagina_cadastro_eventos/cadastro-eventos.html<br>
+
+- Edite os campos da página com as informações necessárias do evento;
+- Clique em "cadastrar" para cadastrar um evento e ser redirecionado à página do perfil do produtor.
+
+#### Responsável
+
+- Larissa.

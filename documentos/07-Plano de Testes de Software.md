@@ -20,7 +20,7 @@
 |:---|:---|
 | Requisitos Associados | RF-03: A plataforma deve permitir cadastro de novos eventos para o perfil ‘produtor de eventos; RF-04: A plataforma deve permitir edição do evento para o usuário que o publicou. |
 | Objetivo do Teste | Verificar se o produtor consegue cadastrar seus eventos e ser redirecionado para seu perfil. Verificar se o produtor consegue editar o evento cadastrado. |
-| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em "login", no menu. 5. Preencher os dados na seção "produtor" e clicar no botão "login". 6. Clicar em "perfil", no menu. 7. Clicar em "cadastrar evento". 8.Preencher os dados requisitados; 9. Clicar em "cadastrar". 10. Clicar em "editar". 11. Preencher com um campo com valor diferente. 12. Clicar em "salvar". |
+| Passos | 1. Acessar o navegador. 2. Informar o endereço do site. 3. Visualizar a página Home. 4. Clicar em "login", no menu. 5. Preencher os dados na seção "produtor" e clicar no botão "login". 6. Clicar em " Meu perfil", no menu. 7. Clicar em "cadastrar evento". 8.Preencher os dados requisitados; 9. Clicar em "cadastrar". 10. Clicar em "editar". 11. Preencher com um campo com valor diferente. 12. Clicar em "salvar". |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Larissa |
 

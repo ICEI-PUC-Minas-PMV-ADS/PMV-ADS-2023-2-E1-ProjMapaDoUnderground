@@ -1,0 +1,248 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #e5d7f0 !important;
+}
+
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-config {
+  background-color: #e5d7f0 !important;
+}
+
+/* CONFIGURAÇÕES HEADER */
+
+header.header-container {
+  position: relative;
+  background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header img {
+  width: 300px;
+  height: 70px;
+  max-width: 100%; /* Garante que a imagem não ultrapasse as dimensões especificadas */
+  height: auto; /* Mantém a proporção original da imagem */
+}
+
+.logo-header,
+.logo-header a,
+.logo-header img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.search-and-links {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px; 
+  padding: 5px; 
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Estilos para telas maiores */
+
+@media screen and (min-width: 769px) {
+  #burger {
+    display: none; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; 
+    position: absolute;
+    top: 100px; 
+    left: 0;
+    width: 100%;
+    background-color: #421b6e;
+    z-index: 1;
+  }
+
+  #burger {
+    display: block; 
+    cursor: pointer;
+    background-color:  #33b78f;
+    border-radius: 50px;
+    color: white;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links.show a {
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+
+
+.usuario-container {
+    display: flex;
+    justify-content: center; /* Centraliza os contêineres .usuario e .produtor */
+  }
+  
+  .usuario,
+  .produtor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 120px; /* Adicionei margem para separar os contêineres .usuario e .produtor */
+    padding-top: 210px;
+    padding-bottom: 220px;
+}
+  
+  .usuario img,
+  .produtor img {
+    margin: 0 auto;
+  }
+
+  #linha-vertical {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 500px;
+    border-right: 1px solid gray;
+    align-items: center;
+}
+  
+  .usuario h2,
+  .produtor h2 {
+    margin-top: 30px;
+  }
+  
+  .acessar {
+    margin-top: 30px;
+    background-color: #421b6e;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .acessar:hover {
+    background-color: #33b78f;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONFIGURAÇÕES FOOTER */
+
+footer {
+    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%); 
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    align-items: center;
+  }
+  
+  .links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .redes-sociais i {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .ul-footer {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+  }
+  
+  .li-footer{
+    list-style: none;
+    background-color: #D9D9D9;
+    border-radius: 33px;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  .p-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  

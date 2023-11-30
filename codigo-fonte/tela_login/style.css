@@ -111,8 +111,6 @@ header.header-container {
   }
 }
 
-
-
 .usuario-container {
     display: flex;
     justify-content: center; /* Centraliza os contêineres .usuario e .produtor */
@@ -142,8 +140,8 @@ header.header-container {
     align-items: center;
 }
   
-  .usuario h2,
-  .produtor h2 {
+  .usuario h1,
+  .produtor h1 {
     margin-top: 30px;
   }
   

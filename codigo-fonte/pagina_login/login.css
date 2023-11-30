@@ -1,149 +1,190 @@
 * {
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #e5d7f0 !important;
-    align-items: center;
     justify-content: space-between;
-}
-
-.wrappers-container {
+    background-color: #e5d7f0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .center {
+    position: absolute;
     display: flex;
     justify-content: center;
-    /* Center the wrappers horizontally */
-    margin-top: 20px;
-}
-
-.wrapper {
-    width: 420px;
-    color: #000000;
-    padding: 20px 30px;
-    border-radius: 20px;
-    /* Define a borda arredondada para todos os wrappers */
-    overflow: hidden;
-}
-
-.usuario-wrapper {
-    background: #3eecac80;
-    border-right: 50px;
-    border-top-right-radius: 0;
-    /* Remove a borda arredondada na parte superior direita do wrapper do usuário */
-    border-bottom-right-radius: 0;
-}
-
-.produtor-wrapper {
-    background: #a174ee65;
-    border-top-left-radius: 0;
-    /* Remove a borda arredondada na parte superior esquerda do wrapper do produtor */
-    border-bottom-left-radius: 0;
-}
-
-.wrapper h1 {
-    font-size: 30px;
-    text-align: left;
-    padding-bottom: 2px;
-}
-
-.wrapper p {
-    font-size: 14px;
-}
-
-.wrapper .input-box {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 20px 0;
-}
-
-.usuario-wrapper .form-control {
-    background: #a174ee65;
-    border-radius: 40px;
-}
-
-.produtor-wrapper .form-control {
-    background: #3eecac80;
-    border-radius: 40px;
-}
-
-.input-box i {
-    position: absolute;
-    right: 20px;
     top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
-.form-check {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 16px;
-    margin: -15px 0 15px;
-    padding-top: 20px;
-}
-
-.form-check input[type="checkbox"]:checked {
-    border: 1px solid black;
-    /* Adicione uma borda preta à caixa de seleção */
-    background-color: #a174ee65;
-    /* Altere a cor de fundo da caixa de seleção quando marcada */
-}
-
-.form-control:focus,
-.form-check input[type="checkbox"]:focus {
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.form-check a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #000000;
-}
-
-.form-check a:hover {
-    text-decoration: underline;
-}
-
-.custom-btn {
-    border: none !important;
-    margin: 20px 15px 20px 0 !important;
-    width: 100% !important;
-    border-radius: 40px !important;
-}
-
-/* botao do usuario*/
-
-.usuario-wrapper .custom-btn {
-    background-color: #694c9c80 !important;
-}
-
-.usuario-wrapper .custom-btn:hover {
-    background-color: #421b6e !important;
-}
-
-/* botao do produtor */
-
-.produtor-wrapper .custom-btn {
-    background-color: #3eecac80 !important;
-}
-
-.produtor-wrapper .custom-btn:hover {
-    background-color: #33b78f !important;
-}
-
-.remember-forgot .criar-conta {
-    float: right;
-}
-
-.register {
+    /*left: 45%; ARRUMAR ESSA PORCARIA */
+    transform: translate (-50%, -50%);
     text-align: center;
-    margin-top: 20px;
+  }
+
+  .usuario,
+  .produtor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 120px; /* Adicionei margem para separar os contêineres .usuario e .produtor */
+    padding-top: 210px;
+    padding-bottom: 220px;
 }
+
+.usuario img,
+.produtor img {
+  margin: 0 auto;
+}
+
+#linha-vertical {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 500px;
+    border-right: 1px solid gray;
+    align-items: center;
+}
+
+.usuario h1,
+.produtor h1 {
+  margin-top: 30px;
+}
+
+  .center button {
+    margin-top: 30px;
+    background-color: #421b6e;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .center button:hover {
+    background-color: #33b78f;
+  }
+  
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0, 15);
+    border-radius: 20px;
+    transition: opacity 200ms ease-in-out 0ms;
+  }
+  
+  .popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+  }
+  
+  .popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .popup .form h2 {
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+  }
+  
+  .popup .form .form-element {
+    margin: 15px 0px;
+  }
+  
+  .popup .form .form-element label {
+    font-size: 14px;
+    color: #222;
+  }
+  
+  .popup .form .form-element input[type="text"],
+  .popup .form .form-element input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  .popup .form .form-element input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .popup .form .form-element button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    background-image: linear-gradient(to left, #3eecac, #a174ee, #3eecac);
+    background-size: 200%;
+    color: #f2f2f2;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-position 0.4s ease;
+  }
+  
+  .popup .form .form-element button:hover {
+    background-position: right;
+  }
+  
+  .popup .form .form-element a {
+    font-size: 15px;
+    color: #1a79ca;
+    font-weight: 600;
+  }
+  
+  .line-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex: 1;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  .or {
+    padding: 0 10px;
+    color: #777;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  .icons i {
+    cursor: pointer;
+  }
 
 /* CONFIGURAÇÕES HEADER */
 

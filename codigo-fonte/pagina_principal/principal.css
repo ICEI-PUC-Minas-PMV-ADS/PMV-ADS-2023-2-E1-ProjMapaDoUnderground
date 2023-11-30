@@ -1,12 +1,14 @@
-
-
-body {
-    overflow-x: hidden;
-    background-color: #e5d7f0 !important;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #e5d7f0 !important;
 }
 
-.background-config {
-    background-color: #e5d7f0 !important;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 .background-card {
@@ -33,7 +35,6 @@ body {
 .carousel-control-prev, .carousel-control-next {
     margin-right: -150px;
     margin-left: -150px;
-    
 }
 
 .carousel-item-active {
@@ -68,6 +69,7 @@ header.header-container {
   .search-and-links {
     display: flex;
     align-items: center;
+    text-decoration: none !important;
   }
   
   .search-bar input {
@@ -136,6 +138,7 @@ header.header-container {
   }
   
   /* CONFIGURAÇÕES HEADER */
+  
 
 .redes-sociais-text {
     text-decoration: none !important;
@@ -158,8 +161,6 @@ header.header-container {
 .btn-shows-da-semana:hover {
     background-color: #33b78f
 }
-
-
 
 h2 {
     text-align: center;
@@ -187,7 +188,7 @@ button {
     border-radius: 50px;
     padding: 10px 20px;
     margin-left: 10px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .ul-footer {

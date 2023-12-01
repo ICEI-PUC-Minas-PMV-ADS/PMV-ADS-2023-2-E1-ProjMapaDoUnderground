@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
-    <title>Mapa do Underground</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/93b09a271f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Mapa do Underground</title>
 </head>
 
 <body>
 
     <header class="header-container">
-
         <div class="logo-header">
             <a href="../pagina_principal/principal.html">
-                <img src="./imagens/logo-white.png" width="100" height="70" alt="Logo">
+                <img src="imagens/logo-white (2).png" width="100" height="70" alt="Logo">
             </a>
         </div>
         <div class="search-bar">
@@ -28,29 +27,28 @@
         </div>
         <div class="nav-links">
             <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
-            <a href="../pagina_sobre/sobre.html">Sobre</a>
-            <a href="../pagina_cadastro_usuario/cadastro-usuario.html">Cadastre-se</a>
+            <a href="..\pagina_sobre\sobre.html">Sobre</a>
+            <a href="..\pagina_login\login.html">Login</a>
         </div>
 
         <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
         <script src="./menu.js"></script>
-
     </header>
 
     <section>
-        <div class="center">
+        <div class="usuario-container">
             <div class="usuario">
-                <img src="imagens/1.png" alt="">
-                <h1>Sou Usuário</h1>
-                <button id="show-login1">acessar</button>
+                <img src="imagens/2.png" alt="">
+                <h2>Sou Usuário</h2>
+                <button class="acessar" id="show-login1">acessar</button>
             </div>
 
             <div id="linha-vertical"></div>
 
             <div class="produtor">
                 <img src="imagens/2.png" alt="">
-                <h1>Sou Produtor</h1>
-                <button id="show-login2">acessar</button>
+                <h2>Sou Produtor</h2>
+                <button class="acessar" id="show-login2">acessar</button>
             </div>
         </div>
     </section>
@@ -62,17 +60,16 @@
             <p>Conheça os melhores eventos</p>
             <div class="form-element">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Email">
+                <input type="text" id="email" placeholder="Email" />
             </div>
             <div class="form-element">
                 <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="Senha">
+                <input type="password" id="password" placeholder="Senha" />
             </div>
             <div class="form-element">
-                <input type="checkbox" id="remember-me">
+                <input type="checkbox" id="remember-me" />
                 <label for="remember-me">Mantenha-me conectado</label>
-                <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar
-                        Conta</u></a>
+                <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar Conta</u></a>
             </div>
             <div class="form-element">
                 <button>LOGIN</button>
@@ -83,9 +80,9 @@
                 <div class="line"></div>
             </div>
             <div class="icons">
-                <i class="fa-brands fa-google" style="color: #777777;"></i>
-                <i class="fa-brands fa-facebook" style="color: #777777;"></i>
-                <i class="fa-brands fa-twitter" style="color: #777777;"></i>
+                <i class="fa-brands fa-google" style="color: #777777"></i>
+                <i class="fa-brands fa-facebook" style="color: #777777"></i>
+                <i class="fa-brands fa-twitter" style="color: #777777"></i>
             </div>
         </div>
     </div>
@@ -97,17 +94,16 @@
             <p>Crie eventos inesquecíveis</p>
             <div class="form-element">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Email">
+                <input type="text" id="email" placeholder="Email" />
             </div>
             <div class="form-element">
                 <label for="password">Senha</label>
-                <input type="password" id="password" placeholder="Senha">
+                <input type="password" id="password" placeholder="Senha" />
             </div>
             <div class="form-element">
-                <input type="checkbox" id="remember-me">
+                <input type="checkbox" id="remember-me" />
                 <label for="remember-me">Mantenha-me conectado</label>
-                <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar
-                        Conta</u></a>
+                <a href="../pagina_cadastro_usuario/cadastro-usuario.html" class="criar-conta"><u>Criar Conta</u></a>
             </div>
             <div class="form-element">
                 <button>LOGIN</button>
@@ -118,9 +114,9 @@
                 <div class="line"></div>
             </div>
             <div class="icons">
-                <i class="fa-brands fa-google" style="color: #777777;"></i>
-                <i class="fa-brands fa-facebook" style="color: #777777;"></i>
-                <i class="fa-brands fa-twitter" style="color: #777777;"></i>
+                <i class="fa-brands fa-google" style="color: #777777"></i>
+                <i class="fa-brands fa-facebook" style="color: #777777"></i>
+                <i class="fa-brands fa-twitter" style="color: #777777"></i>
             </div>
         </div>
     </div>
@@ -130,8 +126,7 @@
     <footer>
         <div class="container-footer">
             <div class="logo">
-                <img src="imagens/logo-white-rd.png" alt="Logo">
-
+                <img src="imagens/logo-white-rd (2).png" alt="Logo">
             </div>
             <div class="links">
                 <a

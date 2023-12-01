@@ -206,44 +206,6 @@ button {
   text-decoration: none !important;
 }
 
-.ul-footer {
-  list-style: none;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  padding-top: 10px;
-  text-decoration: none;
-}
-
-.li-footer {
-  list-style: none;
-  background-color: #d9d9d9;
-  border-radius: 33px;
-  padding: 10px;
-  margin: 50px;
-  flex: 1;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-}
-
-.li-footer a {
-  text-decoration: none;
-  color: #000;
-}
-
-.p-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
-}
-
-footer {
-  background-color: #c7c7c7;
-  padding: 0px 20px;
-  text-align: center;
-}
-
 /* Playlist */
 
 .texto-playlist {

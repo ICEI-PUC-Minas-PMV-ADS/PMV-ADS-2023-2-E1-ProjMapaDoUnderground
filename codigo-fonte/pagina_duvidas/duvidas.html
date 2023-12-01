@@ -28,27 +28,24 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo-header">
-                <a href="../pagina_principal/principal.html">
-                    <img src="./imagens/logo-white (2).png" style="width: 350px;" alt="Logo">
-                </a>
-            </div>
-    
-            <div class="search-bar">
-                <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
-            </div>
-    
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                    <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
-                    <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Login</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <header class="header-container">
+        <div class="logo-header">
+            <a href="../pagina_principal/principal.html">
+                <img src="./imagens/logo-white (2).png" width="100" height="70" alt="Logo">
+            </a>
+        </div>
+        <div class="search-bar">
+          <input type="text"  placeholder="Pesquisar..." class="campo-de-pesquisa" >
+        </div>
+        <div class="nav-links">
+          <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+          <a href="..\pagina_sobre\sobre.html">Sobre</a>
+          <a href="..\pagina_login\login.html">Login</a>
+        </div>
+
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <script src="./menu.js"></script>
+      </header>
     <div name="duvida-global">
         <br>
         <div class="container center-container">
@@ -185,12 +182,10 @@
 <footer>
     <div class="container-footer">
         <div class="logo">
-            <a href="..\pagina_principal\principal.html">
-                <img src="./imagens/logo-white-rd.png" alt="Logo">
-            </a>
+            <img src="./imagens/logo-white-rd.png" alt="Logo">
         </div>
         <div class="links">
-            <a href="#">Endereço</a>
+            <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
             <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
             <a href="#">Siga a gente nas redes sociais</a>
         </div>

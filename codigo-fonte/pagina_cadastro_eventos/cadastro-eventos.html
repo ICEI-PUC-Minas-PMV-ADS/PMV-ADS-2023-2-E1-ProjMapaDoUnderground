@@ -30,27 +30,24 @@
 <body>
     <body>
         <!--HEADER-->
-        <header>
-            <nav class="nav-bar">
-                <div class="logo-header">
-                    <a href="../pagina_principal/principal.html">
-                        <img src="./imagens/logo-white (2).png" style="width: 350px;" alt="Logo">
-                    </a>
-                </div>
-        
-                <div class="search-bar">
-                    <input type="text" id="search-bar" name="search-bar" placeholder="Buscar...">
-                </div>
-        
-                <div class="nav-list">
-                    <ul>
-                        <li class="nav-item"><a href="#" target="_self" class="nav-link">Eventos</a></li>
-                        <li class="nav-item"><a href="..\pagina_sobre\sobre.html" target="_self" class="nav-link">Sobre</a></li>
-                        <li class="nav-item"><a href="..\pagina_login\login.html" target="_self" class="nav-link">Meu Perfil</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <header class="header-container">
+            <div class="logo-header">
+                <a href="../pagina_principal/principal.html">
+                    <img src="./imagens/logo-white (2).png" width="100" height="70" alt="Logo">
+                </a>
+            </div>
+            <div class="search-bar">
+              <input type="text"  placeholder="Pesquisar..." class="campo-de-pesquisa" >
+            </div>
+            <div class="nav-links">
+              <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+              <a href="..\pagina_sobre\sobre.html">Sobre</a>
+              <a href="..\pagina_login\login.html">Login</a>
+            </div>
+    
+            <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+            <script src="./menu.js"></script>
+          </header>
     <br>
     <div class="container center-container">
         <h1 class="container center-container">CADASTRO DE EVENTOS</h1>

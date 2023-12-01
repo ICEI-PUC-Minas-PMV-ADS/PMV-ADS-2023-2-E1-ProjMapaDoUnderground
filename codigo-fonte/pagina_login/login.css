@@ -46,6 +46,13 @@ html {
   align-items: center;
 }
 
+#linha-horizontal {
+  display: none;
+  border-top: 1px solid gray;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .usuario h1,
 .produtor h1 {
   margin-top: 30px;
@@ -288,20 +295,27 @@ header.header-container {
   .usuario,
   .produtor {
     margin: 0px;
-    padding-top: 30px;
   }
 
   .usuario {
-    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
   }
 
   .produtor {
+    padding-top: 15px;
     padding-bottom: 30px;
   }
 
   #linha-vertical {
     display: none;
-}
+  }
+
+  #linha-horizontal {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
   .acessar {
     width: 150px;
@@ -312,6 +326,8 @@ header.header-container {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  
 } 
   
 /* CONFIGURAÇÕES FOOTER */

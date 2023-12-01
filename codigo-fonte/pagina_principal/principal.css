@@ -206,6 +206,44 @@ button {
   text-decoration: none !important;
 }
 
+.ul-footer {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.li-footer {
+  list-style: none;
+  background-color: #d9d9d9;
+  border-radius: 33px;
+  padding: 10px;
+  margin: 50px;
+  flex: 1;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.li-footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.p-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #c7c7c7;
+  padding: 0px 20px;
+  text-align: center;
+}
+
 /* Playlist */
 
 .texto-playlist {
@@ -309,51 +347,74 @@ button {
 
 /* SHOWS DA SEMANA */
 
-#tabela {
-  align-items: right;
-  border-radius: 5px;
-  width: 20%;
-  
+.container-eventos {
+  display: flex;
+  flex-direction: column; /* Empilha os contêineres verticalmente */
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    19deg,
+    rgba(62, 236, 172, 0.5) 0%,
+    rgba(161, 116, 238, 0.5) 100%
+  );;
+  margin: 0px;
 }
 
-tr,
-td {
-  text-align: center;
-  align-items: right;
-  border-bottom: 1px solid black;
-  border-collapse: collapse
+.conteinerEvento {
+  margin: 0;
+  padding-bottom: 5px; /* Ajuste conforme necessário */
+  box-sizing: border-box;
+  width: 70vw;
+  max-width: 7000px; /* Defina um valor máximo para o width */
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  margin: 0px;
 }
 
-.quadrado-shows img {
-    width: 100%; /* Ajusta a largura para ocupar 100% do contêiner pai */
-    margin-right: 20px;
-    display: flex;
+.descricao-evento {
+  font-size: 1.0em; /* Use unidades em ou rem para o tamanho da fonte */
+  margin-bottom: 5px;
 }
 
-.align-middle {
-    font-size: 16px;
-  }
-
-.circulo {
-    background-size: cover;
-    margin-left: -90%; /* Exemplo de valor percentual */
-    margin-right: -90%;
-    background-image: linear-gradient(
-      19deg,
-      rgba(62, 236, 172, 0.5) 0%,
-      rgba(161, 116, 238, 0.5) 100%
-    );
-  }
+.imagemEvento {
+  width: 100%; /* Faça a imagem ocupar 100% da largura do contêiner */
+  max-width: 200px; /* Defina um valor máximo para a largura da imagem */
+}
 
 .saiba-mais {
   color: #fff;
   text-decoration: none;
+  border-radius: 25px;
+  background-color: #421b6e;
 }
 
 .saiba-mais:hover {
   color: #fff;
   text-decoration: none;
+  background-color: #33b78f;
 }
+
+/* Adicione regras de mídia para telas de celular (por exemplo, largura máxima de 480px) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .imagemEvento {
+    max-width: 120px;
+    margin: 0px;
+  }
+
+  .descricao-evento  {
+    font-size: 0.7em !important; /* Adicione !important para garantir que a regra seja aplicada */
+  }
+
+  .saiba-mais {
+    font-size: 0.6em;
+    border-radius: 15px;
+    margin-top: -2px;
+  }
+}
+
 
 /* SHOWS DA SEMANA */
 

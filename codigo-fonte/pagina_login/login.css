@@ -20,8 +20,6 @@ html {
 .usuario-container {
   display: flex;
   justify-content: center; /* Centraliza os contêineres .usuario e .produtor */
-  margin-bottom: 100%;
-  padding-top: 20%;
 }
 
 .usuario,
@@ -30,6 +28,9 @@ html {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0 120px; /* Adicionei margem para separar os contêineres .usuario e .produtor */
+  padding-top: 210px;
+  padding-bottom: 220px;
 }
 
 .usuario img,
@@ -311,7 +312,7 @@ header.header-container {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-}
+} 
   
 /* CONFIGURAÇÕES FOOTER */
 

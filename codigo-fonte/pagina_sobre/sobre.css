@@ -4,6 +4,60 @@ body p {
     margin-left: 480px;
     margin-top: 5%;
 }
+
+@media (min-width: 320px), (max-width: 767px) {
+  .titulo, .titulo-equipe {
+    margin-left: 37% !important;
+    font-size: 30px;
+  }
+  .titulo-equipe {
+      margin-top: 60px !important;
+      margin-bottom: -35px;
+      padding-bottom: 80px;
+  }
+  .card-line-one .card .card-body .card-text, .card-line-two .card .card-body .card-text {
+    padding-right: 850%;
+  }
+  footer {
+
+    margin-top: 15% !important;
+  }  
+   body p {
+     font-size: 14px;
+     margin-left: 0%;
+     padding-left: 10%;
+     padding-right: 31%;
+   }
+   .card-line-one, .card-line-two {
+    
+     margin-top: -20%;
+     margin-right: 5%;
+   }
+
+   .card-line-one .card img{
+      width: 150px !important;
+      height: 150px !important;
+
+   }
+   .card-line-two .card img{
+      width: 150px !important;
+      height: 150px !important;
+   }
+
+   .card {
+     width: 96px !important;
+     height: 86px !important;
+     margin
+   }
+
+   .card-line-one .card, .card-line-two .card {
+      margin: 7% !important;
+   } 
+   .card-line-one {
+    margin-bottom: 7%;
+   }
+
+}
 #foto-evento {
     margin-top: 0 auto;
     width: 100%;
@@ -137,6 +191,7 @@ header.header-container {
       text-decoration: none;
       color: #fff;
     }
+
   }
 
 footer {

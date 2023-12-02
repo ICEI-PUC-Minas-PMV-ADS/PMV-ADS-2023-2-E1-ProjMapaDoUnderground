@@ -13,43 +13,43 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
 #### Página Principal
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/31abed37-5050-4c93-b449-15d7484c59bd) 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/d66acf94-21bc-4eb9-bae4-6db1af1b791c)
 
 #### Página de Gêneros Musicais
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/cb258aed-beea-46a6-b539-2c53316b6717)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/9d0d31b7-6313-4964-a9d9-492c7e70dc8b)
 
 #### Página de Dúvidas
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/0e2262c8-cf7f-4a47-8ef5-6d8565d33825)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/dc9542d0-c844-4fd4-b9f3-b050a0c1177f)
 
 #### Página de Login
 Login com PopUp do usuário e do produtor
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/87bb54ab-5f73-4d5e-93a4-af21b1dad09c)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/0b7a9051-b4f6-4bb2-944a-7db9988c82df)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/bc908b6a-aefe-49e7-88d5-350d14657469)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/77ffc0eb-d3b9-40f8-a9e3-84ce57e705b0)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/393bca89-decf-4fd6-ac8f-aae5806690b1)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/e35de861-5eeb-483a-8046-1af3b24622b8)
 
 #### Página de Cadastro
 Cadastro tanto do consumidor como do produtor de eventos.
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/702cfe84-d616-4258-a4d9-ae4c564123e8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/19606125-8ca2-4e8c-ab99-983489eca2d2)
 
 #### Página de Cadastro de Eventos
 Página apenas destinada ao produtor de eventos.
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/7f7aa6b1-22df-43dc-9e34-2ed3489af4f6)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/27a4e225-1145-4e52-b7dd-16623fa05e2b)
 
 #### Página de Perfil do Consumidor
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/4361279a-8681-431a-b916-b19e2b254658)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/5d1d9e8b-140e-4b0a-bcdf-f6ecfe0527f1)
 
 #### Página de Perfil do Produtor de Eventos
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/4c9813b8-cbc3-4031-9107-24eae222c80c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/355f4886-6140-4f86-a379-f014e5a6f0b2)
 
-#### Página Eventos por Cidade
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/c5d5d99f-c649-4908-a607-a917e6b27a5b)
+#### Página Eventos por Estado
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/f5f7b8b9-f90e-4c2a-a729-611ff343892e)
 
-#### Página de Evento Específico
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/7a4f766a-b744-4a30-85b1-6a5945886004)
+#### Página de Evento Selecionado
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/e7735204-9266-430d-9fae-17b9ea06dfbc)
 
-#### Página de Eventos pós escolha de Filtros
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/9586d80f-f580-4864-bdbb-6dfa78ba6080)
+#### Página de Eventos com filtros
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/13834298-434b-4698-9619-0cdc3798f571)
 
 #### Página Sobre
 Informações sobre as criadoras do site e de contato.
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/99201779/77d8a8c6-ec32-432b-9df1-6ee56bb105b3)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/7f794238-46b2-4909-bc12-e0f380f3ffd0)

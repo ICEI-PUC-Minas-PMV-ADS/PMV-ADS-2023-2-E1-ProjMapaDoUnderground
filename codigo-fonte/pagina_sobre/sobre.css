@@ -1,87 +1,54 @@
-body p {
-    text-align: center;
-    width: 937px;
-    margin-left: 480px;
-    margin-top: 5%;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 320px), (max-width: 767px) {
-  .titulo, .titulo-equipe {
-    margin-left: 37% !important;
-    font-size: 30px;
-  }
-  .titulo-equipe {
-      margin-top: 60px !important;
-      margin-bottom: -35px;
-      padding-bottom: 80px;
-  }
-  .card-line-one .card .card-body .card-text, .card-line-two .card .card-body .card-text {
-    padding-right: 850%;
-  }
-  footer {
-
-    margin-top: 15% !important;
-  }  
-   body p {
-     font-size: 14px;
-     margin-left: 0%;
-     padding-left: 10%;
-     padding-right: 31%;
-   }
-   .card-line-one, .card-line-two {
-    
-     margin-top: -20%;
-     margin-right: 5%;
-   }
-
-   .card-line-one .card img{
-      width: 150px !important;
-      height: 150px !important;
-
-   }
-   .card-line-two .card img{
-      width: 150px !important;
-      height: 150px !important;
-   }
-
-   .card {
-     width: 96px !important;
-     height: 86px !important;
-     margin
-   }
-
-   .card-line-one .card, .card-line-two .card {
-      margin: 7% !important;
-   } 
-   .card-line-one {
-    margin-bottom: 7%;
-   }
-
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #e5d7f0 !important;
+  margin: 0; /* Remova as margens padrão do corpo e do HTML */
 }
+
+p {
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
 #foto-evento {
-    margin-top: 0 auto;
-    width: 100%;
-    height: 649px;
-    background-size: cover;
-    align-items: center;
-    margin-bottom: 50px;
-    
+  margin: 0 auto; /* Centralize na horizontal */
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: 50px;
 }
-.titulo, .titulo-equipe {
-    margin-left: 820px;
-    margin-bottom: 20px;
-}
+
+.titulo,
 .titulo-equipe {
-    margin-top: 150px;
-    margin-bottom: -70px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-
-.card-line-one, .card-line-two {
-    display: flex;
-    justify-content: center;
-    padding-top: 8%;
+.titulo-equipe {
+  margin-top: 70px;
+  margin-bottom: -70px;
 }
+
+.card-line-one {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+
+}
+
+.card-line-two {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
 
 .card-line-two {
     margin-top: -7%;
@@ -90,10 +57,7 @@ body p {
 .card-line-one .card, .card-line-two .card {
     margin: 3%;
 }
-.card-line-one .card .card-body .card-text, .card-line-two .card .card-body .card-text {
-    margin-left: -250%;
-    margin-top: 5%;
-}
+
 .card-line-one .card .card-img-top {
   width: 192px; 
   height: 172px;
@@ -191,7 +155,6 @@ header.header-container {
       text-decoration: none;
       color: #fff;
     }
-
   }
 
 footer {

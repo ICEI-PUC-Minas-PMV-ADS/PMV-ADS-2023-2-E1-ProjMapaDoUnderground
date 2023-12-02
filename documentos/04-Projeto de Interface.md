@@ -19,7 +19,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/9d0d31b7-6313-4964-a9d9-492c7e70dc8b)
 
 #### Página de Dúvidas
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/dc9542d0-c844-4fd4-b9f3-b050a0c1177f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-2-E1-ProjMapaDoUnderground/assets/145078490/e7af2020-0d1f-4130-af56-79cb4529e5a9)
 
 #### Página de Login
 Login com PopUp do usuário e do produtor

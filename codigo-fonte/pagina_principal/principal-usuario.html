@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mapa do Underground</title>
     <link rel="stylesheet" href="principal.css">
@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Bootstrap 5-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -37,7 +38,7 @@
             </a>
         </div>
         <div class="search-bar">
-          <input type="text" placeholder="Pesquisar...">
+          <input type="text"  placeholder="Pesquisar..." class="campo-de-pesquisa" >
         </div>
         <div class="nav-links">
           <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
@@ -196,58 +197,120 @@
     <!-- SHOWS DA SEMANA -->
     <div class="circulo">
         <br><br><br>
-        <h2>SHOWS DA SEMANA</h2>
-        <br><br>
-        <table id="tabela" class="table table-border-bottom mx-auto">
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">21/10<br>22h30 às 5h</td>
-                <td class="align-middle">Milo Garage<br>Av. Pompéia, 1681<br>São Paulo SP</td>
-                <td class="align-middle">Ingressos<br>a partir<br>de R$20</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos-2.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">15/09<br>22h30 às 5h</td>
-                <td class="align-middle">Milo Garage<br>Av. Pompéia, 1681<br>São Paulo SP</td>
-                <td class="align-middle">Ingressos<br>a partir<br>de R$15</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos-3.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">03/11<br>22h às 5h30</td>
-                <td class="align-middle">Galpão Gomeia<br>R.Dr. Lauro Neiva, 32<br>Jd Vinte e Cinco de Agosto<br>Duque de Caxias RJ</td>
-                <td class="align-middle">Ingressos<br>a partir<br>de R$25</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos-4.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">17/06</td>
-                <td class="align-middle">Local</td>
-                <td class="align-middle">Espaço</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos-5.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">05/11<br>21h00 às 03h</td>
-                <td class="align-middle">Spot Culture<br>Rua São Paulo 978<br>Centro BH</td>
-                <td class="align-middle">Ingressos<br>a partir<br>de R$10</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-            <tr>
-                <td class="quadrado-shows"><img src="./imagens/Bandas/milos-6.jpg" style="width: 200px; height: 201px;"
-                        alt=""></td>
-                <td class="align-middle">12/08<br>22h30 às 5h</td>
-                <td class="align-middle">Milo Garage<br>Av. Pompéia, 1681<br>São Paulo SP</td>
-                <td class="align-middle">Ingressos<br>a partir<br>de R$15</td>
-                <td class="align-middle"><button class="btn-shows-da-semana">Saiba Mais</td></button>
-            </tr>
-        </table>
+    
+    
+        <div class="container-eventos">
+            <br><br><br>
+    
+            <h2>SHOWS DA SEMANA</h2>
+    
+            <!-- PRIMEIRO EVENTO -->
+            <div class="conteinerEvento">
+                <img class="imagemEvento" src="./imagens/Bandas/milos.jpg" alt="" />
+    
+                <div>
+                    <p class="descricao-evento">15/09,<br>
+                        22h30 às 5h</p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">
+                        Milo Garage <br>
+                        Av. Pompéia, 1681 <br>
+                        São Paulo SP
+                    </p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">Ingressos<br>
+                        a partir
+                        de R$20</p>
+                </div>
+    
+                <a href="../pagina_evento_selecionado copy/evento-selecionado.html"><button class="saiba-mais">Saiba Mais</button></a>
+
+            </div>
+    
+            <!-- SEGUNDO EVENTO -->
+            <div class="conteinerEvento">
+                <img class="imagemEvento" src="./imagens/Bandas/milos-2.jpg" alt="" />
+    
+                <div>
+                    <p class="descricao-evento">25/12,<br>
+                        13h30 às 16h</p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">
+                        Dekmantel <br>
+                        Rua pompeu, 159 <br>
+                        Minas Gerais, MG
+                    </p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">Ingressos<br>
+                        a partir
+                        de R$10</p>
+                </div>
+    
+                <button class="saiba-mais">Saiba Mais</button>
+            </div>
+    
+            <!-- TERCEIRO EVENTO -->
+            <div class="conteinerEvento">
+                <img class="imagemEvento" src="./imagens/Bandas/milos-3.jpg" alt="" />
+    
+                <div>
+                    <p class="descricao-evento">15/12,<br>
+                        20h30 às 4h</p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">
+                        Mamba Negra <br>
+                        Av. Portugal, 147 <br>
+                        Rio de Janeiro, RJ
+                    </p>
+                </div>
+    
+                <div>
+                    <p class="descricao-evento">Ingressos<br>
+                        a partir
+                        de R$15</p>
+                </div>
+    
+                <button class="saiba-mais">Saiba Mais</button>
+            </div>
+    
+         <!-- QUARTO EVENTO -->
+         <div class="conteinerEvento">
+            <img class="imagemEvento" src="./imagens/Bandas/milos-4.jpg" alt="" />
+
+            <div>
+                <p class="descricao-evento">15/09,<br>
+                    22h30 às 5h</p>
+            </div>
+
+            <div>
+                <p class="descricao-evento">
+                    Dekmantel <br>
+                    Rua Bernardo, 180 <br>
+                    Curitiba, PR
+                </p>
+            </div>
+
+            <div>
+                <p class="descricao-evento">Ingressos<br>
+                    a partir
+                    de R$20</p>
+            </div>
+
+            <a href="../pagina_evento_selecionado/evento-selecionado.html"><button class="saiba-mais">Saiba Mais</button></a>
+        </div>
+    
+    
+        </div>
         <br><br><br>
     </div>
 
@@ -266,15 +329,9 @@
                     </div>
                     <div class="col">
                         <h4>Eletrônica</h4>
-                        <p> A música eletrônica é gerada através do uso de recursos digitais e tecnológicos, como
-                            sintetizadores – equipamentos que têm como fim elaborar sons artificialmente -, gravadores
-                            digitalizados, computadores ou programas de composição. Além disso, ela também é produzida
-                            por meio do sampling e da renovada ordenação de sons. As músicas compostas eletronicamente
-                            são fractais – objetos dotados de formas fragmentadas. Todo resultado musical é reutilizado
-                            como ingrediente das futuras obras, portanto a gravação de uma música transforma-se de meta
-                            artística em fragmento fugaz que será modificado, mesclado, desfigurado; ela é agora um
-                            elemento a mais em um infindável mecanismo coletivo.</p>
-                            <a href="../pagina_generos_musicais/generos-musicais.html"><button class="botao-genero left-align">Shows do gênero</button></a>
+                        <p> 
+                            A música eletrônica é criada usando recursos digitais, como sintetizadores e programas de composição, e envolve técnicas como sampling e rearranjo de sons. As composições são fractais, caracterizadas por formas fragmentadas. Cada resultado musical é reutilizado em futuras obras, transformando a gravação original em um elemento dinâmico dentro de um processo coletivo contínuo.</p>
+                            <a href="../pagina_generos_musicais/genero-eletronica.html"><button class="botao-genero left-align">Shows do gênero</button></a>
                     </div>
                 </div>
             </div>
@@ -296,10 +353,8 @@
                     </div>
                     <div class="col">
                         <h4>Rock</h4>
-                        <p>O rock é um gênero amplamente popular e vasto, que reúne uma ampla gama de estilos diferentes. Suas origens estão em gravações realizadas nos Estados Unidos no final dos anos 1940 que combinavam elementos de blues e swing, com maior destaque dado ao papel da guitarra elétrica, proveniente do Chicago Blues.
-                            Embora o termo "rock" tenha sido originalmente usado por alguns músicos de blues no final dos anos 1930 para descrever a versão mais obscena de sua música com canções de tempo mais rápido, ele não foi gravado até o final dos anos 1940.
-                        </p>
-                        <a href="../pagina_generos_musicais/generos-musicais.html"><button class="botao-genero left-align">Shows do gênero</button></a>
+                        <p>O rock é um gênero musical popular e diversificado, originado nos Estados Unidos no final dos anos 1940. Suas raízes remontam à combinação de elementos do blues e swing, destacando-se pela influência da guitarra elétrica do Chicago Blues. Embora o termo "rock" tenha sido mencionado por músicos de blues nos anos 1930 para descrever uma versão mais acelerada de sua música, ele só foi oficialmente registrado nas gravações no final da década de 1940. </p>
+                        <a href="../pagina_generos_musicais/genero-rock.html"><button class="botao-genero left-align">Shows do gênero</button></a>
                     </div>
                     
                 </div>
@@ -316,13 +371,14 @@
             <div class="carousel-item">
                 <div class="row">
                     <div class="col">
-                        <img src="./imagens/Gênero/reggea.jpg" class="d-block w-100" alt="..." style="border-radius: 15px;">
+                        <img src="./imagens/Gênero/reggae.jpg" class="d-block w-100" alt="..." style="border-radius: 15px;">
                     </div>
                     <div class="col">
                         <h4>Reggae</h4>
-                        <p>O reggae é um gênero musical jamaicano que se originou na década de 1960, com suas raízes profundamente ligadas à cultura e à espiritualidade da Jamaica. Caracterizado por ritmos distintos e uma ênfase no tempo fraco, o reggae é mais do que apenas música; é um veículo de expressão artística e um meio de transmitir mensagens de justiça, amor e paz. Suas letras frequentemente abordam questões sociais e políticas, e o gênero está intrinsecamente relacionado ao movimento Rastafarian, unidade espiritual e a busca da liberdade. Artistas icônicos como Bob Marley e Peter Tosh levaram o reggae ao cenário internacional, deixando um legado duradouro e inspirando inúmeros outros músicos a incorporar seu som e mensagem em diversas culturas ao redor do mundo.                           
+                        <p>  
+                            O reggae é um gênero musical jamaicano nascido nos anos 1960, com raízes culturais e espirituais profundas na Jamaica. Reconhecido por seus ritmos distintos e mensagem de justiça, amor e paz, vai além da música, sendo um meio de expressão artística. Suas letras abordam questões sociais e políticas, conectando-se ao movimento Rastafarian e à busca pela liberdade.                    
                         </p>
-                        <a href="../pagina_generos_musicais/generos-musicais.html"><button class="botao-genero left-align">Shows do gênero</button></a>
+                        <a href="../pagina_generos_musicais/genero-reggae.html"><button class="botao-genero left-align">Shows do gênero</button></a>
                     </div>
                 </div>
             </div>
@@ -349,7 +405,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h6>Lupe de Lupe</h6>
-                            <p>
+                            <p class="texto-playlist">
                                 "Vivemos numa realidade instantânea, caótica e etérea. A Lupe de Lupe se utiliza disso para
                                 promover um retalho de imagens aleatórias do que a banda encara como um tempo líquido em que
                                 as pessoas ouvem playlists e não álbuns, jogam jogos de mundo aberto com inúmeras rotas e
@@ -358,7 +414,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xNRVq_VG1Bc" width="100%" height="300"></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xNRVq_VG1Bc"></iframe>
                             </div>
                         </div>
                     </div>
@@ -367,7 +423,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h6>BaianaSystem</h6>
-                            <p>
+                            <p class="texto-playlist">
                                 "BaianaSystem é um projeto musical formado em 2009 com o objetivo de encontrar novas
                                 possibilidades sonoras para a guitarra baiana, instrumento criado em Salvador – Bahia nos anos
                                 1940 e que foi responsável pela criação do trio elétrico. O nome vem da junção de 'guitarra

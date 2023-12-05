@@ -82,6 +82,7 @@ header.header-container {
   box-sizing: border-box;
   border-radius: 20px;
   padding: 3px;
+  font-size: 14px;
 }
 
 .search-bar {

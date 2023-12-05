@@ -1,7 +1,19 @@
-* {
-    font-family: 'Poppins', sans-serif;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #e5d7f0 !important;
 }
 
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-config {
+  background-color: #e5d7f0 !important;
+}
 
 [name="answer-cad-usuario"] {
     background:  #e5d7f0;
@@ -11,7 +23,6 @@
 .form-control {
     background-color: #e5d7f0 !important; 
     border-color: #e5d7f0 !important; 
-    
 }
 
 .form-group{
@@ -32,7 +43,6 @@
 }
 
 
-
 [name="titulo"] {
     width: 320px;
     height: 21px;
@@ -43,37 +53,7 @@
     word-wrap: break-word; 
 }
 
-.ul-footer {
-    list-style: none;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    padding-top: 10px;
-}
 
-.li-footer{
-    list-style: none;
-    background-color: #D9D9D9;
-    border-radius: 33px;
-    padding: 10px;
-    margin: 50px;
-    flex: 1;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.p-footer{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 16px;
-}
-
-footer{
-    background-color: #C7C7C7;
-    text-align: center;
-
-}
 
 /* CONFIGURAÇÕES HEADER */
 
@@ -110,6 +90,7 @@ header.header-container {
     box-sizing: border-box;
     border-radius: 15px; 
     padding: 5px; 
+    font-size: 14px;
   }
   
   .search-bar {
@@ -125,7 +106,8 @@ header.header-container {
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
+    font-size: 16px;
   }
   
   /* Estilos para telas maiores */
@@ -233,8 +215,6 @@ footer {
 }
 
 
-
-
 .ul-footer {
     list-style: none;
     display: flex;
@@ -266,14 +246,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
-}
-
-footer {
-    background-color: #C7C7C7;
-    padding: 0px 20px;
-    text-align: center;
-    margin-top: auto;
-
 }
 
 

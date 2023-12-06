@@ -135,18 +135,20 @@ header.header-container {
     border-color: #e5d7f0 !important; 
 }
 
-[name="desc-evento"] {
-    width: 740.15px !important; 
-    height: 242.88px !important;
-    background:  #e5d7f0;
-    border-radius: 8px;
+[name="desc-evento"] textarea {
+  width: 740.15px;
+  height: 242px;
+  background: #e5d7f0;
+  border-radius: 8px;
+  resize: none; /* Prevent resizing of the textarea */
 }
 
-[name="atracoes"] {
-    width: 357px;
-    height: 183.23px;
-    background: #e5d7f0;
-    border-radius: 8px;
+[name="atracoes"] textarea {
+  width: 357px;
+  height: 183px; 
+  background: #e5d7f0;
+  border-radius: 8px;
+  resize: none; /* Prevent resizing of the textarea */
 }
 
 [name="email"] {
@@ -177,6 +179,26 @@ header.header-container {
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word; 
+}
+
+.btn-cadastro {
+  height: 40px;
+  border-radius: 25px;
+  background-color: #421b6e;
+  border: none;
+}
+
+.btn-cadastro:hover {
+  background-color: #33b78f;
+}
+
+.btn-cadastro a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-cadastro a:hover {
+  color: #fff;
 }
 
 body {

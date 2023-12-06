@@ -7,110 +7,112 @@
     <title>Mapa do Underground</title>
     <link rel="stylesheet" href="perfil.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    
+
 </head>
 
-    <body>
-        <header class="header-container">
-            <div class="logo-header">
-                <a href="../pagina_principal/principal.html">
-                    <img src="./imagens/logo-white.png" width="100" height="70" alt="Logo">
-                </a>
-            </div>
-            <div class="search-bar">
-              <input type="text" placeholder="Pesquisar...">
-            </div>
-            <div class="nav-links">
-              <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
-              <a href="..\pagina_sobre\sobre.html">Sobre</a>
-              <a href="..\pagina_login\login.html">Meu perfil</a>
-            </div>
-    
-            <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
-            <script src="./menu.js"></script>
-    
-    
-          </header>
-
-
-        <div class="perfil">
-
-            <h2>Bem vindo, Cléber</h2> 
-
-            <h4>Seus dados</h4>
-
-            <p class="dados">Nome: Cléber Machado <br> Idade: 37 anos <br> Cidade: Vilha Velha - ES
-    
-            </p>
-
-
-            
+<body>
+    <header class="header-container">
+        <div class="logo-header">
+            <a href="../pagina_principal/principal.html">
+                <img src="./imagens/logo-white.png" width="100" height="70" alt="Logo">
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="nav-links">
+            <a href="../pagina-eventos-filtros/filtro_ex.html">Eventos</a>
+            <a href="../pagina_sobre/sobre.html">Sobre</a>
+            <a href="../pagina_perfil/perfil-usuario.html">Meu perfil</a>
         </div>
 
-        <div>
-
-<h2 class="titulo">Eventos favoritos</h2>
-
-<ul class="favoritados">
-
-    <li>
-        <h3>Lupe de Lupe</h3>  <img width="150" height="100" src="./imagens/lupedelupe.jpg" alt="">
-        <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
-        Rua das Figueiras, 420 - Jardim - Santo André - SP </p>
-    </li>
-
-</ul>
-
-<br>
-<br>
-
-<ul class="favoritados">
-
-    <li>
-        <h3>BaianaSystem</h3>  <img width="200" height="120" src="./imagens/baiana.jpg" alt="">
-        <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
-        Rua das Figueiras, 420 - Jardim - Santo André - SP</p>
-    </li>
-    
-</ul>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <script src="./menu.js"></script>
 
 
-        </div>
+    </header>
 
-        <br>
-        <br>
 
-        <ul class="lista-botoes">
+    <div class="perfil">
 
-            <li><button class="sair"><a href="/pagina_principal/principal.html">SAIR</a></button></li>
+        <h2>Bem vindo, Cléber</h2>
 
+        <h4>Seus dados</h4>
+
+        <p class="dados">Nome: Cléber Machado <br> Idade: 37 anos <br> Cidade: Vilha Velha - ES
+
+        </p>
+
+
+
+    </div>
+
+    <div>
+
+        <h2 class="titulo">Eventos favoritos</h2>
+
+        <ul class="favoritados">
+
+            <li>
+                <h3>Lupe de Lupe</h3> <img width="200" height="120" src="./imagens/lupedelupe.jpg" alt="">
+                <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
+                    Rua das Figueiras, 420 - Jardim - Santo André - SP </p>
+            </li>
 
         </ul>
 
-       
+        <br>
+        <div id="linha-horizontal"></div>
+        <br>
 
-    
+        <ul class="favoritados">
 
-        <footer>
-            <div class="container-footer">
-                <div class="logo">
-                    <img src="./imagens/logo-white-rd.png" alt="Logo">
-                </div>
-                <div class="links">
-                    <a href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
-                    <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
-                    <a href="#">Siga a gente nas redes sociais</a>
-                </div>
-                <div class="redes-sociais">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
-                </div>
+            <li>
+                <h3>BaianaSystem</h3> <img width="200" height="120" src="./imagens/baiana.jpg" alt="">
+                <p>Sexta, 22 de Setembro de 2023 - Abertura: 18:00 <br> <br>
+                    Rua das Figueiras, 420 - Jardim - Santo André - SP</p>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+    <br>
+    <br>
+
+    <ul class="lista-botoes">
+
+        <li><button class="sair"><a href="../pagina_principal/principal.html">SAIR</a></button></li>
+
+
+    </ul>
+
+
+
+
+
+    <footer>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="./imagens/logo-white-rd.png" alt="Logo">
             </div>
-        </footer>
-    </body>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
+            <div class="links">
+                <a
+                    href="https://www.google.com/maps/search/puc+minas+mapa/@-19.9224847,-43.9913397,15z/data=!3m1!4b1?entry=ttu">Endereço</a>
+                <a href="..\pagina_duvidas\duvidas.html">Dúvidas Frequentes</a>
+                <a href="#">Siga a gente nas redes sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a> <br>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" target="_blank"></script>
 
 
 </body>

@@ -25,8 +25,6 @@ Facilitar a divulgação dos eventos pelos produtores.
 
 Impulsionar a visibilidade da cena underground.  
 
-Incentivar uma maior rentabilidade financeira para artistas e produtores. 
-
 ## Justificativa
 
 No contexto da cena Underground brasileira, o site Cena Underground SP, nos mostra um exemplo explicativo de como artistas e produtores sempre enfrentaram diversos problemas para propagar sua arte e se manterem financeiramente desde os anos 90 

@@ -13,7 +13,7 @@ body {
 
 .background-card {
     background-color: #e5d7f0 !important;
-    border-color: #703fa9 !important;
+    border-color: #e5d7f0 !important;
 }
 
 .box {
@@ -21,6 +21,7 @@ body {
     padding: 4%;
     padding-bottom: 8%;
 }
+
 
 .box .especial {
     display: none;
@@ -52,90 +53,118 @@ body {
     margin-left: 17%;
 }
 
+
 header.header-container {
     position: relative;
-    background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);
+    background-image: linear-gradient(
+      147deg,
+      #421b6e 0%,
+      #5e2089 33%,
+      #33b78f 73%,
+      #421b6e 100%
+    );
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo-container {
-    flex: 0 0 auto;
-}
-
-.logo {
+  }
+  
+  .logo-header img {
+    width: 300px;
     height: 70px;
-}
-
-.search-and-links {
+    max-width: 100%; /* Garante que a imagem não ultrapasse as dimensões especificadas */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  
+  .logo-header,
+  .logo-header a,
+  .logo-header img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .search-and-links {
     display: flex;
     align-items: center;
-}
-
-.search-bar input {
-    width: 100%;
+    font-size: 16px;
+  }
+  
+  .search-bar input {
+    width: 80%;
     box-sizing: border-box;
-    border-radius: 15px;
-    padding: 5px;
-}
-
-.search-bar {
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 14px;
+  }
+  
+  .search-bar {
     margin-right: 20px;
-}
-
-.nav-links {
+  }
+  
+  .campo-de-pesquisa {
+    font-size: 16px;
+  }
+  
+  .nav-links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.nav-links a {
+    text-decoration: none;
+  }
+  
+  .nav-links a {
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
-}
-
-@media screen and (min-width: 769px) {
+  }
+  
+  .nav-links a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  
+  /* Estilos para telas maiores */
+  
+  @media screen and (min-width: 769px) {
     #burger {
-        display: none;
+      display: none;
     }
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  
+  @media screen and (max-width: 768px) {
     .nav-links {
-        display: none;
-        position: absolute;
-        top: 100px;
-        left: 0;
-        width: 100%;
-        background-color: #421b6e;
-        z-index: 1;
+      display: none;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      background-color: #421b6e;
+      z-index: 1;
     }
-
+  
     #burger {
-        display: block;
-        cursor: pointer;
-        background-color: #33b78f;
-        border-radius: 50px;
-        color: white;
-        text-align: left;
-        padding: 10px;
+      display: block;
+      cursor: pointer;
+      background-color: #33b78f;
+      border-radius: 50px;
+      color: white;
+      text-align: left;
+      padding: 10px;
     }
-
+  
     .nav-links.show {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
-
+  
     .nav-links.show a {
-        padding: 15px;
-        text-align: left;
-        text-decoration: none;
-        color: #fff;
+      padding: 15px;
+      text-align: left;
+      text-decoration: none;
+      color: #fff;
     }
-}
+  }
 
 footer {
     background-image: linear-gradient(147deg, #421b6e 0%, #5e2089 33%, #33b78f 73%, #421b6e 100%);

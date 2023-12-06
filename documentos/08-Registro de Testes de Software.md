@@ -14,8 +14,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | O resultado foi bem sucedido como é mostrado nos vídeos abaixo  |
 | Responsável pela execução do caso de Teste | Thabata |
-- Login do usuário: [https://www.youtube.com/watch?v=18lEK-cEfYE](https://www.youtube.com/watch?v=ymnecBHC8B8&ab_channel=AnimaMulher)
-- Login do produtor: [https://www.youtube.com/watch?v=olbKpSoRxdw](https://www.youtube.com/watch?v=yR0ZD2Ye3OU&ab_channel=AnimaMulher)
+- Login do usuário: https://www.youtube.com/watch?v=ymnecBHC8B8&ab_channel=AnimaMulher
+- Login do produtor: https://www.youtube.com/watch?v=yR0ZD2Ye3OU&ab_channel=AnimaMulher
   
 |Caso de Teste    | CT-03 - Verificar o cadastro de eventos |
 |:---|:---|

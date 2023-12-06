@@ -13,19 +13,3 @@ DYER, Geoff. **Underground culture isn’t dead – it’s just better hidden th
 UNDERGROUND ENGLAND. **Underground Then And Now**. Disponível em: <https://underground-england.com/underground-then-and-now/>. Acesso em: 15‎ de ‎setembro‎ de ‎2023.
 
 UFSM. **Onde Nasce a Cultura Underground?**. Disponível em: <https://www.ufsm.br/midias/arco/post283>. Acesso em: 15‎ de ‎setembro‎ de ‎2023.
-
-GET BOOTSTRAP. **Get started with Bootstrap**. Disponível em: <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
-
-Disponível em: <https://pt.stackoverflow.com/>
-
-Disponível em: <https://www.w3schools.com/css/default.asp>
-
-Disponível em: <https://www.devmedia.com.br/>
-
-Disponível em: <https://www.freecodecamp.org/>
-
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)

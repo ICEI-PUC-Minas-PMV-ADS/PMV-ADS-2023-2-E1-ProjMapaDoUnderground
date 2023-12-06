@@ -54,12 +54,12 @@
 |-------|---------------------------------|----|
 | RF-01 |A plataforma deve ter uma página inicial intuitiva com menu navegável;| Alta |
 | RF-02 |A plataforma deve permitir login de usuário baseando-se nos dois perfis de usuário especificados;| Alta | 
-| RF-03 |A plataforma deve permitir cadastro de novos eventos para o perfil ‘produtor de eventos’;| Alta | 
+| RF-03 |A plataforma deve permitir cadastro de novos eventos para o perfil do produtor;| Alta | 
 | RF-04 |A plataforma deve permitir edição do evento para o usuário que o publicou;| Alta | 
-| RF-05 |A plataforma deve disponibilizar filtros de localização e na busca por eventos;| Alta | 
+| RF-05 |A plataforma deve disponibilizar filtros de localização e gênero na busca por eventos;| Alta | 
 | RF-06 |A plataforma deve apresentar eventos publicados na página inicial;| Média | 
-| RF-07 |A plataforma deve exibir o botão “favoritar” nas publicações de evento;| Média | 
-| RF-09 |A plataforma deve permitir comentários nas publicações de evento.| Baixa |
+| RF-07 |A plataforma deve exibir um botão “favoritar” funcional nas publicações de evento;| Média | 
+| RF-09 |A plataforma deve conter uma barra de comentários nas publicações de evento.| Baixa |
 
 
 ### Requisitos não Funcionais

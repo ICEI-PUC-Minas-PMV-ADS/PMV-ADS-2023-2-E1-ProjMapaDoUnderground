@@ -71,6 +71,7 @@ header.header-container {
   padding: 0;
   border: 0;
 }
+
 .search-and-links {
   display: flex;
   align-items: center;
@@ -78,11 +79,10 @@ header.header-container {
 }
 
 .search-bar input {
-  width: 80%;
+  width: 100%;
   box-sizing: border-box;
-  border-radius: 20px;
-  padding: 3px;
-  font-size: 14px;
+  border-radius: 15px; 
+  padding: 5px; 
 }
 
 .search-bar {

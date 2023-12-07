@@ -37,10 +37,11 @@ header.header-container {
   }
   
   .search-bar input {
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
-    border-radius: 20px;
-    padding: 3px;
+    border-radius: 15px; 
+    padding: 5px; 
+    font-size: 16px;
   }
   
   .search-bar {
@@ -168,7 +169,7 @@ header.header-container {
 }
 
 [name="cadastro"]:hover {
-    background-color: #33b78f
+    background-color: #45a049;
 }
 
 [name="titulo"] {
@@ -183,9 +184,11 @@ header.header-container {
 
 .btn-cadastro {
   height: 40px;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: #421b6e;
   border: none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn-cadastro:hover {

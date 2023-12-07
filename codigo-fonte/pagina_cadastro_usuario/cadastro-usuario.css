@@ -35,7 +35,13 @@ html {
     background: #421b6e;
     border-radius: 8px;
     border-color:  #421b6e; 
-    color: #b2b2b2;}
+    color: #fff;
+  }
+
+  [name="cadastro"]:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
 
 .center-container {
     display: flex;
@@ -90,7 +96,7 @@ header.header-container {
     box-sizing: border-box;
     border-radius: 15px; 
     padding: 5px; 
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .search-bar {

@@ -131,7 +131,7 @@ html {
 .popup .form .form-element input[type="password"] {
   margin-top: 5px;
   display: block;
-  width: 100%;
+  width: 95%;
   padding: 10px;
   outline: none;
   border: 1px solid #aaa;
@@ -164,6 +164,7 @@ html {
   font-size: 15px;
   color: #1a79ca;
   font-weight: 600;
+  margin-left: auto;
 }
 
 .line-container {

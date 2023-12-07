@@ -2,7 +2,7 @@
 
 Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+Os resultados dos testes funcionais realizados na aplicação são descritos a seguir.
 
 |Caso de Teste    | CT-01 - Verificar o funcionamento dos links da página Home |
 |:---|:---|
@@ -14,8 +14,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | O resultado foi bem sucedido como é mostrado nos vídeos abaixo  |
 | Responsável pela execução do caso de Teste | Thabata |
-- Login do usuário: https://www.youtube.com/watch?v=18lEK-cEfYE
-- Login do produtor: https://www.youtube.com/watch?v=olbKpSoRxdw
+- Login do usuário: https://www.youtube.com/watch?v=ymnecBHC8B8&ab_channel=AnimaMulher
+- Login do produtor: https://www.youtube.com/watch?v=yR0ZD2Ye3OU&ab_channel=AnimaMulher
   
 |Caso de Teste    | CT-03 - Verificar o cadastro de eventos |
 |:---|:---|
